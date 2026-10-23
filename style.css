@@ -1,0 +1,1059 @@
+/* =====================================================
+   EXAM MANTRA MCQ - COMPLETE STYLE
+   ===================================================== */
+
+
+/* ================= BASIC RESET ================= */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+
+    background-color: #e1de9d;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1e2f52;
+    line-height: 1.6;
+}
+
+.top-banner img {
+    width: 100%;
+    height: 400px;
+    object-fit: fill;
+    display: block;
+}
+
+.round-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Mission Photo Layout */
+.mission-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    padding: 20px 4%;
+    box-sizing: border-box;
+}
+
+.mission-section .misson-text {
+    flex: 1;
+    min-width: 0;
+    text-align: center;
+}
+/* ================= HEADER ================= */
+
+.app-header {
+    width: 100%;
+    min-height: 78px;
+    padding: 15px 6%;
+    background: rgba(171, 223, 136, 0.96);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #e3eaf5;
+    box-shadow: 0 4px 18px rgba(30, 60, 100, 0.08);
+}
+
+
+/* ================= LOGO ================= */
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 13px;
+    background: linear-gradient(135deg, #1646a0, #2878d8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    box-shadow: 0 5px 12px rgba(25, 76, 160, 0.25);
+}
+
+.logo-text h1 {
+    font-size: 21px;
+    color: #15264a;
+    line-height: 1.1;
+}
+
+.logo-text span {
+    color: #f2a900;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+
+/* ================= NAVIGATION ================= */
+
+.main-navigation {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    color: #263653;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.main-navigation a:hover {
+    color: #1769d1;
+}
+
+
+/* ================= HEADER BUTTONS ================= */
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.notification-btn {
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 12px;
+    background: #fff4d8;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.login-button {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(135deg, #1769d1, #2852a8);
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 5px 12px rgba(23, 105, 209, 0.22);
+    transition: 0.3s;
+}
+
+.login-button:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #0f55b4, #1f418e);
+}
+
+
+/* ================= HERO ================= */
+
+.hero-section {
+    margin: 35px 6% 20px;
+    padding: 50px 6%;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #eaf3ff, #fff7df);
+    border: 1px solid #d9e7fa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    box-shadow: 0 10px 30px rgba(45, 80, 130, 0.08);
+}
+
+.hero-content {
+    max-width: 650px;
+}
+
+.hero-badge {
+    display: inline-block;
+    background: #fff1c7;
+    color: #8a5a00;
+    padding: 7px 14px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.hero-content h2 {
+    color: #153c82;
+    font-size: 46px;
+    margin-bottom: 4px;
+}
+
+.hero-content h3 {
+    color: #f09b00;
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.hero-description {
+    color: #45546e;
+    font-size: 16px;
+    max-width: 600px;
+    margin-bottom: 25px;
+}
+
+.primary-button {
+    display: inline-block;
+    text-decoration: none;
+    background: linear-gradient(135deg, #1769d1, #2852a8);
+    color: white;
+    padding: 13px 23px;
+    border-radius: 11px;
+    font-weight: bold;
+    box-shadow: 0 7px 16px rgba(23, 105, 209, 0.2);
+    transition: 0.3s;
+}
+
+.primary-button:hover {
+    transform: translateY(-3px);
+}
+
+.hero-visual {
+    min-width: 220px;
+    text-align: center;
+    background: white;
+    padding: 25px;
+    border-radius: 22px;
+    box-shadow: 0 8px 25px rgba(50, 70, 100, 0.10);
+}
+
+.book-icon,
+.exam-icon {
+    font-size: 50px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.hero-visual p {
+    color: #40506a;
+    font-weight: bold;
+}
+
+
+/* ================= COMMON SECTION ================= */
+
+.practice-section,
+.exam-section,
+.features-section,
+.about-section,
+.login-section {
+    margin: 50px 6%;
+}
+
+.section-heading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 28px;
+}
+
+.section-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    background: #fff1c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+}
+
+.section-heading h2 {
+    color: #172d57;
+    font-size: 27px;
+}
+
+.section-heading p {
+    color: #63718a;
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+/* ================= PRACTICE CARDS ================= */
+
+
+.sir-dp {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center 20%;
+
+}
+
+h3 {
+    font-style: normal;
+    color: black;
+}
+
+.practice-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.info-card {
+    padding: 25px;
+    border-radius: 18px;
+    border: 1px solid #07101e;
+    box-shadow: 0 7px 22px rgba(45, 70, 100, 0.07);
+    transition: 0.3s;
+}
+.section-heading p {
+    color: #000000;
+
+}
+
+.info-card:nth-child(1) {
+    background: #eaf4ff;
+}
+
+.info-card:nth-child(2) {
+    background: #fff5df;
+}
+
+.info-card:nth-child(3) {
+    background: #eafbf1;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+}
+
+.info-card span {
+    font-size: 30px;
+}
+
+.info-card h3 {
+    color: #1c3158;
+    margin: 10px 0 6px;
+    font-size: 19px;
+}
+
+.info-card p {
+    color: #5c6980;
+    font-size: 14px;
+}
+
+
+/* ================= EXAM CARDS ================= */
+
+.exam-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.exam-card {
+    padding: 23px 18px;
+    border-radius: 18px;
+    border: 1px solid #dfe7f2;
+    text-align: center;
+    box-shadow: 0 7px 20px rgba(40, 60, 90, 0.07);
+    transition: 0.3s;
+}
+
+.exam-card:nth-child(4n + 1) {
+    background: #eaf4ff;
+}
+
+.exam-card:nth-child(4n + 2) {
+    background: #fff4df;
+}
+
+.exam-card:nth-child(4n + 3) {
+    background: #eafaf1;
+}
+
+.exam-card:nth-child(4n) {
+    background: #f5edff;
+}
+
+.exam-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(40, 70, 110, 0.13);
+}
+
+.exam-card span {
+    display: block;
+    font-size: 34px;
+    margin-bottom: 8px;
+}
+
+.exam-card h3 {
+    color: #1b3159;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.exam-card p {
+    color: #657188;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.exam-card button {
+    border: none;
+    background: #1b61bd;
+    color: white;
+    padding: 9px 15px;
+    border-radius: 9px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.exam-card button:hover {
+    background: #104a98;
+    transform: translateY(-2px);
+}
+
+
+/* ================= FEATURES ================= */
+
+.features-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.feature-card {
+    padding: 25px 20px;
+    border-radius: 18px;
+    border: 1px solid #dfe7f2;
+    box-shadow: 0 7px 20px rgba(40, 60, 90, 0.07);
+    transition: 0.3s;
+}
+
+.feature-card:nth-child(1) {
+    background: #e5ecf3;
+}
+
+.feature-card:nth-child(2) {
+    background: #fff5df;
+}
+
+.feature-card:nth-child(3) {
+    background: #eafaf1;
+}
+
+.feature-card:nth-child(4) {
+    background: #f6edff;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-card span {
+    font-size: 30px;
+}
+
+.feature-card h3 {
+    color: #1b3159;
+    margin: 10px 0 6px;
+}
+
+.feature-card p {
+    color: #626f85;
+    font-size: 14px;
+}
+
+
+/* ================= ABOUT ================= */
+
+.about-section {
+    padding: 45px;
+    background: linear-gradient(135deg, #cee590, #ecb1d6);
+    border: 1px solid #dbe7f5;
+    border-radius: 22px;
+    box-shadow: 0 8px 25px rgba(40, 70, 100, 0.07);
+}
+
+.about-content {
+    max-width: 850px;
+}
+
+.about-content h2 {
+    color: #173b7b;
+    margin: 12px 0;
+    font-size: 28px;
+}
+
+.about-content p {
+    color: #526078;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+
+/* =====================================================
+   LOGIN / CREATE ACCOUNT
+   ===================================================== */
+
+.login-section {
+    padding: 45px;
+    border-radius: 24px;
+    background: linear-gradient(135deg, #c8dc8d, #b9d6ac,rgb(228, 226, 196));
+    border: 1px solid #dce7f4;
+    box-shadow: 0 10px 30px rgba(40, 70, 110, 0.08);
+}
+
+.login-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+}
+
+
+/* LOGIN BOX */
+
+.login-box {
+    background: #83ca57;
+    border: 1px solid #cfe1f7;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 8px 22px rgba(30, 80, 140, 0.08);
+}
+
+
+/* REGISTER BOX */
+
+.register-box {
+    background: #d4ae66;
+    border: 1px solid #eed9b1;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 8px 22px rgba(150, 100, 20, 0.08);
+}
+
+
+/* LOGIN HEADINGS */
+
+.login-box h2,
+.register-box h2 {
+    color: #172f5d;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.login-box > p,
+.register-box > p {
+    color: #657188;
+    font-size: 14px;
+    margin-bottom: 22px;
+    font-style: italic;
+}
+
+
+/* FORM */
+
+.login-box form,
+.register-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* LABEL */
+
+.login-box label,
+.register-box label {
+    color: #263957;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    margin-top: 13px;
+}
+
+
+/* INPUT */
+
+.login-box input,
+.register-box input {
+    width: 100%;
+    padding: 12px 13px;
+    border: 1px solid #9bc021;
+    border-radius: 10px;
+    background: rgb(243, 238, 238);
+    color: #7381af;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.login-box input:focus,
+.register-box input:focus {
+    border-color: #2874d0;
+    box-shadow: 0 0 0 3px rgba(40, 116, 208, 0.12);
+}
+
+.login-box input::placeholder,
+.register-box input::placeholder {
+    color: #9aa6b7;
+}
+
+
+/* LOGIN SUBMIT */
+
+.login-submit-button {
+    margin-top: 23px;
+    border: none;
+    background: linear-gradient(135deg, #6b6ad1, #4f498e);
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-submit-button:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #0e58b8, #203f8c);
+}
+
+
+/* REGISTER BUTTON */
+
+.register-button {
+    margin-top: 23px;
+    border: none;
+    background: linear-gradient(135deg, #e59b00, #d47d00);
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.register-button:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #cf8900, #b96b00);
+}
+
+
+/* ================= FOOTER ================= */
+
+.app-footer {
+    margin-top: 60px;
+    padding: 40px 6% 90px;
+    background: linear-gradient(135deg, #173b78, #102b5b);
+    color: white;
+}
+
+.footer-brand h2 {
+    font-size: 23px;
+}
+
+.footer-brand p {
+    color: #dce8fa;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 22px;
+    margin: 22px 0;
+    flex-wrap: wrap;
+    
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #ffd15c;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 18px;
+    color: #dce8fa;
+    font-size: 13px;
+}
+
+
+
+
+/* Hide unwanted bottom navigation bar */
+.bottom-nav,
+.mobile-bottom-nav,
+.bottom-navigation,
+.fixed-bottom-nav {
+    display: none !important;
+}
+
+
+
+
+/* =====================================================
+   RESPONSIVE (MEDIA QUERIES) - sab screen ke liye
+   ===================================================== */
+
+img {
+    max-width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* ===== Laptop / chhoti desktop (max 1100px) ===== */
+@media (max-width: 1100px) {
+
+    .app-header {
+        padding: 12px 4%;
+        gap: 15px;
+    }
+
+    .main-navigation {
+        gap: 20px;
+    }
+
+    .hero-section,
+    .practice-section,
+    .exam-section,
+    .features-section,
+    .about-section,
+    .login-section {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .hero-content h2 {
+        font-size: 38px;
+    }
+
+    .exam-container,
+    .features-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+/* ===== Tablet (max 900px) ===== */
+@media (max-width: 900px) {
+
+    .top-banner img {
+        height: auto;
+        object-fit: contain;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 35px 5%;
+        gap: 25px;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero-description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-visual {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .practice-info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .exam-container,
+    .features-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .login-container {
+        grid-template-columns: 1fr;
+    }
+
+    .login-section,
+    .about-section {
+        padding: 30px;
+    }
+}
+
+
+/* ===== Mobile (max 768px) ===== */
+@media (max-width: 768px) {
+
+    /* Header: logo upar, menu neeche, buttons side me */
+    .app-header {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px 4%;
+        min-height: auto;
+        gap: 10px;
+    }
+
+    .main-navigation {
+        order: 3;
+        width: 100%;
+        justify-content: space-between;
+        gap: 10px;
+        padding-top: 8px;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .main-navigation a {
+        font-size: 14px;
+    }
+
+    .logo-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .logo-text h1 {
+        font-size: 18px;
+    }
+
+    .top-banner img {
+        height: auto;
+        object-fit: contain;
+    }
+
+    /* Mission section: photo upar-neeche */
+    .mission-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 5%;
+    }
+
+    .mission-section .misson-text h2 {
+        font-size: 24px !important;
+    }
+
+    .round-pic {
+        width: 140px;
+        height: 140px;
+    }
+
+    .section-heading h2 {
+        font-size: 22px;
+    }
+
+    .practice-section,
+    .exam-section,
+    .features-section,
+    .about-section,
+    .login-section {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .app-footer {
+        padding: 30px 5% 40px;
+    }
+}
+
+
+/* ===== Chhota mobile (max 600px) ===== */
+@media (max-width: 600px) {
+
+    .hero-section {
+        margin-top: 20px;
+        padding: 28px 18px;
+    }
+
+    .hero-content h2 {
+        font-size: 30px;
+    }
+
+    .hero-content h3 {
+        font-size: 19px;
+    }
+
+    .hero-description {
+        font-size: 14px;
+    }
+
+    .practice-info,
+    .exam-container,
+    .features-container {
+        grid-template-columns: 1fr;
+    }
+
+    .sir-dp {
+        width: 120px;
+        height: 120px;
+    }
+
+    .login-section,
+    .about-section {
+        padding: 20px 16px;
+    }
+
+    .login-box,
+    .register-box {
+        padding: 20px;
+    }
+
+    .about-content h2 {
+        font-size: 22px;
+    }
+
+    .footer-bottom {
+        text-align: center;
+    }
+}
+
+
+/* ===== Bahut chhota mobile (max 400px) ===== */
+@media (max-width: 400px) {
+
+    .logo-text h1 {
+        font-size: 16px;
+    }
+
+    .logo-text span {
+        letter-spacing: 3px;
+    }
+
+    .login-button {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+
+    .notification-btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    .main-navigation a {
+        font-size: 13px;
+    }
+
+    .top-banner img {
+        height: auto;
+    }
+
+    .hero-content h2 {
+        font-size: 26px;
+    }
+
+    .primary-button {
+        padding: 11px 18px;
+    }
+}
+
+
+/* ===== Bahut badi screen (min 1600px) ===== */
+@media (min-width: 1600px) {
+
+    .practice-section,
+    .exam-section,
+    .features-section,
+    .about-section,
+    .login-section,
+    .hero-section {
+        max-width: 1500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/* =====================================================
+   MOBILE BOTTOM NAVIGATION (Home / Practice / Exams / Login)
+   ===================================================== */
+
+.mobile-navigation {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .mobile-navigation {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2000;
+        padding: 8px 6px calc(8px + env(safe-area-inset-bottom, 0px));
+        background: #ffffff;
+        border-top: 1px solid #d9e2f0;
+        box-shadow: 0 -4px 16px rgba(30, 60, 100, 0.15);
+    }
+
+    .mobile-navigation a {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+        text-decoration: none;
+        color: #263653;
+        font-weight: 700;
+        padding: 4px 0;
+        border-radius: 10px;
+        transition: 0.2s;
+    }
+
+    .mobile-navigation a span {
+        font-size: 22px;
+        line-height: 1;
+    }
+
+    .mobile-navigation a small {
+        font-size: 11px;
+    }
+
+    .mobile-navigation a:active,
+    .mobile-navigation a:hover {
+        background: #eaf3ff;
+        color: #1769d1;
+    }
+
+    /* footer bar ke peeche na chhupe */
+    .app-footer {
+        padding-bottom: 100px;
+    }
+}
