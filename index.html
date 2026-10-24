@@ -14,6 +14,45 @@
     <link rel="icon" type="image/png" href="favicon.png">
 
     <link rel="stylesheet" href="style.css">
+
+    <!-- NEW: styles for footer links and WhatsApp buttons -->
+    <style>
+        .footer-extra-links{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            gap:10px;
+            padding:12px 10px;
+        }
+        .footer-extra-links a{
+            color:#fff;
+            background:#153c82;
+            border:1px solid #fff;
+            padding:8px 16px;
+            border-radius:25px;
+            text-decoration:none;
+            font-weight:600;
+            font-size:14px;
+        }
+        .footer-extra-links a.wa-link{
+            background:#25d366;
+            border-color:#25d366;
+        }
+        .whatsapp-float{
+            position:fixed;
+            right:14px;
+            bottom:85px;
+            background:#25d366;
+            color:#fff;
+            padding:10px 16px;
+            border-radius:30px;
+            font-weight:700;
+            font-size:14px;
+            text-decoration:none;
+            box-shadow:0 3px 10px rgba(0,0,0,.3);
+            z-index:999;
+        }
+    </style>
     
 </head>
 
@@ -68,14 +107,14 @@
     <!-- ================= BANNER (navbar ke neeche) ================= -->
 
     <div class="top-banner">
-        <img src="banner.png" alt="Exam Mantra MCQ Banner">
+        <img src="banner.jpg" alt="Exam Mantra MCQ Banner">
     </div>
 
 
     <!-- ================= MISSION IMAGE (right side, round) ================= -->
 
     <section class="mission-section">
-        <img src="Success.jpj" class="round-pic" alt="Our Mission - Exam Mantra MCQ">
+        <img src="Success.jpg" class="round-pic" alt="Our Mission - Exam Mantra MCQ">
         <div class="misson-text">
             <h2 style="font-family: 'Poppins', sans-serif; font-size: 34px; color: #153c82; font-weight: 800; font-style: italic;">
                 Your Dream, Our Mission 🎯 with Practice smart. Succeed big. 
@@ -87,7 +126,7 @@
 
             </p>
         </div>
-        <img src="sarkari.jpj" class="round-pic" alt="Our Success - Exam Mantra MCQ">
+        <img src="sarkari.jpg" class="round-pic" alt="Our Success - Exam Mantra MCQ">
     </section>
 
 
@@ -415,6 +454,58 @@
                     <h3>Other State Government Exams</h3>
                     <p>Practice State Government MCQs</p>
                     <button type="button">Start Exam →</button>
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= RESOURCES (papers / admit card / result) ================= -->
+
+        <section id="resources" class="exam-section">
+
+            <div class="section-heading">
+
+                <span class="section-icon">
+                    🚀
+                </span>
+
+                <div>
+
+                    <h2 style="font-size:34px;">
+                        Boost Your Preparation
+                    </h2>
+
+                    <p>
+                        Free previous papers, notes, admit cards and results, all in one place
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="exam-container">
+
+
+                <!-- NEW CARD 1: PDF / Previous Papers -->
+                <div class="exam-card">
+                    <span>📄</span>
+                    <h3>PDF / Previous Papers</h3>
+                    <p>Previous year papers and PDFs</p>
+                    <button type="button" onclick="event.stopPropagation(); window.location.href='papers.html'">Open →</button>
+                </div>
+
+
+                <!-- NEW CARD 2: Admit Card / Check Result -->
+                <div class="exam-card">
+                    <span>🪪</span>
+                    <h3>Admit Card / Check Result</h3>
+                    <p>Official links in one place</p>
+                    <button type="button" onclick="event.stopPropagation(); window.location.href='results.html'">Open →</button>
                 </div>
 
 
@@ -758,6 +849,14 @@
         </div>
 
 
+        <!-- NEW: Privacy Policy + WhatsApp Channel -->
+        <div class="footer-extra-links">
+            <a href="privacy.html">🔒 Privacy Policy</a>
+            <a href="contact.html">📞 Contact Us</a>
+            <a href="https://whatsapp.com/channel/0029VbE6xBH3WHTOrIS2uR21" target="_blank" rel="noopener" class="wa-link">💬 Join WhatsApp Channel</a>
+        </div>
+
+
         <div class="footer-bottom">
 
             <p>
@@ -771,6 +870,10 @@
         </div>
 
     </footer>
+
+
+    <!-- NEW: floating WhatsApp channel button -->
+    <a href="https://whatsapp.com/channel/0029VbE6xBH3WHTOrIS2uR21" target="_blank" rel="noopener" class="whatsapp-float">💬 Join Channel</a>
 
 
 
