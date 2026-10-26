@@ -1,9 +1,20 @@
-import { getApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+import { initializeApp, getApps, getApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
 import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
 import { getFirestore, collection, doc, setDoc, getDocs, query, orderBy, limit, serverTimestamp }
   from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
-const app = getApp();               // firebase_auth.js pehle load hona chahiye
+const firebaseConfig = {
+  
+  apiKey: "AIzaSyDtTLsA0p-n_hDxiseC23bYAIPo7y9corc",
+  authDomain: "exam-mantra-mcq.firebaseapp.com",
+  projectId: "exam-mantra-mcq",
+  storageBucket: "exam-mantra-mcq.firebasestorage.app",
+  messagingSenderId: "626731166343",
+  appId: "1:626731166343:web:e80e61242bda887dc96622",
+  measurementId: "G-W675F3NJS7"
+
+};
+const app = getApps().length ? getApp() : initializeApp(firebaseConfig);             // firebase_auth.js pehle load hona chahiye
 const auth = getAuth(app);
 const db = getFirestore(app);
 
