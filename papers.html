@@ -33,6 +33,11 @@
             border-bottom:2px solid #dbe3f3;
             padding-bottom:6px;
         }
+        h3{
+            color:#153c82;
+            margin:22px 0 8px;
+            font-size:18px;
+        }
         .note{
             background:#eef4ff;
             border-left:5px solid #153c82;
@@ -41,51 +46,6 @@
             font-size:14px;
             line-height:1.6;
             margin:15px 0;
-        }
-        .pdf-list{
-            list-style:none;
-            padding:0;
-            margin:0;
-        }
-        .pdf-list li{
-            margin:10px 0;
-        }
-        .pdf-list a{
-            display:block;
-            padding:12px 14px;
-            border:1px solid #dbe3f3;
-            border-radius:10px;
-            background:#f8faff;
-            color:#153c82;
-            text-decoration:none;
-            font-weight:700;
-        }
-        .pdf-list a:hover{
-            background:#eaf1ff;
-        }
-        .back-link{
-            display:inline-block;
-            margin-top:24px;
-            color:#1a56db;
-            text-decoration:none;
-            font-weight:700;
-        }
-        .wa-btn{
-            display:inline-block;
-            margin-top:14px;
-            background:#25d366;
-            color:#fff;
-            padding:10px 18px;
-            border-radius:25px;
-            text-decoration:none;
-            font-weight:700;
-            font-size:14px;
-        }
-
-        h3{
-            color:#153c82;
-            margin:22px 0 8px;
-            font-size:18px;
         }
         .pdf-row{
             display:flex;
@@ -108,14 +68,29 @@
             margin-left:6px;
             padding:7px 14px;
             border-radius:20px;
-            background:#153c82;
+            background:#e65100;
             color:#fff;
             text-decoration:none;
             font-size:13px;
             font-weight:700;
         }
-        .pdf-row .btns a.hi{
-            background:#e65100;
+        .back-link{
+            display:inline-block;
+            margin-top:24px;
+            color:#1a56db;
+            text-decoration:none;
+            font-weight:700;
+        }
+        .wa-btn{
+            display:inline-block;
+            margin-top:14px;
+            background:#25d366;
+            color:#fff;
+            padding:10px 18px;
+            border-radius:25px;
+            text-decoration:none;
+            font-weight:700;
+            font-size:14px;
         }
     </style>
 </head>
@@ -124,48 +99,49 @@
 <div class="page-box">
 
     <h1>📄 PDF / Previous Papers</h1>
-    <p>Apne exam ka paper ya notes chuno aur PDF khol lo.</p>
+    <p>Choose your exam paper or notes and open the PDF.</p>
 
     <div class="note">
-        <b>Note:</b> Yahan diye gaye papers sirf practice ke liye hain.
-        Official aur latest paper ke liye hamesha exam ki official website dekhein.
+        <b>Note:</b> The papers provided here are for practice only.
+        For the official and latest paper, always check the exam's official website.
     </div>
 
 
     <!-- ================= PREVIOUS YEAR PAPERS ================= -->
 
     <h2>Previous Year Papers (2022 – 2025)</h2>
-    <p>Har paper Hindi (हिंदी) aur English dono me hai.</p>
+    <p>All papers are available in Hindi (हिंदी).</p>
 
-    <!-- NAYA PAPER JODNE KE LIYE: ek pdf-row block copy karo, naam aur PDF ka naam badal do -->
+    <!--
+    HOW TO ADD A NEW PAPER: copy one pdf-row block, change the name and the PDF file name.
+    HOW TO ADD A SECOND PDF OF THE SAME PAPER: add one more <a> line inside the "btns" span
+    and put 2 in the file name, for example:
+        <a href="pdfs/up-police-2025-hindi-2.pdf" target="_blank" rel="noopener">Open PDF 2</a>
+    -->
 
     <h3>📅 2025</h3>
         <div class="pdf-row">
             <span class="name">📄 UP Police</span>
             <span class="btns">
-                <a class="hi" href="pdfs/up-police-2025-hindi.pdf" target="_blank" rel="noopener">हिंदी</a>
-                <a href="pdfs/up-police-2025-english.pdf" target="_blank" rel="noopener">English</a>
+                <a href="pdfs/up-police-2025-hindi.pdf" target="_blank" rel="noopener">Open PDF</a>
             </span>
         </div>
         <div class="pdf-row">
             <span class="name">📄 SSC (CGL / CHSL / MTS)</span>
             <span class="btns">
-                <a class="hi" href="pdfs/ssc-2025-hindi.pdf" target="_blank" rel="noopener">हिंदी</a>
-                <a href="pdfs/ssc-2025-english.pdf" target="_blank" rel="noopener">English</a>
+                <a href="pdfs/ssc-2025-hindi.pdf" target="_blank" rel="noopener">Open PDF</a>
             </span>
         </div>
         <div class="pdf-row">
             <span class="name">📄 Railway (RRB)</span>
             <span class="btns">
-                <a class="hi" href="pdfs/railway-rrb-2025-hindi.pdf" target="_blank" rel="noopener">हिंदी</a>
-                <a href="pdfs/railway-rrb-2025-english.pdf" target="_blank" rel="noopener">English</a>
+                <a href="pdfs/railway-rrb-2025-hindi.pdf" target="_blank" rel="noopener">Open PDF</a>
             </span>
         </div>
         <div class="pdf-row">
             <span class="name">📄 Banking (IBPS / SBI)</span>
             <span class="btns">
-                <a class="hi" href="pdfs/banking-2025-hindi.pdf" target="_blank" rel="noopener">हिंदी</a>
-                <a href="pdfs/banking-2025-english.pdf" target="_blank" rel="noopener">English</a>
+                <a href="pdfs/banking-2025-hindi.pdf" target="_blank" rel="noopener">Open PDF</a>
             </span>
         </div>
 
@@ -173,29 +149,25 @@
         <div class="pdf-row">
             <span class="name">📄 UP Police</span>
             <span class="btns">
-                <a class="hi" href="pdfs/up-police-2024-hindi.pdf" target="_blank" rel="noopener">हिंदी</a>
-                <a href="pdfs/up-police-2024-english.pdf" target="_blank" rel="noopener">English</a>
+                <a href="pdfs/up-police-2024-hindi.pdf" target="_blank" rel="noopener">Open PDF</a>
             </span>
         </div>
         <div class="pdf-row">
             <span class="name">📄 SSC (CGL / CHSL / MTS)</span>
             <span class="btns">
-                <a class="hi" href="pdfs/ssc-2024-hindi.pdf" target="_blank" rel="noopener">हिंदी</a>
-                <a href="pdfs/ssc-2024-english.pdf" target="_blank" rel="noopener">English</a>
+                <a href="pdfs/ssc-2024-hindi.pdf" target="_blank" rel="noopener">Open PDF</a>
             </span>
         </div>
         <div class="pdf-row">
             <span class="name">📄 Railway (RRB)</span>
             <span class="btns">
-                <a class="hi" href="pdfs/railway-rrb-2024-hindi.pdf" target="_blank" rel="noopener">हिंदी</a>
-                <a href="pdfs/railway-rrb-2024-english.pdf" target="_blank" rel="noopener">English</a>
+                <a href="pdfs/railway-rrb-2024-hindi.pdf" target="_blank" rel="noopener">Open PDF</a>
             </span>
         </div>
         <div class="pdf-row">
             <span class="name">📄 Banking (IBPS / SBI)</span>
             <span class="btns">
-                <a class="hi" href="pdfs/banking-2024-hindi.pdf" target="_blank" rel="noopener">हिंदी</a>
-                <a href="pdfs/banking-2024-english.pdf" target="_blank" rel="noopener">English</a>
+                <a href="pdfs/banking-2024-hindi.pdf" target="_blank" rel="noopener">Open PDF</a>
             </span>
         </div>
 
@@ -203,29 +175,25 @@
         <div class="pdf-row">
             <span class="name">📄 UP Police</span>
             <span class="btns">
-                <a class="hi" href="pdfs/up-police-2023-hindi.pdf" target="_blank" rel="noopener">हिंदी</a>
-                <a href="pdfs/up-police-2023-english.pdf" target="_blank" rel="noopener">English</a>
+                <a href="pdfs/up-police-2023-hindi.pdf" target="_blank" rel="noopener">Open PDF</a>
             </span>
         </div>
         <div class="pdf-row">
             <span class="name">📄 SSC (CGL / CHSL / MTS)</span>
             <span class="btns">
-                <a class="hi" href="pdfs/ssc-2023-hindi.pdf" target="_blank" rel="noopener">हिंदी</a>
-                <a href="pdfs/ssc-2023-english.pdf" target="_blank" rel="noopener">English</a>
+                <a href="pdfs/ssc-2023-hindi.pdf" target="_blank" rel="noopener">Open PDF</a>
             </span>
         </div>
         <div class="pdf-row">
             <span class="name">📄 Railway (RRB)</span>
             <span class="btns">
-                <a class="hi" href="pdfs/railway-rrb-2023-hindi.pdf" target="_blank" rel="noopener">हिंदी</a>
-                <a href="pdfs/railway-rrb-2023-english.pdf" target="_blank" rel="noopener">English</a>
+                <a href="pdfs/railway-rrb-2023-hindi.pdf" target="_blank" rel="noopener">Open PDF</a>
             </span>
         </div>
         <div class="pdf-row">
             <span class="name">📄 Banking (IBPS / SBI)</span>
             <span class="btns">
-                <a class="hi" href="pdfs/banking-2023-hindi.pdf" target="_blank" rel="noopener">हिंदी</a>
-                <a href="pdfs/banking-2023-english.pdf" target="_blank" rel="noopener">English</a>
+                <a href="pdfs/banking-2023-hindi.pdf" target="_blank" rel="noopener">Open PDF</a>
             </span>
         </div>
 
@@ -233,63 +201,55 @@
         <div class="pdf-row">
             <span class="name">📄 UP Police</span>
             <span class="btns">
-                <a class="hi" href="pdfs/up-police-2022-hindi.pdf" target="_blank" rel="noopener">हिंदी</a>
-                <a href="pdfs/up-police-2022-english.pdf" target="_blank" rel="noopener">English</a>
+                <a href="pdfs/up-police-2022-hindi.pdf" target="_blank" rel="noopener">Open PDF</a>
             </span>
         </div>
         <div class="pdf-row">
             <span class="name">📄 SSC (CGL / CHSL / MTS)</span>
             <span class="btns">
-                <a class="hi" href="pdfs/ssc-2022-hindi.pdf" target="_blank" rel="noopener">हिंदी</a>
-                <a href="pdfs/ssc-2022-english.pdf" target="_blank" rel="noopener">English</a>
+                <a href="pdfs/ssc-2022-hindi.pdf" target="_blank" rel="noopener">Open PDF</a>
             </span>
         </div>
         <div class="pdf-row">
             <span class="name">📄 Railway (RRB)</span>
             <span class="btns">
-                <a class="hi" href="pdfs/railway-rrb-2022-hindi.pdf" target="_blank" rel="noopener">हिंदी</a>
-                <a href="pdfs/railway-rrb-2022-english.pdf" target="_blank" rel="noopener">English</a>
+                <a href="pdfs/railway-rrb-2022-hindi.pdf" target="_blank" rel="noopener">Open PDF</a>
             </span>
         </div>
         <div class="pdf-row">
             <span class="name">📄 Banking (IBPS / SBI)</span>
             <span class="btns">
-                <a class="hi" href="pdfs/banking-2022-hindi.pdf" target="_blank" rel="noopener">हिंदी</a>
-                <a href="pdfs/banking-2022-english.pdf" target="_blank" rel="noopener">English</a>
+                <a href="pdfs/banking-2022-hindi.pdf" target="_blank" rel="noopener">Open PDF</a>
             </span>
         </div>
 
     <!-- ================= NOTES ================= -->
 
     <h2>Notes / PDF (Maths, Reasoning, Current Affairs, GK)</h2>
-    <p>Har note Hindi (हिंदी) aur English dono me hai.</p>
+    <p>All notes are available in Hindi (हिंदी).</p>
 
         <div class="pdf-row">
             <span class="name">🧮 Maths</span>
             <span class="btns">
-                <a class="hi" href="pdfs/maths-notes-hindi.pdf" target="_blank" rel="noopener">हिंदी</a>
-                <a href="pdfs/maths-notes-english.pdf" target="_blank" rel="noopener">English</a>
+                <a href="pdfs/maths-notes-hindi.pdf" target="_blank" rel="noopener">Open PDF</a>
             </span>
         </div>
         <div class="pdf-row">
             <span class="name">🧠 Reasoning</span>
             <span class="btns">
-                <a class="hi" href="pdfs/reasoning-notes-hindi.pdf" target="_blank" rel="noopener">हिंदी</a>
-                <a href="pdfs/reasoning-notes-english.pdf" target="_blank" rel="noopener">English</a>
+                <a href="pdfs/reasoning-notes-hindi.pdf" target="_blank" rel="noopener">Open PDF</a>
             </span>
         </div>
         <div class="pdf-row">
             <span class="name">📰 Current Affairs</span>
             <span class="btns">
-                <a class="hi" href="pdfs/current-affairs-notes-hindi.pdf" target="_blank" rel="noopener">हिंदी</a>
-                <a href="pdfs/current-affairs-notes-english.pdf" target="_blank" rel="noopener">English</a>
+                <a href="pdfs/current-affairs-notes-hindi.pdf" target="_blank" rel="noopener">Open PDF</a>
             </span>
         </div>
         <div class="pdf-row">
             <span class="name">🌍 GK (General Knowledge)</span>
             <span class="btns">
-                <a class="hi" href="pdfs/gk-notes-hindi.pdf" target="_blank" rel="noopener">हिंदी</a>
-                <a href="pdfs/gk-notes-english.pdf" target="_blank" rel="noopener">English</a>
+                <a href="pdfs/gk-notes-hindi.pdf" target="_blank" rel="noopener">Open PDF</a>
             </span>
         </div>
 
