@@ -3,6 +3,388 @@ const examQuestions = {
     upPolice: {
 
         generalKnowledge: [
+      
+
+
+            
+  {
+    questionHindi: "एक परिवार का मासिक बजट ₹40,000 है। पाई चार्ट में किराया 30%, भोजन 25%, शिक्षा 20%, बचत 15% और अन्य 10% दर्शाया गया है। बचत के क्षेत्र का केंद्रीय कोण ज्ञात कीजिए।",
+    questionEnglish: "A family's monthly budget is ₹40,000. Rent is 30%, food 25%, education 20%, savings 15% and others 10%. Find the central angle for savings.",
+    optionsHindi: ["36°", "60°", "54°", "72°"],
+    optionsEnglish: ["36°", "60°", "54°", "72°"],
+    answer: "54°"
+  },
+  {
+    questionHindi: "रवि 8 मीटर उत्तर की ओर चलता है, फिर दाएँ मुड़कर 6 मीटर और फिर दाएँ मुड़कर 16 मीटर चलता है। वह प्रारंभिक बिंदु से कितनी दूरी और किस दिशा में है?",
+    questionEnglish: "Ravi walks 8 m north, then 6 m right, and then 16 m right. How far and in which direction is he from the starting point?",
+    optionsHindi: ["14 मीटर दक्षिण-पूर्व", "10 मीटर उत्तर-पूर्व", "10 मीटर दक्षिण-पूर्व", "8 मीटर दक्षिण"],
+    optionsEnglish: ["14 m south-east", "10 m north-east", "10 m south-east", "8 m south"],
+    answer: "10 मीटर दक्षिण-पूर्व"
+  },
+  {
+    questionHindi: "श्रृंखला में अगला पद ज्ञात कीजिए: Z, ZY, ZYX, ZYXW, ?",
+    questionEnglish: "Find the next term: Z, ZY, ZYX, ZYXW, ?",
+    optionsHindi: ["ZYXWU", "ZYXVW", "ZYXWV", "YXWVU"],
+    optionsEnglish: ["ZYXWU", "ZYXVW", "ZYXWV", "YXWVU"],
+    answer: "ZYXWV"
+  },
+  {
+    questionHindi: "POLICEMAN के अक्षरों से चार शब्द बन सकते हैं, पर एक नहीं बन सकता। वह शब्द चुनिए।",
+    questionEnglish: "Four words can be formed from POLICEMAN, but one cannot. Identify it.",
+    optionsHindi: ["POLICE", "PENNY", "MAPLE", "CLAMP"],
+    optionsEnglish: ["POLICE", "PENNY", "MAPLE", "CLAMP"],
+    answer: "PENNY"
+  },
+  {
+    questionHindi: "चार कक्षाओं में प्रत्येक में 50 विद्यार्थी हैं। टेस्ट 2 में क्रमशः 30, 35, 40 और 25 विद्यार्थी उत्तीर्ण हुए। कुल 200 विद्यार्थियों में उत्तीर्ण विद्यार्थियों का प्रतिशत ज्ञात कीजिए।",
+    questionEnglish: "Four sections have 50 students each. In Test 2, 30, 35, 40 and 25 students passed. What percentage of the total 200 students passed?",
+    optionsHindi: ["65%", "60%", "70%", "62.5%"],
+    optionsEnglish: ["65%", "60%", "70%", "62.5%"],
+    answer: "65%"
+  },
+  {
+    questionHindi: "एक आदमी की ओर इशारा करते हुए सुनीता ने कहा, उसके पिता मेरे पिता के इकलौते पुत्र हैं। वह आदमी सुनीता का क्या लगता है?",
+    questionEnglish: "Pointing to a man, Sunita said, His father is the only son of my father. How is the man related to Sunita?",
+    optionsHindi: ["भाई", "भतीजा", "पिता", "मामा"],
+    optionsEnglish: ["Brother", "Nephew", "Father", "Maternal uncle"],
+    answer: "भतीजा"
+  },
+  {
+    questionHindi: "EXAMINATION के अक्षरों से चार शब्द बन सकते हैं, पर एक नहीं बन सकता। वह शब्द चुनिए।",
+    questionEnglish: "Four words can be formed from EXAMINATION, but one cannot. Identify it.",
+    optionsHindi: ["MOTION", "NATION", "TAXI", "EXAM"],
+    optionsEnglish: ["MOTION", "NATION", "TAXI", "EXAM"],
+    answer: "MOTION"
+  },
+  {
+    questionHindi: "सादृश्य पूरा कीजिए: घोड़ा : अस्तबल :: मधुमक्खी : ?",
+    questionEnglish: "Complete the analogy: Horse : Stable :: Bee : ?",
+    optionsHindi: ["शहद", "छत्ता", "डंक", "फूल"],
+    optionsEnglish: ["Honey", "Hive", "Sting", "Flower"],
+    answer: "छत्ता"
+  },
+  {
+    questionHindi: "यदि x ⊕ y = x² + y² + xy तथा x ⊖ y = x² − y² − xy हो, तो (4 ⊕ 3) ⊖ 2 का मान क्या है?",
+    questionEnglish: "If x ⊕ y = x² + y² + xy and x ⊖ y = x² − y² − xy, find (4 ⊕ 3) ⊖ 2.",
+    optionsHindi: ["1295", "1365", "1291", "1219"],
+    optionsEnglish: ["1295", "1365", "1291", "1219"],
+    answer: "1291"
+  },
+  {
+    questionHindi: "5 : 126 :: 7 : ?",
+    questionEnglish: "Find the missing number: 5 : 126 :: 7 : ?",
+    optionsHindi: ["342", "344", "350", "336"],
+    optionsEnglish: ["342", "344", "350", "336"],
+    answer: "344"
+  },
+  {
+    questionHindi: "60 विद्यार्थियों में से 35 क्रिकेट खेलते हैं, 28 फुटबॉल खेलते हैं और 12 दोनों खेलते हैं। कितने विद्यार्थी कोई भी खेल नहीं खेलते?",
+    questionEnglish: "Out of 60 students, 35 play cricket, 28 play football and 12 play both. How many play neither game?",
+    optionsHindi: ["9", "7", "12", "5"],
+    optionsEnglish: ["9", "7", "12", "5"],
+    answer: "9"
+  },
+  {
+    questionHindi: "बाघ, स्तनधारी और जंतु के बीच संबंध को कौन-सा कथन दर्शाता है?",
+    questionEnglish: "Which statement best represents the relationship among tiger, mammals and animals?",
+    optionsHindi: ["बाघ ⊂ स्तनधारी ⊂ जंतु", "तीनों अलग-अलग हैं", "स्तनधारी ⊂ बाघ ⊂ जंतु", "बाघ और स्तनधारी अलग हैं, दोनों जंतु हैं"],
+    optionsEnglish: ["Tiger ⊂ Mammals ⊂ Animals", "All three are separate", "Mammals ⊂ Tiger ⊂ Animals", "Tiger and mammals are separate, both are animals"],
+    answer: "बाघ ⊂ स्तनधारी ⊂ जंतु"
+  },
+  {
+    questionHindi: "विक्रम पूर्व की ओर 9 किमी चलता है, फिर बाएँ मुड़कर 12 किमी और फिर बाएँ मुड़कर 9 किमी चलता है। वह प्रारंभिक बिंदु से किस दिशा में और कितनी दूरी पर है?",
+    questionEnglish: "Vikram walks 9 km east, then 12 km left, and then 9 km left. How far and in which direction is he from the starting point?",
+    optionsHindi: ["15 किमी उत्तर-पूर्व", "12 किमी उत्तर-पश्चिम", "21 किमी उत्तर", "12 किमी उत्तर"],
+    optionsEnglish: ["15 km north-east", "12 km north-west", "21 km north", "12 km north"],
+    answer: "12 किमी उत्तर"
+  },
+  {
+    questionHindi: "यदि BRIGHT को DTKIJV लिखा जाता है, तो उसी भाषा में SCHOOL कैसे लिखा जाएगा?",
+    questionEnglish: "If BRIGHT is coded as DTKIJV, how will SCHOOL be coded?",
+    optionsHindi: ["UEJQQN", "UEIQQN", "QAFMMJ", "TDIPPM"],
+    optionsEnglish: ["UEJQQN", "UEIQQN", "QAFMMJ", "TDIPPM"],
+    answer: "UEJQQN"
+  },
+  {
+    questionHindi: "यदि '+' का अर्थ '×', '×' का अर्थ '÷', '÷' का अर्थ '−' और '−' का अर्थ '+' है, तो 18 + 3 × 6 ÷ 5 − 2 का मान क्या है?",
+    questionEnglish: "If '+' means '×', '×' means '÷', '÷' means '−' and '−' means '+', find 18 + 3 × 6 ÷ 5 − 2.",
+    optionsHindi: ["6", "4", "8", "10"],
+    optionsEnglish: ["6", "4", "8", "10"],
+    answer: "6"
+  },
+  {
+    questionHindi: "संबंधित शब्द ज्ञात कीजिए: योग : अंतर :: गुणनफल : ?",
+    questionEnglish: "Find the related word: Sum : Difference :: Product : ?",
+    optionsHindi: ["भागफल", "गुणज", "गुणनखंड", "शेषफल"],
+    optionsEnglish: ["Quotient", "Multiple", "Factor", "Remainder"],
+    answer: "भागफल"
+  },
+  {
+    questionHindi: "श्रृंखला में लुप्त पद ज्ञात कीजिए: P1QR, P2RT, P3SV, ?, P5UZ",
+    questionEnglish: "Find the missing term: P1QR, P2RT, P3SV, ?, P5UZ",
+    optionsHindi: ["P4SX", "P4TW", "P4UX", "P4TX"],
+    optionsEnglish: ["P4SX", "P4TW", "P4UX", "P4TX"],
+    answer: "P4TX"
+  },
+  {
+    questionHindi: "यदि '+' का अर्थ '−', '−' का अर्थ '×', '×' का अर्थ '÷' और '÷' का अर्थ '+' है, तो 24 + 8 − 3 × 6 ÷ 2 का मान क्या है?",
+    questionEnglish: "If '+' means '−', '−' means '×', '×' means '÷' and '÷' means '+', find 24 + 8 − 3 × 6 ÷ 2.",
+    optionsHindi: ["18", "26", "30", "22"],
+    optionsEnglish: ["18", "26", "30", "22"],
+    answer: "22"
+  },
+  {
+    questionHindi: "श्रृंखला में लुप्त संख्या ज्ञात कीजिए: 5, 6, 10, 19, 35, ?",
+    questionEnglish: "Find the missing number: 5, 6, 10, 19, 35, ?",
+    optionsHindi: ["56", "64", "60", "58"],
+    optionsEnglish: ["56", "64", "60", "58"],
+    answer: "60"
+  },
+  {
+    questionHindi: "11 : 17 अनुपात के दोनों पदों से कौन-सी संख्या घटाने पर अनुपात 2 : 5 हो जाएगा?",
+    questionEnglish: "What number must be subtracted from both terms of 11 : 17 to make the ratio 2 : 5?",
+    optionsHindi: ["5", "3", "9", "7"],
+    optionsEnglish: ["5", "3", "9", "7"],
+    answer: "7"
+  },
+  {
+    questionHindi: "रवि की आय मोहन की आय से 20% अधिक है। मोहन की आय रवि की आय से कितने प्रतिशत कम है?",
+    questionEnglish: "Ravi's income is 20% more than Mohan's. By what percentage is Mohan's income less than Ravi's?",
+    optionsHindi: ["20%", "25%", "15%", "16 2/3%"],
+    optionsEnglish: ["20%", "25%", "15%", "16 2/3%"],
+    answer: "16 2/3%"
+  },
+  {
+    questionHindi: "दो संख्याओं का HCF लंबी भाजन विधि से ज्ञात करने पर अंतिम भाजक 3 है और क्रमिक भागफल 1, 2 और 3 हैं। संख्याएँ ज्ञात कीजिए।",
+    questionEnglish: "The last divisor in the long-division method for HCF is 3, and the successive quotients are 1, 2 and 3. Find the numbers.",
+    optionsHindi: ["24, 15", "30, 21", "33, 21", "27, 18"],
+    optionsEnglish: ["24, 15", "30, 21", "33, 21", "27, 18"],
+    answer: "30, 21"
+  },
+  {
+    questionHindi: "दो रेलगाड़ियाँ एक ही दिशा में 72 किमी/घंटा और 54 किमी/घंटा की चाल से चल रही हैं। तेज़ गाड़ी धीमी गाड़ी में बैठे व्यक्ति को 12 सेकंड में पार करती है। तेज़ गाड़ी की लंबाई ज्ञात कीजिए।",
+    questionEnglish: "Two trains move in the same direction at 72 km/h and 54 km/h. The faster train crosses a person sitting in the slower train in 12 seconds. Find the faster train's length.",
+    optionsHindi: ["75 मीटर", "60 मीटर", "90 मीटर", "45 मीटर"],
+    optionsEnglish: ["75 m", "60 m", "90 m", "45 m"],
+    answer: "60 मीटर"
+  },
+  {
+    questionHindi: "एक बल्लेबाज़ ने 49 पारियों में एक निश्चित औसत से रन बनाए। 50वीं पारी में शून्य पर आउट होने से औसत 2 रन घट गया। नया औसत क्या है?",
+    questionEnglish: "A batsman played 49 innings at a certain average. Scoring zero in the 50th innings reduced the average by 2. What is the new average?",
+    optionsHindi: ["96", "98", "102", "100"],
+    optionsEnglish: ["96", "98", "102", "100"],
+    answer: "98"
+  },
+  {
+    questionHindi: "वह मूलधन क्या है जो 20% वार्षिक चक्रवृद्धि ब्याज की दर से 2 वर्ष में ₹7,200 हो जाता है?",
+    questionEnglish: "What principal becomes ₹7,200 in 2 years at 20% annual compound interest?",
+    optionsHindi: ["₹4,800", "₹5,000", "₹5,200", "₹4,500"],
+    optionsEnglish: ["₹4,800", "₹5,000", "₹5,200", "₹4,500"],
+    answer: "₹5,000"
+  },
+  {
+    questionHindi: "₹9,261 की राशि 3 वर्षों में 5% वार्षिक चक्रवृद्धि ब्याज पर प्राप्त होती है। मूलधन क्या है?",
+    questionEnglish: "₹9,261 is the amount after 3 years at 5% annual compound interest. Find the principal.",
+    optionsHindi: ["₹7,500", "₹8,400", "₹8,000", "₹7,800"],
+    optionsEnglish: ["₹7,500", "₹8,400", "₹8,000", "₹7,800"],
+    answer: "₹8,000"
+  },
+  {
+    questionHindi: "कुछ श्रमिकों की औसत मासिक आय ₹P है और दूसरे समूह की ₹Q है। पहले समूह में श्रमिकों की संख्या दूसरे समूह की 4 गुनी है। सभी श्रमिकों की औसत आय क्या है?",
+    questionEnglish: "One group has average monthly income ₹P and another ₹Q. If the first group has four times as many workers as the second, what is the combined average income?",
+    optionsHindi: ["(P + Q) / 2", "(P + 4Q) / 5", "(4P + Q) / 4", "(4P + Q) / 5"],
+    optionsEnglish: ["(P + Q) / 2", "(P + 4Q) / 5", "(4P + Q) / 4", "(4P + Q) / 5"],
+    answer: "(4P + Q) / 5"
+  },
+  {
+    questionHindi: "एक चुनाव में 90% मतदाताओं ने मतदान किया और डाले गए वोटों में 10% अवैध थे। एक उम्मीदवार को 7,290 वोट मिले, जो वैध वोटों का 90% है। कुल पंजीकृत मतदाता कितने थे?",
+    questionEnglish: "In an election, 90% of voters voted and 10% of votes cast were invalid. A candidate received 7,290 votes, 90% of the valid votes. How many registered voters were there?",
+    optionsHindi: ["9,000", "10,000", "8,100", "11,000"],
+    optionsEnglish: ["9,000", "10,000", "8,100", "11,000"],
+    answer: "10,000"
+  },
+  {
+    questionHindi: "एक पुलिसकर्मी को 300 मीटर दूर चोर दिखता है। चोर की चाल 12 किमी/घंटा और पुलिसकर्मी की 18 किमी/घंटा है। पकड़े जाने से पहले चोर कितनी दूर भागेगा?",
+    questionEnglish: "A policeman spots a thief 300 m away. The thief runs at 12 km/h and the policeman at 18 km/h. How far will the thief run before being caught?",
+    optionsHindi: ["600 मीटर", "900 मीटर", "750 मीटर", "1,200 मीटर"],
+    optionsEnglish: ["600 m", "900 m", "750 m", "1,200 m"],
+    answer: "600 मीटर"
+  },
+  {
+    questionHindi: "X और Y किसी काम को क्रमशः 20 और 30 दिनों में पूरा कर सकते हैं। दोनों 6 दिन साथ काम करते हैं, फिर Y चला जाता है और X शेष काम पूरा करता है। कुल कितने दिन लगेंगे?",
+    questionEnglish: "X and Y can complete a job in 20 and 30 days respectively. They work together for 6 days, then Y leaves and X finishes the rest. How many days are needed in total?",
+    optionsHindi: ["14 दिन", "16 दिन", "18 दिन", "15 दिन"],
+    optionsEnglish: ["14 days", "16 days", "18 days", "15 days"],
+    answer: "16 दिन"
+  },
+  {
+    questionHindi: "एक ठेकेदार 60 दिनों में सड़क बनाने के लिए 40 आदमी लगाता है। 30 दिनों बाद केवल एक-चौथाई सड़क बनी है। समय पर काम पूरा करने के लिए कितने अतिरिक्त आदमी चाहिए?",
+    questionEnglish: "A contractor employs 40 men to build a road in 60 days. After 30 days, only one-fourth is complete. How many extra men are needed to finish on time?",
+    optionsHindi: ["60", "100", "80", "120"],
+    optionsEnglish: ["60", "100", "80", "120"],
+    answer: "80"
+  },
+  {
+    questionHindi: "एक वस्तु 25% हानि पर बेची गई। यदि उसे ₹600 अधिक में बेचा जाता, तो 5% लाभ होता। क्रय मूल्य क्या है?",
+    questionEnglish: "An article is sold at a 25% loss. If it were sold for ₹600 more, there would be a 5% profit. What is its cost price?",
+    optionsHindi: ["₹1,800", "₹2,400", "₹2,000", "₹2,500"],
+    optionsEnglish: ["₹1,800", "₹2,400", "₹2,000", "₹2,500"],
+    answer: "₹2,000"
+  },
+  {
+    questionHindi: "एक व्यक्ति ₹6,000 में घोड़ा और ऊँट खरीदता है। घोड़े को 10% लाभ और ऊँट को 20% हानि पर बेचने पर कुल न लाभ होता है न हानि। सस्ते जानवर का क्रय मूल्य क्या है?",
+    questionEnglish: "A man buys a horse and a camel for ₹6,000. He sells the horse at 10% profit and the camel at 20% loss, breaking even overall. What is the cost price of the cheaper animal?",
+    optionsHindi: ["₹3,000", "₹2,000", "₹1,500", "₹2,500"],
+    optionsEnglish: ["₹3,000", "₹2,000", "₹1,500", "₹2,500"],
+    answer: "₹2,000"
+  },
+  {
+    questionHindi: "2³ × 3² × 5², 2² × 3³ × 5 और 2⁴ × 3 × 5³ का HCF ज्ञात कीजिए।",
+    questionEnglish: "Find the HCF of 2³ × 3² × 5², 2² × 3³ × 5 and 2⁴ × 3 × 5³.",
+    optionsHindi: ["2³ × 3 × 5", "2² × 3² × 5", "2² × 3 × 5", "2 × 3 × 5"],
+    optionsEnglish: ["2³ × 3 × 5", "2² × 3² × 5", "2² × 3 × 5", "2 × 3 × 5"],
+    answer: "2² × 3 × 5"
+  },
+  {
+    questionHindi: "60, 84 और 90 का LCM ज्ञात कीजिए।",
+    questionEnglish: "Find the LCM of 60, 84 and 90.",
+    optionsHindi: ["1080", "1260", "2520", "630"],
+    optionsEnglish: ["1080", "1260", "2520", "630"],
+    answer: "1260"
+  },
+  {
+    questionHindi: "दो व्यक्तियों का कुल वेतन समान है। पहले को मूल वेतन का 40% और दूसरे को मूल वेतन का 60% भत्ता मिलता है। उनके मूल वेतन का अनुपात क्या है?",
+    questionEnglish: "Two persons have equal total salaries. The first receives an allowance of 40% of basic pay and the second 60%. Find the ratio of their basic pays.",
+    optionsHindi: ["8:7", "7:8", "4:3", "3:2"],
+    optionsEnglish: ["8:7", "7:8", "4:3", "3:2"],
+    answer: "8:7"
+  },
+  {
+    questionHindi: "एक दुकानदार अंकित मूल्य पर 25% छूट देता है और फिर भी क्रय मूल्य पर 20% लाभ कमाता है। यदि वह वस्तु अंकित मूल्य पर बेचे, तो लाभ प्रतिशत क्या होगा?",
+    questionEnglish: "A shopkeeper gives a 25% discount on the marked price and still earns 20% profit. What would the profit percentage be if sold at the marked price?",
+    optionsHindi: ["50%", "45%", "55%", "60%"],
+    optionsEnglish: ["50%", "45%", "55%", "60%"],
+    answer: "60%"
+  },
+  {
+    questionHindi: "एक व्यापारी खुदरा विक्रेता को अंकित मूल्य पर 15% छूट देता है और छूट वाले मूल्य पर 8% पैकेजिंग शुल्क लेता है। खुदरा विक्रेता ₹4,590 में बेचकर 25% लाभ कमाता है। अंकित मूल्य क्या था?",
+    questionEnglish: "A trader gives a retailer a 15% discount and charges an extra 8% packaging fee on the discounted price. The retailer sells for ₹4,590 at 25% profit. Find the marked price.",
+    optionsHindi: ["₹4,500", "₹3,600", "₹4,200", "₹4,000"],
+    optionsEnglish: ["₹4,500", "₹3,600", "₹4,200", "₹4,000"],
+    answer: "₹4,000"
+  },
+  {
+    questionHindi: "विषम संख्या चुनिए: 17, 19, 27, 23",
+    questionEnglish: "Choose the odd one out: 17, 19, 27, 23.",
+    optionsHindi: ["17", "19", "23", "27"],
+    optionsEnglish: ["17", "19", "23", "27"],
+    answer: "27"
+  },
+  {
+    questionHindi: "4 × 4 के वर्गाकार ग्रिड में कुल कितने वर्ग हैं?",
+    questionEnglish: "How many squares are there in total in a 4 × 4 square grid?",
+    optionsHindi: ["30", "16", "24", "36"],
+    optionsEnglish: ["30", "16", "24", "36"],
+    answer: "30"
+  },
+  {
+    questionHindi: "श्रृंखला में अगला पद ज्ञात कीजिए: AZ, BY, CX, DW, ?",
+    questionEnglish: "Find the next term: AZ, BY, CX, DW, ?",
+    optionsHindi: ["EU", "FV", "DV", "EV"],
+    optionsEnglish: ["EU", "FV", "DV", "EV"],
+    answer: "EV"
+  },
+  {
+    questionHindi: "श्रृंखला 2, 6, 12, 20, 31, 42 में कौन-सा पद पैटर्न से मेल नहीं खाता?",
+    questionEnglish: "Which term does not fit the pattern: 2, 6, 12, 20, 31, 42?",
+    optionsHindi: ["12", "31", "20", "42"],
+    optionsEnglish: ["12", "31", "20", "42"],
+    answer: "31"
+  },
+  {
+    questionHindi: "त्रिभुज ABC की भुजा BC पर B, D, E, F, C क्रम में बिंदु हैं और D, E, F को शीर्ष A से जोड़ा गया है। कुल कितने त्रिभुज हैं?",
+    questionEnglish: "In triangle ABC, points B, D, E, F, C lie in that order on BC, and D, E and F are joined to vertex A. How many triangles are there?",
+    optionsHindi: ["6", "15", "12", "10"],
+    optionsEnglish: ["6", "15", "12", "10"],
+    answer: "10"
+  },
+  {
+    questionHindi: "विषम विकल्प चुनिए।",
+    questionEnglish: "Choose the odd one out.",
+    optionsHindi: ["चाय", "कॉफ़ी", "जूस", "ब्रेड"],
+    optionsEnglish: ["Tea", "Coffee", "Juice", "Bread"],
+    answer: "ब्रेड"
+  },
+  {
+    questionHindi: "विषम संख्या चुनिए: 57, 29, 41, 31",
+    questionEnglish: "Choose the odd number: 57, 29, 41, 31.",
+    optionsHindi: ["57", "29", "41", "31"],
+    optionsEnglish: ["57", "29", "41", "31"],
+    answer: "57"
+  },
+  {
+    questionHindi: "विषम संख्या युग्म चुनिए।",
+    questionEnglish: "Choose the odd number pair.",
+    optionsHindi: ["3 : 27", "4 : 64", "5 : 125", "6 : 218"],
+    optionsEnglish: ["3 : 27", "4 : 64", "5 : 125", "6 : 218"],
+    answer: "6 : 218"
+  },
+  {
+    questionHindi: "श्रृंखला में X ज्ञात कीजिए: 120, 111, 102, X, 84",
+    questionEnglish: "Find X: 120, 111, 102, X, 84.",
+    optionsHindi: ["91", "93", "95", "90"],
+    optionsEnglish: ["91", "93", "95", "90"],
+    answer: "93"
+  },
+  {
+    questionHindi: "श्रृंखला में अगली संख्या ज्ञात कीजिए: 400, 399, 397, 393, ?",
+    questionEnglish: "Find the next number: 400, 399, 397, 393, ?",
+    optionsHindi: ["383", "387", "385", "389"],
+    optionsEnglish: ["383", "387", "385", "389"],
+    answer: "385"
+  },
+  {
+    questionHindi: "अजय ने ₹1,800 में साइकिल खरीदी और ₹2,160 में बेच दी। लाभ प्रतिशत क्या है?",
+    questionEnglish: "Ajay bought a bicycle for ₹1,800 and sold it for ₹2,160. What is his profit percentage?",
+    optionsHindi: ["15%", "18%", "20%", "25%"],
+    optionsEnglish: ["15%", "18%", "20%", "25%"],
+    answer: "20%"
+  },
+  {
+    questionHindi: "3:30 बजे घड़ी की घंटे और मिनट की सुइयों के बीच कितना कोण बनता है?",
+    questionEnglish: "What is the angle between the hour and minute hands at 3:30?",
+    optionsHindi: ["75°", "90°", "105°", "60°"],
+    optionsEnglish: ["75°", "90°", "105°", "60°"],
+    answer: "75°"
+  },
+  {
+    questionHindi: "एक घन के सभी फलकों को रंगकर उसे 27 समान छोटे घनों में काटा जाता है। कितने छोटे घनों के ठीक दो फलक रंगे होंगे?",
+    questionEnglish: "A cube is painted on all faces and cut into 27 identical small cubes. How many have exactly two painted faces?",
+    optionsHindi: ["12", "8", "6", "24"],
+    optionsEnglish: ["12", "8", "6", "24"],
+    answer: "12"
+  },
+  {
+    questionHindi: "चार सहेलियाँ उत्तर की ओर मुँह करके बैठी हैं। नेहा, पूजा के बाईं ओर है लेकिन बगल में नहीं। रितु, नेहा और पूजा के बीच बैठी है। सीमा, पूजा के दाईं ओर है। बाएँ से दूसरे स्थान पर कौन है?",
+    questionEnglish: "Four friends sit facing north. Neha is to Pooja's left but not next to her. Ritu sits between Neha and Pooja. Seema sits to Pooja's right. Who sits second from the left?",
+    optionsHindi: ["रितु", "नेहा", "पूजा", "सीमा"],
+    optionsEnglish: ["Ritu", "Neha", "Pooja", "Seema"],
+    answer: "रितु"
+  },
+  {
+    questionHindi: "यदि CAT को XZG लिखा जाता है, तो उसी कूट भाषा में DOG कैसे लिखा जाएगा?",
+    questionEnglish: "If CAT is written as XZG, how will DOG be written in the same code?",
+    optionsHindi: ["WKT", "VLT", "WLT", "WLS"],
+    optionsEnglish: ["WKT", "VLT", "WLT", "WLS"],
+    answer: "WLT"
+  },
+  {
+    questionHindi: "असमान संख्या युग्म चुनिए।",
+    questionEnglish: "Find the dissimilar pair of numbers.",
+    optionsHindi: ["2 : 6", "5 : 15", "8 : 25", "7 : 21"],
+    optionsEnglish: ["2 : 6", "5 : 15", "8 : 25", "7 : 21"],
+    answer: "8 : 25"
+  },
 
             
 
@@ -2425,6 +2807,570 @@ const examQuestions = {
 
         numericalMentalAbility: [
             
+
+
+
+  {
+    questionHindi: "एक पाई चार्ट में पेय पदार्थों की खपत इस प्रकार है: जूस 30%, कॉफी 15%, चाय 35%, पानी 20%। कॉफी के क्षेत्र का कोण ज्ञात कीजिए।",
+    questionEnglish: "In a pie chart, beverage consumption is: Juice 30%, Coffee 15%, Tea 35%, Water 20%. Find the angle of the coffee sector.",
+    optionsHindi: ["45°", "60°", "72°", "54°"],
+    optionsEnglish: ["45°", "60°", "72°", "54°"],
+    answer: "54°"
+  },
+  {
+    questionHindi: "रिया 12 मीटर उत्तर की ओर चलती है, फिर दाएँ मुड़कर 16 मीटर चलती है। वह अपने प्रारंभिक बिंदु से कितनी दूर और किस दिशा में है?",
+    questionEnglish: "Riya walks 12 metres north, then turns right and walks 16 metres. How far and in which direction is she from her starting point?",
+    optionsHindi: ["20 मीटर दक्षिण-पश्चिम", "28 मीटर उत्तर-पूर्व", "4 मीटर पूर्व", "20 मीटर उत्तर-पूर्व"],
+    optionsEnglish: ["20 metres south-west", "28 metres north-east", "4 metres east", "20 metres north-east"],
+    answer: "20 मीटर उत्तर-पूर्व"
+  },
+  {
+    questionHindi: "अनुक्रम में अगला पद ज्ञात कीजिए: XY, XYY, XYYY, XYYYY, ?",
+    questionEnglish: "Find the next term in the sequence: XY, XYY, XYYY, XYYYY, ?",
+    optionsHindi: ["XYYYYYY", "XYYYYY", "XYYYY", "XXYYYYY"],
+    optionsEnglish: ["XYYYYYY", "XYYYYY", "XYYYY", "XXYYYYY"],
+    answer: "XYYYYY"
+  },
+  {
+    questionHindi: "दिए गए शब्द DIRECTION के अक्षरों का उपयोग करके कौन-सा शब्द नहीं बनाया जा सकता?",
+    questionEnglish: "Which word cannot be formed using the letters of DIRECTION?",
+    optionsHindi: ["CREDIT", "TRAIN", "DIET", "NOTICE"],
+    optionsEnglish: ["CREDIT", "TRAIN", "DIET", "NOTICE"],
+    answer: "TRAIN"
+  },
+  {
+    questionHindi: "कक्षा IX के चार संभाग A, B, C और D के परीक्षा परिणाम दिए गए हैं। दोनों परीक्षाओं में अनुत्तीर्ण छात्रों की कुल संख्या के आधार पर कौन-सा कथन सही है? दोनों परीक्षाओं में अनुत्तीर्ण: 30, 25, 19, 20; अर्धवार्षिक में अनुत्तीर्ण और वार्षिक में उत्तीर्ण: 12, 14, 10, 9; अर्धवार्षिक में उत्तीर्ण और वार्षिक में अनुत्तीर्ण: 8, 15, 11, 17।",
+    questionEnglish: "The results of four sections A, B, C and D of Class IX are given. Based on the total number of students failing in each exam, which statement is correct? Failed in both: 30, 25, 19, 20; failed in half-yearly but passed in annual: 12, 14, 10, 9; passed in half-yearly but failed in annual: 8, 15, 11, 17.",
+    optionsHindi: ["अर्धवार्षिक परीक्षा अधिक कठिन थी।", "वार्षिक परीक्षा अधिक कठिन थी।", "दोनों परीक्षाओं की तुलना नहीं की जा सकती।", "दोनों परीक्षाओं का कठिनाई स्तर समान था।"],
+    optionsEnglish: ["The half-yearly exam was more difficult.", "The annual exam was more difficult.", "The two exams cannot be compared.", "Both exams had the same difficulty level."],
+    answer: "वार्षिक परीक्षा अधिक कठिन थी।"
+  },
+  {
+    questionHindi: "एक आदमी की ओर इशारा करते हुए अनीता ने कहा, 'इसकी इकलौती बेटी मेरी माँ है।' वह आदमी अनीता का क्या लगता है?",
+    questionEnglish: "Pointing to a man, Anita said, 'His only daughter is my mother.' How is the man related to Anita?",
+    optionsHindi: ["नाना", "मामा", "दादा", "पिता"],
+    optionsEnglish: ["Maternal grandfather", "Maternal uncle", "Paternal grandfather", "Father"],
+    answer: "नाना"
+  },
+  {
+    questionHindi: "दिए गए शब्द EDUCATION के अक्षरों का उपयोग करके कौन-सा शब्द नहीं बनाया जा सकता?",
+    questionEnglish: "Which word cannot be formed using the letters of EDUCATION?",
+    optionsHindi: ["TONIC", "DUCT", "CAUTION", "NATIONAL"],
+    optionsEnglish: ["TONIC", "DUCT", "CAUTION", "NATIONAL"],
+    answer: "NATIONAL"
+  },
+  {
+    questionHindi: "सादृश्य पूरा कीजिए: पक्षी : घोंसला :: मधुमक्खी : ____",
+    questionEnglish: "Complete the analogy: Bird : Nest :: Bee : ____",
+    optionsHindi: ["पिंजरा", "छत्ता", "जाला", "पेड़"],
+    optionsEnglish: ["Cage", "Hive", "Web", "Tree"],
+    answer: "छत्ता"
+  },
+  {
+    questionHindi: "यदि p @ q = p² + q² + 2pq और p # q = p² − q² − 2pq है, तो (6 @ 3) # 5 का मान क्या है?",
+    questionEnglish: "If p @ q = p² + q² + 2pq and p # q = p² − q² − 2pq, what is the value of (6 @ 3) # 5?",
+    optionsHindi: ["5626", "6536", "5726", "5826"],
+    optionsEnglish: ["5626", "6536", "5726", "5826"],
+    answer: "5726"
+  },
+  {
+    questionHindi: "वह विकल्प ज्ञात कीजिए जो प्रश्नचिह्न के स्थान पर आएगा: 216 : 63 :: 343 : ?",
+    questionEnglish: "Find the alternative that replaces the question mark: 216 : 63 :: 343 : ?",
+    optionsHindi: ["73", "72", "142", "37"],
+    optionsEnglish: ["73", "72", "142", "37"],
+    answer: "73"
+  },
+  {
+    questionHindi: "एक वेन आरेख में लाल वस्तुएँ, प्लास्टिक की वस्तुएँ और गेंदें हैं। केवल लाल = 6, केवल लाल और प्लास्टिक = 10, केवल लाल और गेंद = 8, तीनों = 5, केवल प्लास्टिक = 14 और केवल गेंद = 9। कितनी लाल वस्तुएँ प्लास्टिक की नहीं हैं?",
+    questionEnglish: "A Venn diagram represents red objects, plastic objects and balls. Only red = 6, red and plastic only = 10, red and balls only = 8, all three = 5, only plastic = 14 and only balls = 9. How many red objects are not plastic?",
+    optionsHindi: ["16", "29", "19", "14"],
+    optionsEnglish: ["16", "29", "19", "14"],
+    answer: "14"
+  },
+  {
+    questionHindi: "कौन-सा आरेख एशिया, भारत और दिल्ली के बीच संबंध को सबसे अच्छा दर्शाता है?",
+    questionEnglish: "Which diagram best represents the relationship among Asia, India and Delhi?",
+    optionsHindi: ["तीन संकेंद्रित वृत्त, एक के अंदर एक", "तीन अलग-अलग वृत्त", "तीन एक-दूसरे को काटते वृत्त", "एक बड़े वृत्त के अंदर दो अलग-अलग वृत्त"],
+    optionsEnglish: ["Three concentric circles, one inside another", "Three separate circles", "Three intersecting circles", "Two separate circles inside one large circle"],
+    answer: "तीन संकेंद्रित वृत्त, एक के अंदर एक"
+  },
+  {
+    questionHindi: "रीना 10 किमी पश्चिम की ओर चली, फिर दाएँ मुड़कर 7 किमी चली, फिर बाएँ मुड़कर 5 किमी चली। अंत में वह बाएँ मुड़कर 15 किमी चलकर घर पहुँची। उसका घर प्रारंभिक बिंदु से किस दिशा में है?",
+    questionEnglish: "Reena walks 10 km west, turns right and walks 7 km, turns left and walks 5 km, then turns left and walks 15 km to reach home. In which direction is her home from the starting point?",
+    optionsHindi: ["दक्षिण-पश्चिम", "उत्तर-पश्चिम", "पश्चिम", "दक्षिण"],
+    optionsEnglish: ["South-west", "North-west", "West", "South"],
+    answer: "दक्षिण-पश्चिम"
+  },
+  {
+    questionHindi: "यदि MARKET को NBSLFU के रूप में कूटबद्ध किया जाता है, तो BASKET का कोड क्या होगा?",
+    questionEnglish: "If MARKET is coded as NBSLFU, what will be the code for BASKET?",
+    optionsHindi: ["CBTLFU", "CBTMFU", "DBTLFU", "CBSLFU"],
+    optionsEnglish: ["CBTLFU", "CBTMFU", "DBTLFU", "CBSLFU"],
+    answer: "CBTLFU"
+  },
+  {
+    questionHindi: "यदि '+' का अर्थ '×', '×' का अर्थ '+', '−' का अर्थ '÷' और '÷' का अर्थ '−' है, तो 12 + 3 × 8 ÷ 4 − 2 को सरल कीजिए।",
+    questionEnglish: "If '+' means '×', '×' means '+', '−' means '÷' and '÷' means '−', simplify 12 + 3 × 8 ÷ 4 − 2.",
+    optionsHindi: ["44", "38", "40", "42"],
+    optionsEnglish: ["44", "38", "40", "42"],
+    answer: "42"
+  },
+  {
+    questionHindi: "संबंधित शब्द ज्ञात कीजिए: सम : विषम :: अभाज्य : ?",
+    questionEnglish: "Find the related word: Even : Odd :: Prime : ?",
+    optionsHindi: ["संयुक्त संख्या", "पूर्णांक", "धनात्मक", "परिमेय"],
+    optionsEnglish: ["Composite number", "Integer", "Positive", "Rational"],
+    answer: "संयुक्त संख्या"
+  },
+  {
+    questionHindi: "श्रृंखला में लुप्त पद ज्ञात कीजिए: M2NP, M4OR, M6PT, ____, M10RX",
+    questionEnglish: "Find the missing term in the series: M2NP, M4OR, M6PT, ____, M10RX",
+    optionsHindi: ["M8QU", "M8QV", "M8RV", "M7QV"],
+    optionsEnglish: ["M8QU", "M8QV", "M8RV", "M7QV"],
+    answer: "M8QV"
+  },
+  {
+    questionHindi: "यदि '×' का अर्थ '+', '+' का अर्थ '−', '−' का अर्थ '×' और '÷' का अर्थ '÷' है, तो 36 ÷ 6 × 8 + 5 − 3 का मान क्या है?",
+    questionEnglish: "If '×' means '+', '+' means '−', '−' means '×' and '÷' means '÷', what is the value of 36 ÷ 6 × 8 + 5 − 3?",
+    optionsHindi: ["−9", "−1", "29", "1"],
+    optionsEnglish: ["−9", "−1", "29", "1"],
+    answer: "−1"
+  },
+  {
+    questionHindi: "दी गई श्रृंखला में लुप्त संख्या ज्ञात कीजिए: 5, 6, 10, 19, 35, ?",
+    questionEnglish: "Find the missing number in the series: 5, 6, 10, 19, 35, ?",
+    optionsHindi: ["60", "55", "64", "70"],
+    optionsEnglish: ["60", "55", "64", "70"],
+    answer: "60"
+  },
+  {
+    questionHindi: "वह संख्या ज्ञात कीजिए जिसे 17 : 22 के दोनों पदों से घटाने पर अनुपात 3 : 4 हो जाए।",
+    questionEnglish: "Find the number that must be subtracted from both terms of 17 : 22 to make the ratio 3 : 4.",
+    optionsHindi: ["3", "2", "4", "1"],
+    optionsEnglish: ["3", "2", "4", "1"],
+    answer: "2"
+  },
+  {
+    questionHindi: "राम की आय श्याम की आय से 60% अधिक है। श्याम की आय राम की आय से कितने प्रतिशत कम है?",
+    questionEnglish: "Ram's income is 60% more than Shyam's. By what percentage is Shyam's income less than Ram's?",
+    optionsHindi: ["37.5%", "62.5%", "60%", "40%"],
+    optionsEnglish: ["37.5%", "62.5%", "60%", "40%"],
+    answer: "37.5%"
+  },
+  {
+    questionHindi: "लंबी विभाजन विधि से दो संख्याओं का HCF निकालने पर अंतिम भाजक 3 है और क्रमिक भागफल 1, 2 और 3 हैं। दोनों संख्याएँ ज्ञात कीजिए।",
+    questionEnglish: "When finding the HCF of two numbers by the long division method, the last divisor is 3 and the successive quotients are 1, 2 and 3. Find the two numbers.",
+    optionsHindi: ["24, 30", "18, 30", "21, 33", "21, 30"],
+    optionsEnglish: ["24, 30", "18, 30", "21, 33", "21, 30"],
+    answer: "21, 30"
+  },
+  {
+    questionHindi: "दो ट्रेनें विपरीत दिशाओं में 50 किमी/घंटा और 40 किमी/घंटा की गति से चल रही हैं। तेज ट्रेन धीमी ट्रेन में बैठे व्यक्ति को 8 सेकंड में पार करती है। तेज ट्रेन की लंबाई कितनी है?",
+    questionEnglish: "Two trains move in opposite directions at 50 km/h and 40 km/h. The faster train passes a person sitting in the slower train in 8 seconds. Find the length of the faster train.",
+    optionsHindi: ["180 मीटर", "250 मीटर", "160 मीटर", "200 मीटर"],
+    optionsEnglish: ["180 metres", "250 metres", "160 metres", "200 metres"],
+    answer: "200 मीटर"
+  },
+  {
+    questionHindi: "एक क्रिकेटर का 39 पारियों में एक निश्चित औसत था। 40वीं पारी में शून्य पर आउट होने से उसका औसत 3 रन कम हो गया। उसका नया औसत क्या है?",
+    questionEnglish: "A cricketer had a certain average over 39 innings. Scoring zero in his 40th innings reduced his average by 3 runs. What is his new average?",
+    optionsHindi: ["117", "114", "120", "123"],
+    optionsEnglish: ["117", "114", "120", "123"],
+    answer: "117"
+  },
+  {
+    questionHindi: "दो वर्ष बाद 5% वार्षिक चक्रवृद्धि ब्याज पर राशि ₹6,615 हो जाती है। मूलधन कितना था?",
+    questionEnglish: "A sum becomes ₹6,615 after two years at 5% annual compound interest. What was the principal?",
+    optionsHindi: ["₹6,000", "₹5,500", "₹6,200", "₹5,800"],
+    optionsEnglish: ["₹6,000", "₹5,500", "₹6,200", "₹5,800"],
+    answer: "₹6,000"
+  },
+  {
+    questionHindi: "₹33,275 की राशि 3 वर्षों में 10% वार्षिक चक्रवृद्धि ब्याज पर जमा की जाती है। मूल राशि क्या है?",
+    questionEnglish: "A sum accumulates to ₹33,275 in 3 years at 10% annual compound interest. What is the original amount?",
+    optionsHindi: ["₹30,000", "₹22,500", "₹20,000", "₹25,000"],
+    optionsEnglish: ["₹30,000", "₹22,500", "₹20,000", "₹25,000"],
+    answer: "₹25,000"
+  },
+  {
+    questionHindi: "कुशल श्रमिकों की औसत मासिक आय ₹P और अकुशल श्रमिकों की ₹Q है। यदि कुशल श्रमिकों की संख्या अकुशल श्रमिकों से 7 गुना है, तो सभी श्रमिकों की औसत मासिक आय क्या होगी?",
+    questionEnglish: "The average monthly income of skilled workers is ₹P and that of unskilled workers is ₹Q. If there are seven times as many skilled workers as unskilled workers, what is the average monthly income of all workers?",
+    optionsHindi: ["(7P + Q) / 8", "(P + Q) / 2", "(7P + Q) / 7", "(P + 7Q) / 8"],
+    optionsEnglish: ["(7P + Q) / 8", "(P + Q) / 2", "(7P + Q) / 7", "(P + 7Q) / 8"],
+    answer: "(7P + Q) / 8"
+  },
+  {
+    questionHindi: "एक चुनाव में 75% मतदाताओं ने वोट डाले। इनमें से 4% वोट अवैध थे। एक उम्मीदवार को 8,640 वोट मिले, जो कुल वैध वोटों का 60% था। कुल पंजीकृत मतदाता कितने थे?",
+    questionEnglish: "In an election, 75% of voters cast their votes, of which 4% were invalid. A candidate received 8,640 votes, which were 60% of the valid votes. Find the total number of registered voters.",
+    optionsHindi: ["24,000", "22,500", "20,000", "18,000"],
+    optionsEnglish: ["24,000", "22,500", "20,000", "18,000"],
+    answer: "20,000"
+  },
+  {
+    questionHindi: "एक पुलिसकर्मी ने एक चोर को 300 मीटर की दूरी से देखा। चोर 12 किमी/घंटा और पुलिसकर्मी 15 किमी/घंटा की गति से दौड़ते हैं। पकड़े जाने से पहले चोर कितनी दूरी दौड़ेगा?",
+    questionEnglish: "A policeman spots a thief 300 metres ahead. The thief runs at 12 km/h and the policeman at 15 km/h. How far will the thief run before being caught?",
+    optionsHindi: ["1000 मीटर", "1500 मीटर", "900 मीटर", "1200 मीटर"],
+    optionsEnglish: ["1000 metres", "1500 metres", "900 metres", "1200 metres"],
+    answer: "1200 मीटर"
+  },
+  {
+    questionHindi: "A और B किसी काम को क्रमशः 12 और 20 दिनों में पूरा कर सकते हैं। वे साथ काम शुरू करते हैं, लेकिन 4 दिनों बाद B काम छोड़ देता है और A अकेले शेष काम पूरा करता है। पूरा काम कितने दिनों में होगा?",
+    questionEnglish: "A and B can complete a job in 12 and 20 days respectively. They start together, but B leaves after 4 days and A finishes the remaining work alone. How long does the entire job take?",
+    optionsHindi: ["8 दिन", "9 दिन", "5 दिन", "5 दिन"],
+    optionsEnglish: ["8 days", "9 days", "5 days", "5 days"],
+    answer: "5 दिन"
+  },
+  {
+    questionHindi: "एक ठेकेदार 30 दिनों में सुरंग बनाने के लिए 20 पुरुषों को काम पर रखता है। 18 दिनों बाद केवल एक-तिहाई काम पूरा हुआ है। काम 3 दिन पहले पूरा करने के लिए उसे कितने अतिरिक्त पुरुष नियुक्त करने चाहिए?",
+    questionEnglish: "A contractor employs 20 men to build a tunnel in 30 days. After 18 days, only one-third of the work is complete. How many additional men should he employ to finish 3 days early?",
+    optionsHindi: ["40 पुरुष", "70 पुरुष", "60 पुरुष", "50 पुरुष"],
+    optionsEnglish: ["40 men", "70 men", "60 men", "50 men"],
+    answer: "60 पुरुष"
+  },
+  {
+    questionHindi: "एक व्यक्ति किसी वस्तु को 10% हानि पर बेचता है। यदि वह इसे ₹1,500 अधिक में बेचता, तो उसे 5% लाभ होता। वस्तु का क्रय मूल्य क्या है?",
+    questionEnglish: "A man sells an article at a 10% loss. If he had sold it for ₹1,500 more, he would have made a 5% profit. What is its cost price?",
+    optionsHindi: ["₹10,000", "₹12,000", "₹9,000", "₹8,000"],
+    optionsEnglish: ["₹10,000", "₹12,000", "₹9,000", "₹8,000"],
+    answer: "₹10,000"
+  },
+  {
+    questionHindi: "एक व्यक्ति ₹6,300 में एक घोड़ा और एक ऊँट खरीदता है। घोड़े को 20% लाभ पर और ऊँट को 10% हानि पर बेचता है। दोनों का विक्रय मूल्य समान है। सस्ते जानवर का क्रय मूल्य कितना था?",
+    questionEnglish: "A man buys a horse and a camel for ₹6,300 in total. He sells the horse at a 20% profit and the camel at a 10% loss. If both selling prices are equal, what was the cost price of the cheaper animal?",
+    optionsHindi: ["₹3,000", "₹2,700", "₹3,600", "₹2,400"],
+    optionsEnglish: ["₹3,000", "₹2,700", "₹3,600", "₹2,400"],
+    answer: "₹2,700"
+  },
+  {
+    questionHindi: "2⁴ × 3³ × 5² और 2³ × 3⁵ × 5 का महत्तम समापवर्तक (HCF) ज्ञात कीजिए।",
+    questionEnglish: "Find the HCF of 2⁴ × 3³ × 5² and 2³ × 3⁵ × 5.",
+    optionsHindi: ["2³ × 3³ × 5²", "2³ × 3³ × 5", "2⁴ × 3⁵ × 5²", "2³ × 3⁵ × 5"],
+    optionsEnglish: ["2³ × 3³ × 5²", "2³ × 3³ × 5", "2⁴ × 3⁵ × 5²", "2³ × 3⁵ × 5"],
+    answer: "2³ × 3³ × 5"
+  },
+  {
+    questionHindi: "60, 84 और 126 का लघुत्तम समापवर्त्य (LCM) ज्ञात कीजिए।",
+    questionEnglish: "Find the LCM of 60, 84 and 126.",
+    optionsHindi: ["1890", "630", "1260", "2520"],
+    optionsEnglish: ["1890", "630", "1260", "2520"],
+    answer: "1260"
+  },
+  {
+    questionHindi: "दो व्यक्तियों का कुल वेतन-भत्ता समान है। एक व्यक्ति को मूल वेतन का 40% भत्ता और दूसरे को मूल वेतन का 60% भत्ता मिलता है। पहले व्यक्ति के मूल वेतन का दूसरे व्यक्ति के मूल वेतन से अनुपात क्या है?",
+    questionEnglish: "Two people receive the same total remuneration. One receives an allowance equal to 40% of basic pay and the other receives 60%. What is the ratio of the first person's basic pay to the second person's basic pay?",
+    optionsHindi: ["4 : 3", "3 : 2", "8 : 7", "7 : 8"],
+    optionsEnglish: ["4 : 3", "3 : 2", "8 : 7", "7 : 8"],
+    answer: "8 : 7"
+  },
+  {
+    questionHindi: "एक व्यापारी अंकित मूल्य पर 10% छूट देता है, फिर भी उसे क्रय मूल्य पर 35% लाभ होता है। यदि वह अंकित मूल्य पर बेचता है, तो लाभ प्रतिशत क्या होगा?",
+    questionEnglish: "A trader gives a 10% discount on the marked price but still earns 35% profit on cost price. What would the profit percentage be if he sold at the marked price?",
+    optionsHindi: ["60%", "40%", "45%", "50%"],
+    optionsEnglish: ["60%", "40%", "45%", "50%"],
+    answer: "50%"
+  },
+  {
+    questionHindi: "एक व्यापारी खुदरा विक्रेता को वस्तु पर 25% छूट देता है और छूट वाले मूल्य पर डिलीवरी तथा पैकेजिंग के लिए 10% अतिरिक्त शुल्क लेता है। खुदरा विक्रेता इसे ₹5,445 में बेचकर 10% लाभ कमाता है। वस्तु का अंकित मूल्य क्या था?",
+    questionEnglish: "A trader gives a retailer a 25% discount and charges an additional 10% of the discounted price for delivery and packaging. The retailer sells the item for ₹5,445 at a 10% profit. What was the marked price?",
+    optionsHindi: ["₹5,500", "₹6,000", "₹6,500", "₹7,200"],
+    optionsEnglish: ["₹5,500", "₹6,000", "₹6,500", "₹7,200"],
+    answer: "₹6,000"
+  },
+  {
+    questionHindi: "निम्नलिखित में से विषम संख्या चुनिए: 16, 25, 36, 45, 49",
+    questionEnglish: "Pick the odd one out: 16, 25, 36, 45, 49.",
+    optionsHindi: ["36", "49", "45", "25"],
+    optionsEnglish: ["36", "49", "45", "25"],
+    answer: "45"
+  },
+  {
+    questionHindi: "4 × 4 वर्ग का क्षेत्रफल 16 वर्ग इकाई है। पाँच टुकड़ों के क्षेत्रफल 6, 5, 4, 3 और 3 वर्ग इकाई हैं। वर्ग बनाने के लिए किस क्षेत्रफल वाला टुकड़ा आवश्यक नहीं होगा?",
+    questionEnglish: "A 4 × 4 square has an area of 16 square units. Five pieces have areas of 6, 5, 4, 3 and 3 square units. Which piece is not needed to make the square?",
+    optionsHindi: ["5", "6", "3", "4"],
+    optionsEnglish: ["5", "6", "3", "4"],
+    answer: "5"
+  },
+  {
+    questionHindi: "श्रृंखला में अगली आकृति ज्ञात कीजिए। तीर प्रत्येक चरण में 45° दक्षिणावर्त घूमता है: ↑, ↗, →, ↘, ?",
+    questionEnglish: "Find the next figure in the series. An arrow rotates 45° clockwise at each step: ↑, ↗, →, ↘, ?",
+    optionsHindi: ["↓", "←", "↖", "↙"],
+    optionsEnglish: ["↓", "←", "↖", "↙"],
+    answer: "↓"
+  },
+  {
+    questionHindi: "श्रृंखला में विषम पद ज्ञात कीजिए: C9, E25, G49, I80, K121",
+    questionEnglish: "Find the odd term in the series: C9, E25, G49, I80, K121.",
+    optionsHindi: ["C9", "E25", "I80", "K121"],
+    optionsEnglish: ["C9", "E25", "I80", "K121"],
+    answer: "I80"
+  },
+  {
+    questionHindi: "4 × 4 वर्गाकार ग्रिड में कुल कितने वर्ग होते हैं?",
+    questionEnglish: "How many squares are there in total in a 4 × 4 square grid?",
+    optionsHindi: ["16", "30", "36", "25"],
+    optionsEnglish: ["16", "30", "36", "25"],
+    answer: "30"
+  },
+  {
+    questionHindi: "दिए गए विकल्पों में से विषम चुनिए।",
+    questionEnglish: "Choose the odd one out from the given options.",
+    optionsHindi: ["जूस", "चाय", "बिस्किट", "कॉफी"],
+    optionsEnglish: ["Juice", "Tea", "Biscuit", "Coffee"],
+    answer: "बिस्किट"
+  },
+  {
+    questionHindi: "निम्नलिखित में से विषम संख्या चुनिए: 29, 37, 51, 41",
+    questionEnglish: "Select the odd one out: 29, 37, 51, 41.",
+    optionsHindi: ["41", "29", "51", "37"],
+    optionsEnglish: ["41", "29", "51", "37"],
+    answer: "51"
+  },
+  {
+    questionHindi: "विषम आकृति ज्ञात कीजिए।",
+    questionEnglish: "Find the odd figure.",
+    optionsHindi: ["वृत्त", "त्रिभुज", "पंचभुज", "वर्ग"],
+    optionsEnglish: ["Circle", "Triangle", "Pentagon", "Square"],
+    answer: "वृत्त"
+  },
+  {
+    questionHindi: "दी गई श्रृंखला में X का मान ज्ञात कीजिए: 120, 109, 98, X, 76",
+    questionEnglish: "Find X in the series: 120, 109, 98, X, 76.",
+    optionsHindi: ["87", "85", "90", "89"],
+    optionsEnglish: ["87", "85", "90", "89"],
+    answer: "87"
+  },
+  {
+    questionHindi: "श्रृंखला में अगली संख्या ज्ञात कीजिए: 3, 4, 6, 10, 18, ...",
+    questionEnglish: "Find the next number in the series: 3, 4, 6, 10, 18, ...",
+    optionsHindi: ["36", "30", "32", "34"],
+    optionsEnglish: ["36", "30", "32", "34"],
+    answer: "34"
+  },
+  {
+    questionHindi: "वरुण ने ₹1,250 में घड़ी खरीदी और ₹1,500 में बेच दी। उसका लाभ प्रतिशत क्या है?",
+    questionEnglish: "Varun bought a watch for ₹1,250 and sold it for ₹1,500. What is his profit percentage?",
+    optionsHindi: ["25%", "30%", "15%", "20%"],
+    optionsEnglish: ["25%", "30%", "15%", "20%"],
+    answer: "20%"
+  },
+  {
+    questionHindi: "एक वर्ग में छायांकित त्रिभुज क्रमशः ऊपर-बाएँ, ऊपर-दाएँ और नीचे-दाएँ कोनों में आता है। अगली आकृति में यह किस कोने में होगा?",
+    questionEnglish: "In successive figures, a shaded triangle occupies the top-left, top-right and bottom-right corners of a square. Which corner will it occupy next?",
+    optionsHindi: ["केंद्र में", "ऊपर-दाएँ", "नीचे-बाएँ", "ऊपर-बाएँ"],
+    optionsEnglish: ["At the centre", "Top-right", "Bottom-left", "Top-left"],
+    answer: "नीचे-बाएँ"
+  },
+  {
+    questionHindi: "एक सम चतुष्फलक (रेगुलर टेट्राहेड्रॉन) में कुल कितने किनारे होते हैं?",
+    questionEnglish: "How many edges does a regular tetrahedron have?",
+    optionsHindi: ["4", "6", "12", "8"],
+    optionsEnglish: ["4", "6", "12", "8"],
+    answer: "6"
+  },
+  {
+    questionHindi: "चार मित्र एक पंक्ति में बैठे हैं। राज, नेहा के बाईं ओर है। देव, नेहा के दाईं ओर है लेकिन उसके बगल में नहीं है। मिया, नेहा और देव के बीच में है। सबसे बाईं ओर कौन बैठा है?",
+    questionEnglish: "Four friends sit in a row. Raj is to Neha's left. Dev is to Neha's right but not adjacent to her. Mia sits between Neha and Dev. Who sits at the extreme left?",
+    optionsHindi: ["नेहा", "राज", "मिया", "देव"],
+    optionsEnglish: ["Neha", "Raj", "Mia", "Dev"],
+    answer: "राज"
+  },
+  {
+    questionHindi: "यदि ABC का कोड ZYX है, तो LMN का कोड क्या होगा?",
+    questionEnglish: "If ABC is coded as ZYX, what is the code for LMN?",
+    optionsHindi: ["NML", "OMN", "ONM", "PON"],
+    optionsEnglish: ["NML", "OMN", "ONM", "PON"],
+    answer: "ONM"
+  },
+  {
+    questionHindi: "असमान संख्या-युग्म ज्ञात कीजिए।",
+    questionEnglish: "Find the dissimilar pair of fractions.",
+    optionsHindi: ["3/7 : 12/28", "5/9 : 15/27", "4/9 : 12/25", "2/5 : 6/15"],
+    optionsEnglish: ["3/7 : 12/28", "5/9 : 15/27", "4/9 : 12/25", "2/5 : 6/15"],
+    answer: "4/9 : 12/25"
+  },
+  {
+    questionHindi: "एक महिला की ओर इशारा करते हुए रोहन ने कहा, 'वह मेरे पिता के इकलौते भाई की पत्नी है।' वह महिला रोहन से किस प्रकार संबंधित है?",
+    questionEnglish: "Pointing to a woman, Rohan said, 'She is the wife of my father's only brother.' How is she related to Rohan?",
+    optionsHindi: ["बुआ", "मौसी", "मामी", "चाची"],
+    optionsEnglish: ["Father's sister", "Maternal aunt", "Maternal uncle's wife", "Paternal uncle's wife"],
+    answer: "चाची"
+  },
+  {
+    questionHindi: "एक पासे में आमने-सामने के फलकों के अंकों का योग 7 होता है। यदि ऊपरी फलक पर 4 बिंदु हैं, तो नीचे के फलक पर कितने बिंदु होंगे?",
+    questionEnglish: "On a die, opposite faces add up to 7. If the top face shows 4 dots, how many dots are on the bottom face?",
+    optionsHindi: ["5", "3", "2", "6"],
+    optionsEnglish: ["5", "3", "2", "6"],
+    answer: "3"
+  },
+  {
+    questionHindi: "एक तस्वीर में आदमी की ओर इशारा करके रीता ने कहा, 'इसका इकलौता भाई मेरे पिता हैं।' रीता उस आदमी से किस प्रकार संबंधित है?",
+    questionEnglish: "Pointing to a man in a photograph, Rita said, 'His only brother is my father.' How is Rita related to that man?",
+    optionsHindi: ["बेटी", "पत्नी", "भतीजी", "बहन"],
+    optionsEnglish: ["Daughter", "Wife", "Niece", "Sister"],
+    answer: "भतीजी"
+  },
+  {
+    questionHindi: "हिंदी की 'प' ध्वनि का उच्चारण स्थान क्या है?",
+    questionEnglish: "What is the place of articulation of the Hindi sound 'प'?",
+    optionsHindi: ["तालव्य", "मूर्धन्य", "कंठ्य", "ओष्ठ्य"],
+    optionsEnglish: ["Palatal", "Retroflex", "Guttural", "Labial"],
+    answer: "ओष्ठ्य"
+  },
+  {
+    questionHindi: "निम्नलिखित में से पर्यायवाची शब्दों का कौन-सा युग्म सही नहीं है?",
+    questionEnglish: "Which of the following pairs is not a pair of synonyms?",
+    optionsHindi: ["नदी – सरिता", "आकाश – गगन", "पर्वत – सागर", "कमल – अरविंद"],
+    optionsEnglish: ["River – stream", "Sky – heaven", "Mountain – ocean", "Lotus – Aravind"],
+    answer: "पर्वत – सागर"
+  },
+  {
+    questionHindi: "'दोहा छंद' के विषम चरणों में कितनी मात्राएँ होती हैं?",
+    questionEnglish: "How many matras are there in the odd-numbered lines of a Doha metre?",
+    optionsHindi: ["13", "11", "12", "14"],
+    optionsEnglish: ["13", "11", "12", "14"],
+    answer: "13"
+  },
+  {
+    questionHindi: "'कामायनी' किसकी रचना है?",
+    questionEnglish: "Who wrote 'Kamayani'?",
+    optionsHindi: ["महादेवी वर्मा", "जयशंकर प्रसाद", "सूर्यकांत त्रिपाठी 'निराला'", "सुमित्रानंदन पंत"],
+    optionsEnglish: ["Mahadevi Verma", "Jaishankar Prasad", "Suryakant Tripathi 'Nirala'", "Sumitranandan Pant"],
+    answer: "जयशंकर प्रसाद"
+  },
+  {
+    questionHindi: "'महादेव' का सही समास-विग्रह कौन-सा है?",
+    questionEnglish: "Which is the correct expansion of the compound word 'Mahadev'?",
+    optionsHindi: ["देव और महान", "देवों के देव", "महान का देव", "महान है जो देव"],
+    optionsEnglish: ["A god and great", "God of gods", "God of greatness", "A god who is great"],
+    answer: "महान है जो देव"
+  },
+  {
+    questionHindi: "हिंदी वर्णमाला में स्पर्श व्यंजनों की संख्या कितनी है?",
+    questionEnglish: "How many stop consonants are there in the Hindi alphabet?",
+    optionsHindi: ["35", "33", "25", "27"],
+    optionsEnglish: ["35", "33", "25", "27"],
+    answer: "25"
+  },
+  {
+    questionHindi: "'च' का उच्चारण स्थान कौन-सा है?",
+    questionEnglish: "What is the place of articulation of 'च'?",
+    optionsHindi: ["कंठ", "मूर्धा", "तालु", "दंत"],
+    optionsEnglish: ["Throat", "Retroflex region", "Palate", "Teeth"],
+    answer: "तालु"
+  },
+  {
+    questionHindi: "'चौराहा' किस समास का उदाहरण है?",
+    questionEnglish: "Which type of compound is illustrated by the word 'Chauraha'?",
+    optionsHindi: ["द्वंद्व समास", "तत्पुरुष समास", "द्विगु समास", "अव्ययीभाव समास"],
+    optionsEnglish: ["Dvandva compound", "Tatpurusha compound", "Dvigu compound", "Avyayibhava compound"],
+    answer: "द्विगु समास"
+  },
+  {
+    questionHindi: "'कनक' शब्द के अर्थ क्या हैं?",
+    questionEnglish: "What are the meanings of the Hindi word 'Kanak'?",
+    optionsHindi: ["आग, धुआँ", "पानी, हवा", "चाँदी, ताँबा", "सोना, धतूरा"],
+    optionsEnglish: ["Fire, smoke", "Water, air", "Silver, copper", "Gold, Datura"],
+    answer: "सोना, धतूरा"
+  },
+  {
+    questionHindi: "'अभि' उपसर्ग से बना शब्द कौन-सा है?",
+    questionEnglish: "Which word is formed using the prefix 'अभि'?",
+    optionsHindi: ["आवरण", "अभिमान", "अनमोल", "प्रकाश"],
+    optionsEnglish: ["Covering", "Pride", "Priceless", "Light"],
+    answer: "अभिमान"
+  },
+  {
+    questionHindi: "'दुर्जन' शब्द में कौन-सी संधि है?",
+    questionEnglish: "Which type of sandhi occurs in the word 'Durjan'?",
+    optionsHindi: ["विसर्ग संधि", "व्यंजन संधि", "दीर्घ संधि", "स्वर संधि"],
+    optionsEnglish: ["Visarga sandhi", "Consonant sandhi", "Long-vowel sandhi", "Vowel sandhi"],
+    answer: "विसर्ग संधि"
+  },
+  {
+    questionHindi: "सही अर्थ वाला शब्द-युग्म कौन-सा है?",
+    questionEnglish: "Which word pair has the correct meanings?",
+    optionsHindi: ["दिन – दीन = गरीब – दिवस", "कुल – कूल = वंश – किनारा", "अश्व – अश्म = पत्थर – घोड़ा", "अंश – अंस = कंधा – हिस्सा"],
+    optionsEnglish: ["Din–Deen = poor–day", "Kul–Kool = lineage–bank", "Ashva–Ashma = stone–horse", "Ansh–Ans = shoulder–part"],
+    answer: "कुल – कूल = वंश – किनारा"
+  },
+  {
+    questionHindi: "'अमृत' का पर्यायवाची शब्द कौन-सा है?",
+    questionEnglish: "Which word is a synonym of 'Amrit' (nectar)?",
+    optionsHindi: ["सुधा", "विष", "जल", "अग्नि"],
+    optionsEnglish: ["Sudha (nectar)", "Poison", "Water", "Fire"],
+    answer: "सुधा"
+  },
+  {
+    questionHindi: "निम्नलिखित में से स्वर संधि का उदाहरण कौन-सा है?",
+    questionEnglish: "Which of the following is an example of vowel sandhi?",
+    optionsHindi: ["दुर्जन", "उन्नति", "सज्जन", "विद्यालय"],
+    optionsEnglish: ["Durjan", "Unnati", "Sajjan", "Vidyalaya"],
+    answer: "विद्यालय"
+  },
+  {
+    questionHindi: "शुद्ध वाक्य का चयन कीजिए।",
+    questionEnglish: "Select the grammatically correct sentence.",
+    optionsHindi: ["मुझसे रोटी खाया।", "मैंने रोटी खाई।", "मैं रोटी खाई।", "मैंने रोटी खाया।"],
+    optionsEnglish: ["Roti was eaten by me (incorrect form).", "I ate roti.", "I roti ate.", "I ate roti (incorrect gender agreement)."],
+    answer: "मैंने रोटी खाई।"
+  },
+  {
+    questionHindi: "निम्नलिखित में से कौन-सा वाक्य आसन्न भूतकाल का है?",
+    questionEnglish: "Which of the following sentences expresses the recent past tense?",
+    optionsHindi: ["वह घर पहुँचेगा।", "वह कल घर पहुँचा था।", "वह घर पहुँचता है।", "वह अभी-अभी घर पहुँचा है।"],
+    optionsEnglish: ["He will reach home.", "He had reached home yesterday.", "He reaches home.", "He has just reached home."],
+    answer: "वह अभी-अभी घर पहुँचा है।"
+  },
+  {
+    questionHindi: "निम्नलिखित में से किस वाक्य में समुच्चयबोधक अव्यय है?",
+    questionEnglish: "Which sentence contains a conjunction?",
+    optionsHindi: ["वह धीरे चलता है।", "पेड़ के नीचे बैठो।", "राम और श्याम खेल रहे हैं।", "अरे! यह क्या हुआ?"],
+    optionsEnglish: ["He walks slowly.", "Sit under the tree.", "Ram and Shyam are playing.", "Oh! What happened?"],
+    answer: "राम और श्याम खेल रहे हैं।"
+  },
+  {
+    questionHindi: "'जो दूसरों पर उपकार करता है' के लिए एक शब्द क्या है?",
+    questionEnglish: "What is the one-word term for 'a person who does good to others'?",
+    optionsHindi: ["परोपकारी", "निर्धन", "कृतज्ञ", "कृतघ्न"],
+    optionsEnglish: ["Benevolent", "Poor", "Grateful", "Ungrateful"],
+    answer: "परोपकारी"
+  },
+  {
+    questionHindi: "'शेर' का स्त्रीलिंग क्या है?",
+    questionEnglish: "What is the feminine form of 'Sher' (lion)?",
+    optionsHindi: ["शेरी", "शेरनी", "शेरिका", "शेरिन"],
+    optionsEnglish: ["Sheri", "Sherni", "Sherika", "Sherin"],
+    answer: "शेरनी"
+  },
+  {
+    questionHindi: "जिस वाक्य से क्रिया के आने वाले समय में होने का बोध हो, उसे क्या कहते हैं?",
+    questionEnglish: "What is the tense called when a sentence indicates that an action will happen in the future?",
+    optionsHindi: ["संदिग्ध भूतकाल", "भूतकाल", "वर्तमान काल", "भविष्यत् काल"],
+    optionsEnglish: ["Doubtful past", "Past tense", "Present tense", "Future tense"],
+    answer: "भविष्यत् काल"
+  },
+  {
+    questionHindi: "'मधुशाला' के रचयिता कौन हैं?",
+    questionEnglish: "Who is the author of 'Madhushala'?",
+    optionsHindi: ["महादेवी वर्मा", "हरिवंश राय बच्चन", "रामधारी सिंह 'दिनकर'", "मैथिलीशरण गुप्त"],
+    optionsEnglish: ["Mahadevi Verma", "Harivansh Rai Bachchan", "Ramdhari Singh 'Dinkar'", "Maithili Sharan Gupt"],
+    answer: "हरिवंश राय बच्चन"
+  },
+  {
+    questionHindi: "निम्नलिखित में से कौन-सा जोड़ा समरूपी भिन्नार्थक शब्दों का है?",
+    questionEnglish: "Which of the following is a pair of similar-sounding words with different meanings?",
+    optionsHindi: ["अनल – आग", "नदी – सरिता", "आम – अमरूद", "अपेक्षा – उपेक्षा"],
+    optionsEnglish: ["Anal – fire", "River – stream", "Mango – guava", "Apeksha – Upeksha"],
+    answer: "अपेक्षा – उपेक्षा"
+  },
+  {
+    questionHindi: "'नीलकमल' में कौन-सा समास है?",
+    questionEnglish: "Which type of compound is used in 'Neelkamal'?",
+    optionsHindi: ["कर्मधारय", "द्वंद्व", "तत्पुरुष", "बहुव्रीहि"],
+    optionsEnglish: ["Karmadharaya", "Dvandva", "Tatpurusha", "Bahuvrihi"],
+    answer: "कर्मधारय"
+  },
+
                 {
     id: "UP-MATH-001",
     questionHindi: "एक संख्या का 25% = 45 है। वह संख्या क्या है?",
@@ -7148,6 +8094,569 @@ generalKnowledge: [
 
 
 maths: [
+ 
+
+
+  {
+    questionHindi: "एक पाई चार्ट में पेय पदार्थों की खपत इस प्रकार है: जूस 30%, कॉफी 15%, चाय 35%, पानी 20%। कॉफी के क्षेत्र का कोण ज्ञात कीजिए।",
+    questionEnglish: "In a pie chart, beverage consumption is: Juice 30%, Coffee 15%, Tea 35%, Water 20%. Find the angle of the coffee sector.",
+    optionsHindi: ["45°", "60°", "72°", "54°"],
+    optionsEnglish: ["45°", "60°", "72°", "54°"],
+    answer: "54°"
+  },
+  {
+    questionHindi: "रिया 12 मीटर उत्तर की ओर चलती है, फिर दाएँ मुड़कर 16 मीटर चलती है। वह अपने प्रारंभिक बिंदु से कितनी दूर और किस दिशा में है?",
+    questionEnglish: "Riya walks 12 metres north, then turns right and walks 16 metres. How far and in which direction is she from her starting point?",
+    optionsHindi: ["20 मीटर दक्षिण-पश्चिम", "28 मीटर उत्तर-पूर्व", "4 मीटर पूर्व", "20 मीटर उत्तर-पूर्व"],
+    optionsEnglish: ["20 metres south-west", "28 metres north-east", "4 metres east", "20 metres north-east"],
+    answer: "20 मीटर उत्तर-पूर्व"
+  },
+  {
+    questionHindi: "अनुक्रम में अगला पद ज्ञात कीजिए: XY, XYY, XYYY, XYYYY, ?",
+    questionEnglish: "Find the next term in the sequence: XY, XYY, XYYY, XYYYY, ?",
+    optionsHindi: ["XYYYYYY", "XYYYYY", "XYYYY", "XXYYYYY"],
+    optionsEnglish: ["XYYYYYY", "XYYYYY", "XYYYY", "XXYYYYY"],
+    answer: "XYYYYY"
+  },
+  {
+    questionHindi: "दिए गए शब्द DIRECTION के अक्षरों का उपयोग करके कौन-सा शब्द नहीं बनाया जा सकता?",
+    questionEnglish: "Which word cannot be formed using the letters of DIRECTION?",
+    optionsHindi: ["CREDIT", "TRAIN", "DIET", "NOTICE"],
+    optionsEnglish: ["CREDIT", "TRAIN", "DIET", "NOTICE"],
+    answer: "TRAIN"
+  },
+  {
+    questionHindi: "कक्षा IX के चार संभाग A, B, C और D के परीक्षा परिणाम दिए गए हैं। दोनों परीक्षाओं में अनुत्तीर्ण छात्रों की कुल संख्या के आधार पर कौन-सा कथन सही है? दोनों परीक्षाओं में अनुत्तीर्ण: 30, 25, 19, 20; अर्धवार्षिक में अनुत्तीर्ण और वार्षिक में उत्तीर्ण: 12, 14, 10, 9; अर्धवार्षिक में उत्तीर्ण और वार्षिक में अनुत्तीर्ण: 8, 15, 11, 17।",
+    questionEnglish: "The results of four sections A, B, C and D of Class IX are given. Based on the total number of students failing in each exam, which statement is correct? Failed in both: 30, 25, 19, 20; failed in half-yearly but passed in annual: 12, 14, 10, 9; passed in half-yearly but failed in annual: 8, 15, 11, 17.",
+    optionsHindi: ["अर्धवार्षिक परीक्षा अधिक कठिन थी।", "वार्षिक परीक्षा अधिक कठिन थी।", "दोनों परीक्षाओं की तुलना नहीं की जा सकती।", "दोनों परीक्षाओं का कठिनाई स्तर समान था।"],
+    optionsEnglish: ["The half-yearly exam was more difficult.", "The annual exam was more difficult.", "The two exams cannot be compared.", "Both exams had the same difficulty level."],
+    answer: "वार्षिक परीक्षा अधिक कठिन थी।"
+  },
+  {
+    questionHindi: "एक आदमी की ओर इशारा करते हुए अनीता ने कहा, 'इसकी इकलौती बेटी मेरी माँ है।' वह आदमी अनीता का क्या लगता है?",
+    questionEnglish: "Pointing to a man, Anita said, 'His only daughter is my mother.' How is the man related to Anita?",
+    optionsHindi: ["नाना", "मामा", "दादा", "पिता"],
+    optionsEnglish: ["Maternal grandfather", "Maternal uncle", "Paternal grandfather", "Father"],
+    answer: "नाना"
+  },
+  {
+    questionHindi: "दिए गए शब्द EDUCATION के अक्षरों का उपयोग करके कौन-सा शब्द नहीं बनाया जा सकता?",
+    questionEnglish: "Which word cannot be formed using the letters of EDUCATION?",
+    optionsHindi: ["TONIC", "DUCT", "CAUTION", "NATIONAL"],
+    optionsEnglish: ["TONIC", "DUCT", "CAUTION", "NATIONAL"],
+    answer: "NATIONAL"
+  },
+  {
+    questionHindi: "सादृश्य पूरा कीजिए: पक्षी : घोंसला :: मधुमक्खी : ____",
+    questionEnglish: "Complete the analogy: Bird : Nest :: Bee : ____",
+    optionsHindi: ["पिंजरा", "छत्ता", "जाला", "पेड़"],
+    optionsEnglish: ["Cage", "Hive", "Web", "Tree"],
+    answer: "छत्ता"
+  },
+  {
+    questionHindi: "यदि p @ q = p² + q² + 2pq और p # q = p² − q² − 2pq है, तो (6 @ 3) # 5 का मान क्या है?",
+    questionEnglish: "If p @ q = p² + q² + 2pq and p # q = p² − q² − 2pq, what is the value of (6 @ 3) # 5?",
+    optionsHindi: ["5626", "6536", "5726", "5826"],
+    optionsEnglish: ["5626", "6536", "5726", "5826"],
+    answer: "5726"
+  },
+  {
+    questionHindi: "वह विकल्प ज्ञात कीजिए जो प्रश्नचिह्न के स्थान पर आएगा: 216 : 63 :: 343 : ?",
+    questionEnglish: "Find the alternative that replaces the question mark: 216 : 63 :: 343 : ?",
+    optionsHindi: ["73", "72", "142", "37"],
+    optionsEnglish: ["73", "72", "142", "37"],
+    answer: "73"
+  },
+  {
+    questionHindi: "एक वेन आरेख में लाल वस्तुएँ, प्लास्टिक की वस्तुएँ और गेंदें हैं। केवल लाल = 6, केवल लाल और प्लास्टिक = 10, केवल लाल और गेंद = 8, तीनों = 5, केवल प्लास्टिक = 14 और केवल गेंद = 9। कितनी लाल वस्तुएँ प्लास्टिक की नहीं हैं?",
+    questionEnglish: "A Venn diagram represents red objects, plastic objects and balls. Only red = 6, red and plastic only = 10, red and balls only = 8, all three = 5, only plastic = 14 and only balls = 9. How many red objects are not plastic?",
+    optionsHindi: ["16", "29", "19", "14"],
+    optionsEnglish: ["16", "29", "19", "14"],
+    answer: "14"
+  },
+  {
+    questionHindi: "कौन-सा आरेख एशिया, भारत और दिल्ली के बीच संबंध को सबसे अच्छा दर्शाता है?",
+    questionEnglish: "Which diagram best represents the relationship among Asia, India and Delhi?",
+    optionsHindi: ["तीन संकेंद्रित वृत्त, एक के अंदर एक", "तीन अलग-अलग वृत्त", "तीन एक-दूसरे को काटते वृत्त", "एक बड़े वृत्त के अंदर दो अलग-अलग वृत्त"],
+    optionsEnglish: ["Three concentric circles, one inside another", "Three separate circles", "Three intersecting circles", "Two separate circles inside one large circle"],
+    answer: "तीन संकेंद्रित वृत्त, एक के अंदर एक"
+  },
+  {
+    questionHindi: "रीना 10 किमी पश्चिम की ओर चली, फिर दाएँ मुड़कर 7 किमी चली, फिर बाएँ मुड़कर 5 किमी चली। अंत में वह बाएँ मुड़कर 15 किमी चलकर घर पहुँची। उसका घर प्रारंभिक बिंदु से किस दिशा में है?",
+    questionEnglish: "Reena walks 10 km west, turns right and walks 7 km, turns left and walks 5 km, then turns left and walks 15 km to reach home. In which direction is her home from the starting point?",
+    optionsHindi: ["दक्षिण-पश्चिम", "उत्तर-पश्चिम", "पश्चिम", "दक्षिण"],
+    optionsEnglish: ["South-west", "North-west", "West", "South"],
+    answer: "दक्षिण-पश्चिम"
+  },
+  {
+    questionHindi: "यदि MARKET को NBSLFU के रूप में कूटबद्ध किया जाता है, तो BASKET का कोड क्या होगा?",
+    questionEnglish: "If MARKET is coded as NBSLFU, what will be the code for BASKET?",
+    optionsHindi: ["CBTLFU", "CBTMFU", "DBTLFU", "CBSLFU"],
+    optionsEnglish: ["CBTLFU", "CBTMFU", "DBTLFU", "CBSLFU"],
+    answer: "CBTLFU"
+  },
+  {
+    questionHindi: "यदि '+' का अर्थ '×', '×' का अर्थ '+', '−' का अर्थ '÷' और '÷' का अर्थ '−' है, तो 12 + 3 × 8 ÷ 4 − 2 को सरल कीजिए।",
+    questionEnglish: "If '+' means '×', '×' means '+', '−' means '÷' and '÷' means '−', simplify 12 + 3 × 8 ÷ 4 − 2.",
+    optionsHindi: ["44", "38", "40", "42"],
+    optionsEnglish: ["44", "38", "40", "42"],
+    answer: "42"
+  },
+  {
+    questionHindi: "संबंधित शब्द ज्ञात कीजिए: सम : विषम :: अभाज्य : ?",
+    questionEnglish: "Find the related word: Even : Odd :: Prime : ?",
+    optionsHindi: ["संयुक्त संख्या", "पूर्णांक", "धनात्मक", "परिमेय"],
+    optionsEnglish: ["Composite number", "Integer", "Positive", "Rational"],
+    answer: "संयुक्त संख्या"
+  },
+  {
+    questionHindi: "श्रृंखला में लुप्त पद ज्ञात कीजिए: M2NP, M4OR, M6PT, ____, M10RX",
+    questionEnglish: "Find the missing term in the series: M2NP, M4OR, M6PT, ____, M10RX",
+    optionsHindi: ["M8QU", "M8QV", "M8RV", "M7QV"],
+    optionsEnglish: ["M8QU", "M8QV", "M8RV", "M7QV"],
+    answer: "M8QV"
+  },
+  {
+    questionHindi: "यदि '×' का अर्थ '+', '+' का अर्थ '−', '−' का अर्थ '×' और '÷' का अर्थ '÷' है, तो 36 ÷ 6 × 8 + 5 − 3 का मान क्या है?",
+    questionEnglish: "If '×' means '+', '+' means '−', '−' means '×' and '÷' means '÷', what is the value of 36 ÷ 6 × 8 + 5 − 3?",
+    optionsHindi: ["−9", "−1", "29", "1"],
+    optionsEnglish: ["−9", "−1", "29", "1"],
+    answer: "−1"
+  },
+  {
+    questionHindi: "दी गई श्रृंखला में लुप्त संख्या ज्ञात कीजिए: 5, 6, 10, 19, 35, ?",
+    questionEnglish: "Find the missing number in the series: 5, 6, 10, 19, 35, ?",
+    optionsHindi: ["60", "55", "64", "70"],
+    optionsEnglish: ["60", "55", "64", "70"],
+    answer: "60"
+  },
+  {
+    questionHindi: "वह संख्या ज्ञात कीजिए जिसे 17 : 22 के दोनों पदों से घटाने पर अनुपात 3 : 4 हो जाए।",
+    questionEnglish: "Find the number that must be subtracted from both terms of 17 : 22 to make the ratio 3 : 4.",
+    optionsHindi: ["3", "2", "4", "1"],
+    optionsEnglish: ["3", "2", "4", "1"],
+    answer: "2"
+  },
+  {
+    questionHindi: "राम की आय श्याम की आय से 60% अधिक है। श्याम की आय राम की आय से कितने प्रतिशत कम है?",
+    questionEnglish: "Ram's income is 60% more than Shyam's. By what percentage is Shyam's income less than Ram's?",
+    optionsHindi: ["37.5%", "62.5%", "60%", "40%"],
+    optionsEnglish: ["37.5%", "62.5%", "60%", "40%"],
+    answer: "37.5%"
+  },
+  {
+    questionHindi: "लंबी विभाजन विधि से दो संख्याओं का HCF निकालने पर अंतिम भाजक 3 है और क्रमिक भागफल 1, 2 और 3 हैं। दोनों संख्याएँ ज्ञात कीजिए।",
+    questionEnglish: "When finding the HCF of two numbers by the long division method, the last divisor is 3 and the successive quotients are 1, 2 and 3. Find the two numbers.",
+    optionsHindi: ["24, 30", "18, 30", "21, 33", "21, 30"],
+    optionsEnglish: ["24, 30", "18, 30", "21, 33", "21, 30"],
+    answer: "21, 30"
+  },
+  {
+    questionHindi: "दो ट्रेनें विपरीत दिशाओं में 50 किमी/घंटा और 40 किमी/घंटा की गति से चल रही हैं। तेज ट्रेन धीमी ट्रेन में बैठे व्यक्ति को 8 सेकंड में पार करती है। तेज ट्रेन की लंबाई कितनी है?",
+    questionEnglish: "Two trains move in opposite directions at 50 km/h and 40 km/h. The faster train passes a person sitting in the slower train in 8 seconds. Find the length of the faster train.",
+    optionsHindi: ["180 मीटर", "250 मीटर", "160 मीटर", "200 मीटर"],
+    optionsEnglish: ["180 metres", "250 metres", "160 metres", "200 metres"],
+    answer: "200 मीटर"
+  },
+  {
+    questionHindi: "एक क्रिकेटर का 39 पारियों में एक निश्चित औसत था। 40वीं पारी में शून्य पर आउट होने से उसका औसत 3 रन कम हो गया। उसका नया औसत क्या है?",
+    questionEnglish: "A cricketer had a certain average over 39 innings. Scoring zero in his 40th innings reduced his average by 3 runs. What is his new average?",
+    optionsHindi: ["117", "114", "120", "123"],
+    optionsEnglish: ["117", "114", "120", "123"],
+    answer: "117"
+  },
+  {
+    questionHindi: "दो वर्ष बाद 5% वार्षिक चक्रवृद्धि ब्याज पर राशि ₹6,615 हो जाती है। मूलधन कितना था?",
+    questionEnglish: "A sum becomes ₹6,615 after two years at 5% annual compound interest. What was the principal?",
+    optionsHindi: ["₹6,000", "₹5,500", "₹6,200", "₹5,800"],
+    optionsEnglish: ["₹6,000", "₹5,500", "₹6,200", "₹5,800"],
+    answer: "₹6,000"
+  },
+  {
+    questionHindi: "₹33,275 की राशि 3 वर्षों में 10% वार्षिक चक्रवृद्धि ब्याज पर जमा की जाती है। मूल राशि क्या है?",
+    questionEnglish: "A sum accumulates to ₹33,275 in 3 years at 10% annual compound interest. What is the original amount?",
+    optionsHindi: ["₹30,000", "₹22,500", "₹20,000", "₹25,000"],
+    optionsEnglish: ["₹30,000", "₹22,500", "₹20,000", "₹25,000"],
+    answer: "₹25,000"
+  },
+  {
+    questionHindi: "कुशल श्रमिकों की औसत मासिक आय ₹P और अकुशल श्रमिकों की ₹Q है। यदि कुशल श्रमिकों की संख्या अकुशल श्रमिकों से 7 गुना है, तो सभी श्रमिकों की औसत मासिक आय क्या होगी?",
+    questionEnglish: "The average monthly income of skilled workers is ₹P and that of unskilled workers is ₹Q. If there are seven times as many skilled workers as unskilled workers, what is the average monthly income of all workers?",
+    optionsHindi: ["(7P + Q) / 8", "(P + Q) / 2", "(7P + Q) / 7", "(P + 7Q) / 8"],
+    optionsEnglish: ["(7P + Q) / 8", "(P + Q) / 2", "(7P + Q) / 7", "(P + 7Q) / 8"],
+    answer: "(7P + Q) / 8"
+  },
+  {
+    questionHindi: "एक चुनाव में 75% मतदाताओं ने वोट डाले। इनमें से 4% वोट अवैध थे। एक उम्मीदवार को 8,640 वोट मिले, जो कुल वैध वोटों का 60% था। कुल पंजीकृत मतदाता कितने थे?",
+    questionEnglish: "In an election, 75% of voters cast their votes, of which 4% were invalid. A candidate received 8,640 votes, which were 60% of the valid votes. Find the total number of registered voters.",
+    optionsHindi: ["24,000", "22,500", "20,000", "18,000"],
+    optionsEnglish: ["24,000", "22,500", "20,000", "18,000"],
+    answer: "20,000"
+  },
+  {
+    questionHindi: "एक पुलिसकर्मी ने एक चोर को 300 मीटर की दूरी से देखा। चोर 12 किमी/घंटा और पुलिसकर्मी 15 किमी/घंटा की गति से दौड़ते हैं। पकड़े जाने से पहले चोर कितनी दूरी दौड़ेगा?",
+    questionEnglish: "A policeman spots a thief 300 metres ahead. The thief runs at 12 km/h and the policeman at 15 km/h. How far will the thief run before being caught?",
+    optionsHindi: ["1000 मीटर", "1500 मीटर", "900 मीटर", "1200 मीटर"],
+    optionsEnglish: ["1000 metres", "1500 metres", "900 metres", "1200 metres"],
+    answer: "1200 मीटर"
+  },
+  {
+    questionHindi: "A और B किसी काम को क्रमशः 12 और 20 दिनों में पूरा कर सकते हैं। वे साथ काम शुरू करते हैं, लेकिन 4 दिनों बाद B काम छोड़ देता है और A अकेले शेष काम पूरा करता है। पूरा काम कितने दिनों में होगा?",
+    questionEnglish: "A and B can complete a job in 12 and 20 days respectively. They start together, but B leaves after 4 days and A finishes the remaining work alone. How long does the entire job take?",
+    optionsHindi: ["8 दिन", "9 दिन", "5 दिन", "5 दिन"],
+    optionsEnglish: ["8 days", "9 days", "5 days", "5 days"],
+    answer: "5 दिन"
+  },
+  {
+    questionHindi: "एक ठेकेदार 30 दिनों में सुरंग बनाने के लिए 20 पुरुषों को काम पर रखता है। 18 दिनों बाद केवल एक-तिहाई काम पूरा हुआ है। काम 3 दिन पहले पूरा करने के लिए उसे कितने अतिरिक्त पुरुष नियुक्त करने चाहिए?",
+    questionEnglish: "A contractor employs 20 men to build a tunnel in 30 days. After 18 days, only one-third of the work is complete. How many additional men should he employ to finish 3 days early?",
+    optionsHindi: ["40 पुरुष", "70 पुरुष", "60 पुरुष", "50 पुरुष"],
+    optionsEnglish: ["40 men", "70 men", "60 men", "50 men"],
+    answer: "60 पुरुष"
+  },
+  {
+    questionHindi: "एक व्यक्ति किसी वस्तु को 10% हानि पर बेचता है। यदि वह इसे ₹1,500 अधिक में बेचता, तो उसे 5% लाभ होता। वस्तु का क्रय मूल्य क्या है?",
+    questionEnglish: "A man sells an article at a 10% loss. If he had sold it for ₹1,500 more, he would have made a 5% profit. What is its cost price?",
+    optionsHindi: ["₹10,000", "₹12,000", "₹9,000", "₹8,000"],
+    optionsEnglish: ["₹10,000", "₹12,000", "₹9,000", "₹8,000"],
+    answer: "₹10,000"
+  },
+  {
+    questionHindi: "एक व्यक्ति ₹6,300 में एक घोड़ा और एक ऊँट खरीदता है। घोड़े को 20% लाभ पर और ऊँट को 10% हानि पर बेचता है। दोनों का विक्रय मूल्य समान है। सस्ते जानवर का क्रय मूल्य कितना था?",
+    questionEnglish: "A man buys a horse and a camel for ₹6,300 in total. He sells the horse at a 20% profit and the camel at a 10% loss. If both selling prices are equal, what was the cost price of the cheaper animal?",
+    optionsHindi: ["₹3,000", "₹2,700", "₹3,600", "₹2,400"],
+    optionsEnglish: ["₹3,000", "₹2,700", "₹3,600", "₹2,400"],
+    answer: "₹2,700"
+  },
+  {
+    questionHindi: "2⁴ × 3³ × 5² और 2³ × 3⁵ × 5 का महत्तम समापवर्तक (HCF) ज्ञात कीजिए।",
+    questionEnglish: "Find the HCF of 2⁴ × 3³ × 5² and 2³ × 3⁵ × 5.",
+    optionsHindi: ["2³ × 3³ × 5²", "2³ × 3³ × 5", "2⁴ × 3⁵ × 5²", "2³ × 3⁵ × 5"],
+    optionsEnglish: ["2³ × 3³ × 5²", "2³ × 3³ × 5", "2⁴ × 3⁵ × 5²", "2³ × 3⁵ × 5"],
+    answer: "2³ × 3³ × 5"
+  },
+  {
+    questionHindi: "60, 84 और 126 का लघुत्तम समापवर्त्य (LCM) ज्ञात कीजिए।",
+    questionEnglish: "Find the LCM of 60, 84 and 126.",
+    optionsHindi: ["1890", "630", "1260", "2520"],
+    optionsEnglish: ["1890", "630", "1260", "2520"],
+    answer: "1260"
+  },
+  {
+    questionHindi: "दो व्यक्तियों का कुल वेतन-भत्ता समान है। एक व्यक्ति को मूल वेतन का 40% भत्ता और दूसरे को मूल वेतन का 60% भत्ता मिलता है। पहले व्यक्ति के मूल वेतन का दूसरे व्यक्ति के मूल वेतन से अनुपात क्या है?",
+    questionEnglish: "Two people receive the same total remuneration. One receives an allowance equal to 40% of basic pay and the other receives 60%. What is the ratio of the first person's basic pay to the second person's basic pay?",
+    optionsHindi: ["4 : 3", "3 : 2", "8 : 7", "7 : 8"],
+    optionsEnglish: ["4 : 3", "3 : 2", "8 : 7", "7 : 8"],
+    answer: "8 : 7"
+  },
+  {
+    questionHindi: "एक व्यापारी अंकित मूल्य पर 10% छूट देता है, फिर भी उसे क्रय मूल्य पर 35% लाभ होता है। यदि वह अंकित मूल्य पर बेचता है, तो लाभ प्रतिशत क्या होगा?",
+    questionEnglish: "A trader gives a 10% discount on the marked price but still earns 35% profit on cost price. What would the profit percentage be if he sold at the marked price?",
+    optionsHindi: ["60%", "40%", "45%", "50%"],
+    optionsEnglish: ["60%", "40%", "45%", "50%"],
+    answer: "50%"
+  },
+  {
+    questionHindi: "एक व्यापारी खुदरा विक्रेता को वस्तु पर 25% छूट देता है और छूट वाले मूल्य पर डिलीवरी तथा पैकेजिंग के लिए 10% अतिरिक्त शुल्क लेता है। खुदरा विक्रेता इसे ₹5,445 में बेचकर 10% लाभ कमाता है। वस्तु का अंकित मूल्य क्या था?",
+    questionEnglish: "A trader gives a retailer a 25% discount and charges an additional 10% of the discounted price for delivery and packaging. The retailer sells the item for ₹5,445 at a 10% profit. What was the marked price?",
+    optionsHindi: ["₹5,500", "₹6,000", "₹6,500", "₹7,200"],
+    optionsEnglish: ["₹5,500", "₹6,000", "₹6,500", "₹7,200"],
+    answer: "₹6,000"
+  },
+  {
+    questionHindi: "निम्नलिखित में से विषम संख्या चुनिए: 16, 25, 36, 45, 49",
+    questionEnglish: "Pick the odd one out: 16, 25, 36, 45, 49.",
+    optionsHindi: ["36", "49", "45", "25"],
+    optionsEnglish: ["36", "49", "45", "25"],
+    answer: "45"
+  },
+  {
+    questionHindi: "4 × 4 वर्ग का क्षेत्रफल 16 वर्ग इकाई है। पाँच टुकड़ों के क्षेत्रफल 6, 5, 4, 3 और 3 वर्ग इकाई हैं। वर्ग बनाने के लिए किस क्षेत्रफल वाला टुकड़ा आवश्यक नहीं होगा?",
+    questionEnglish: "A 4 × 4 square has an area of 16 square units. Five pieces have areas of 6, 5, 4, 3 and 3 square units. Which piece is not needed to make the square?",
+    optionsHindi: ["5", "6", "3", "4"],
+    optionsEnglish: ["5", "6", "3", "4"],
+    answer: "5"
+  },
+  {
+    questionHindi: "श्रृंखला में अगली आकृति ज्ञात कीजिए। तीर प्रत्येक चरण में 45° दक्षिणावर्त घूमता है: ↑, ↗, →, ↘, ?",
+    questionEnglish: "Find the next figure in the series. An arrow rotates 45° clockwise at each step: ↑, ↗, →, ↘, ?",
+    optionsHindi: ["↓", "←", "↖", "↙"],
+    optionsEnglish: ["↓", "←", "↖", "↙"],
+    answer: "↓"
+  },
+  {
+    questionHindi: "श्रृंखला में विषम पद ज्ञात कीजिए: C9, E25, G49, I80, K121",
+    questionEnglish: "Find the odd term in the series: C9, E25, G49, I80, K121.",
+    optionsHindi: ["C9", "E25", "I80", "K121"],
+    optionsEnglish: ["C9", "E25", "I80", "K121"],
+    answer: "I80"
+  },
+  {
+    questionHindi: "4 × 4 वर्गाकार ग्रिड में कुल कितने वर्ग होते हैं?",
+    questionEnglish: "How many squares are there in total in a 4 × 4 square grid?",
+    optionsHindi: ["16", "30", "36", "25"],
+    optionsEnglish: ["16", "30", "36", "25"],
+    answer: "30"
+  },
+  {
+    questionHindi: "दिए गए विकल्पों में से विषम चुनिए।",
+    questionEnglish: "Choose the odd one out from the given options.",
+    optionsHindi: ["जूस", "चाय", "बिस्किट", "कॉफी"],
+    optionsEnglish: ["Juice", "Tea", "Biscuit", "Coffee"],
+    answer: "बिस्किट"
+  },
+  {
+    questionHindi: "निम्नलिखित में से विषम संख्या चुनिए: 29, 37, 51, 41",
+    questionEnglish: "Select the odd one out: 29, 37, 51, 41.",
+    optionsHindi: ["41", "29", "51", "37"],
+    optionsEnglish: ["41", "29", "51", "37"],
+    answer: "51"
+  },
+  {
+    questionHindi: "विषम आकृति ज्ञात कीजिए।",
+    questionEnglish: "Find the odd figure.",
+    optionsHindi: ["वृत्त", "त्रिभुज", "पंचभुज", "वर्ग"],
+    optionsEnglish: ["Circle", "Triangle", "Pentagon", "Square"],
+    answer: "वृत्त"
+  },
+  {
+    questionHindi: "दी गई श्रृंखला में X का मान ज्ञात कीजिए: 120, 109, 98, X, 76",
+    questionEnglish: "Find X in the series: 120, 109, 98, X, 76.",
+    optionsHindi: ["87", "85", "90", "89"],
+    optionsEnglish: ["87", "85", "90", "89"],
+    answer: "87"
+  },
+  {
+    questionHindi: "श्रृंखला में अगली संख्या ज्ञात कीजिए: 3, 4, 6, 10, 18, ...",
+    questionEnglish: "Find the next number in the series: 3, 4, 6, 10, 18, ...",
+    optionsHindi: ["36", "30", "32", "34"],
+    optionsEnglish: ["36", "30", "32", "34"],
+    answer: "34"
+  },
+  {
+    questionHindi: "वरुण ने ₹1,250 में घड़ी खरीदी और ₹1,500 में बेच दी। उसका लाभ प्रतिशत क्या है?",
+    questionEnglish: "Varun bought a watch for ₹1,250 and sold it for ₹1,500. What is his profit percentage?",
+    optionsHindi: ["25%", "30%", "15%", "20%"],
+    optionsEnglish: ["25%", "30%", "15%", "20%"],
+    answer: "20%"
+  },
+  {
+    questionHindi: "एक वर्ग में छायांकित त्रिभुज क्रमशः ऊपर-बाएँ, ऊपर-दाएँ और नीचे-दाएँ कोनों में आता है। अगली आकृति में यह किस कोने में होगा?",
+    questionEnglish: "In successive figures, a shaded triangle occupies the top-left, top-right and bottom-right corners of a square. Which corner will it occupy next?",
+    optionsHindi: ["केंद्र में", "ऊपर-दाएँ", "नीचे-बाएँ", "ऊपर-बाएँ"],
+    optionsEnglish: ["At the centre", "Top-right", "Bottom-left", "Top-left"],
+    answer: "नीचे-बाएँ"
+  },
+  {
+    questionHindi: "एक सम चतुष्फलक (रेगुलर टेट्राहेड्रॉन) में कुल कितने किनारे होते हैं?",
+    questionEnglish: "How many edges does a regular tetrahedron have?",
+    optionsHindi: ["4", "6", "12", "8"],
+    optionsEnglish: ["4", "6", "12", "8"],
+    answer: "6"
+  },
+  {
+    questionHindi: "चार मित्र एक पंक्ति में बैठे हैं। राज, नेहा के बाईं ओर है। देव, नेहा के दाईं ओर है लेकिन उसके बगल में नहीं है। मिया, नेहा और देव के बीच में है। सबसे बाईं ओर कौन बैठा है?",
+    questionEnglish: "Four friends sit in a row. Raj is to Neha's left. Dev is to Neha's right but not adjacent to her. Mia sits between Neha and Dev. Who sits at the extreme left?",
+    optionsHindi: ["नेहा", "राज", "मिया", "देव"],
+    optionsEnglish: ["Neha", "Raj", "Mia", "Dev"],
+    answer: "राज"
+  },
+  {
+    questionHindi: "यदि ABC का कोड ZYX है, तो LMN का कोड क्या होगा?",
+    questionEnglish: "If ABC is coded as ZYX, what is the code for LMN?",
+    optionsHindi: ["NML", "OMN", "ONM", "PON"],
+    optionsEnglish: ["NML", "OMN", "ONM", "PON"],
+    answer: "ONM"
+  },
+  {
+    questionHindi: "असमान संख्या-युग्म ज्ञात कीजिए।",
+    questionEnglish: "Find the dissimilar pair of fractions.",
+    optionsHindi: ["3/7 : 12/28", "5/9 : 15/27", "4/9 : 12/25", "2/5 : 6/15"],
+    optionsEnglish: ["3/7 : 12/28", "5/9 : 15/27", "4/9 : 12/25", "2/5 : 6/15"],
+    answer: "4/9 : 12/25"
+  },
+  {
+    questionHindi: "एक महिला की ओर इशारा करते हुए रोहन ने कहा, 'वह मेरे पिता के इकलौते भाई की पत्नी है।' वह महिला रोहन से किस प्रकार संबंधित है?",
+    questionEnglish: "Pointing to a woman, Rohan said, 'She is the wife of my father's only brother.' How is she related to Rohan?",
+    optionsHindi: ["बुआ", "मौसी", "मामी", "चाची"],
+    optionsEnglish: ["Father's sister", "Maternal aunt", "Maternal uncle's wife", "Paternal uncle's wife"],
+    answer: "चाची"
+  },
+  {
+    questionHindi: "एक पासे में आमने-सामने के फलकों के अंकों का योग 7 होता है। यदि ऊपरी फलक पर 4 बिंदु हैं, तो नीचे के फलक पर कितने बिंदु होंगे?",
+    questionEnglish: "On a die, opposite faces add up to 7. If the top face shows 4 dots, how many dots are on the bottom face?",
+    optionsHindi: ["5", "3", "2", "6"],
+    optionsEnglish: ["5", "3", "2", "6"],
+    answer: "3"
+  },
+  {
+    questionHindi: "एक तस्वीर में आदमी की ओर इशारा करके रीता ने कहा, 'इसका इकलौता भाई मेरे पिता हैं।' रीता उस आदमी से किस प्रकार संबंधित है?",
+    questionEnglish: "Pointing to a man in a photograph, Rita said, 'His only brother is my father.' How is Rita related to that man?",
+    optionsHindi: ["बेटी", "पत्नी", "भतीजी", "बहन"],
+    optionsEnglish: ["Daughter", "Wife", "Niece", "Sister"],
+    answer: "भतीजी"
+  },
+  {
+    questionHindi: "हिंदी की 'प' ध्वनि का उच्चारण स्थान क्या है?",
+    questionEnglish: "What is the place of articulation of the Hindi sound 'प'?",
+    optionsHindi: ["तालव्य", "मूर्धन्य", "कंठ्य", "ओष्ठ्य"],
+    optionsEnglish: ["Palatal", "Retroflex", "Guttural", "Labial"],
+    answer: "ओष्ठ्य"
+  },
+  {
+    questionHindi: "निम्नलिखित में से पर्यायवाची शब्दों का कौन-सा युग्म सही नहीं है?",
+    questionEnglish: "Which of the following pairs is not a pair of synonyms?",
+    optionsHindi: ["नदी – सरिता", "आकाश – गगन", "पर्वत – सागर", "कमल – अरविंद"],
+    optionsEnglish: ["River – stream", "Sky – heaven", "Mountain – ocean", "Lotus – Aravind"],
+    answer: "पर्वत – सागर"
+  },
+  {
+    questionHindi: "'दोहा छंद' के विषम चरणों में कितनी मात्राएँ होती हैं?",
+    questionEnglish: "How many matras are there in the odd-numbered lines of a Doha metre?",
+    optionsHindi: ["13", "11", "12", "14"],
+    optionsEnglish: ["13", "11", "12", "14"],
+    answer: "13"
+  },
+  {
+    questionHindi: "'कामायनी' किसकी रचना है?",
+    questionEnglish: "Who wrote 'Kamayani'?",
+    optionsHindi: ["महादेवी वर्मा", "जयशंकर प्रसाद", "सूर्यकांत त्रिपाठी 'निराला'", "सुमित्रानंदन पंत"],
+    optionsEnglish: ["Mahadevi Verma", "Jaishankar Prasad", "Suryakant Tripathi 'Nirala'", "Sumitranandan Pant"],
+    answer: "जयशंकर प्रसाद"
+  },
+  {
+    questionHindi: "'महादेव' का सही समास-विग्रह कौन-सा है?",
+    questionEnglish: "Which is the correct expansion of the compound word 'Mahadev'?",
+    optionsHindi: ["देव और महान", "देवों के देव", "महान का देव", "महान है जो देव"],
+    optionsEnglish: ["A god and great", "God of gods", "God of greatness", "A god who is great"],
+    answer: "महान है जो देव"
+  },
+  {
+    questionHindi: "हिंदी वर्णमाला में स्पर्श व्यंजनों की संख्या कितनी है?",
+    questionEnglish: "How many stop consonants are there in the Hindi alphabet?",
+    optionsHindi: ["35", "33", "25", "27"],
+    optionsEnglish: ["35", "33", "25", "27"],
+    answer: "25"
+  },
+  {
+    questionHindi: "'च' का उच्चारण स्थान कौन-सा है?",
+    questionEnglish: "What is the place of articulation of 'च'?",
+    optionsHindi: ["कंठ", "मूर्धा", "तालु", "दंत"],
+    optionsEnglish: ["Throat", "Retroflex region", "Palate", "Teeth"],
+    answer: "तालु"
+  },
+  {
+    questionHindi: "'चौराहा' किस समास का उदाहरण है?",
+    questionEnglish: "Which type of compound is illustrated by the word 'Chauraha'?",
+    optionsHindi: ["द्वंद्व समास", "तत्पुरुष समास", "द्विगु समास", "अव्ययीभाव समास"],
+    optionsEnglish: ["Dvandva compound", "Tatpurusha compound", "Dvigu compound", "Avyayibhava compound"],
+    answer: "द्विगु समास"
+  },
+  {
+    questionHindi: "'कनक' शब्द के अर्थ क्या हैं?",
+    questionEnglish: "What are the meanings of the Hindi word 'Kanak'?",
+    optionsHindi: ["आग, धुआँ", "पानी, हवा", "चाँदी, ताँबा", "सोना, धतूरा"],
+    optionsEnglish: ["Fire, smoke", "Water, air", "Silver, copper", "Gold, Datura"],
+    answer: "सोना, धतूरा"
+  },
+  {
+    questionHindi: "'अभि' उपसर्ग से बना शब्द कौन-सा है?",
+    questionEnglish: "Which word is formed using the prefix 'अभि'?",
+    optionsHindi: ["आवरण", "अभिमान", "अनमोल", "प्रकाश"],
+    optionsEnglish: ["Covering", "Pride", "Priceless", "Light"],
+    answer: "अभिमान"
+  },
+  {
+    questionHindi: "'दुर्जन' शब्द में कौन-सी संधि है?",
+    questionEnglish: "Which type of sandhi occurs in the word 'Durjan'?",
+    optionsHindi: ["विसर्ग संधि", "व्यंजन संधि", "दीर्घ संधि", "स्वर संधि"],
+    optionsEnglish: ["Visarga sandhi", "Consonant sandhi", "Long-vowel sandhi", "Vowel sandhi"],
+    answer: "विसर्ग संधि"
+  },
+  {
+    questionHindi: "सही अर्थ वाला शब्द-युग्म कौन-सा है?",
+    questionEnglish: "Which word pair has the correct meanings?",
+    optionsHindi: ["दिन – दीन = गरीब – दिवस", "कुल – कूल = वंश – किनारा", "अश्व – अश्म = पत्थर – घोड़ा", "अंश – अंस = कंधा – हिस्सा"],
+    optionsEnglish: ["Din–Deen = poor–day", "Kul–Kool = lineage–bank", "Ashva–Ashma = stone–horse", "Ansh–Ans = shoulder–part"],
+    answer: "कुल – कूल = वंश – किनारा"
+  },
+  {
+    questionHindi: "'अमृत' का पर्यायवाची शब्द कौन-सा है?",
+    questionEnglish: "Which word is a synonym of 'Amrit' (nectar)?",
+    optionsHindi: ["सुधा", "विष", "जल", "अग्नि"],
+    optionsEnglish: ["Sudha (nectar)", "Poison", "Water", "Fire"],
+    answer: "सुधा"
+  },
+  {
+    questionHindi: "निम्नलिखित में से स्वर संधि का उदाहरण कौन-सा है?",
+    questionEnglish: "Which of the following is an example of vowel sandhi?",
+    optionsHindi: ["दुर्जन", "उन्नति", "सज्जन", "विद्यालय"],
+    optionsEnglish: ["Durjan", "Unnati", "Sajjan", "Vidyalaya"],
+    answer: "विद्यालय"
+  },
+  {
+    questionHindi: "शुद्ध वाक्य का चयन कीजिए।",
+    questionEnglish: "Select the grammatically correct sentence.",
+    optionsHindi: ["मुझसे रोटी खाया।", "मैंने रोटी खाई।", "मैं रोटी खाई।", "मैंने रोटी खाया।"],
+    optionsEnglish: ["Roti was eaten by me (incorrect form).", "I ate roti.", "I roti ate.", "I ate roti (incorrect gender agreement)."],
+    answer: "मैंने रोटी खाई।"
+  },
+  {
+    questionHindi: "निम्नलिखित में से कौन-सा वाक्य आसन्न भूतकाल का है?",
+    questionEnglish: "Which of the following sentences expresses the recent past tense?",
+    optionsHindi: ["वह घर पहुँचेगा।", "वह कल घर पहुँचा था।", "वह घर पहुँचता है।", "वह अभी-अभी घर पहुँचा है।"],
+    optionsEnglish: ["He will reach home.", "He had reached home yesterday.", "He reaches home.", "He has just reached home."],
+    answer: "वह अभी-अभी घर पहुँचा है।"
+  },
+  {
+    questionHindi: "निम्नलिखित में से किस वाक्य में समुच्चयबोधक अव्यय है?",
+    questionEnglish: "Which sentence contains a conjunction?",
+    optionsHindi: ["वह धीरे चलता है।", "पेड़ के नीचे बैठो।", "राम और श्याम खेल रहे हैं।", "अरे! यह क्या हुआ?"],
+    optionsEnglish: ["He walks slowly.", "Sit under the tree.", "Ram and Shyam are playing.", "Oh! What happened?"],
+    answer: "राम और श्याम खेल रहे हैं।"
+  },
+  {
+    questionHindi: "'जो दूसरों पर उपकार करता है' के लिए एक शब्द क्या है?",
+    questionEnglish: "What is the one-word term for 'a person who does good to others'?",
+    optionsHindi: ["परोपकारी", "निर्धन", "कृतज्ञ", "कृतघ्न"],
+    optionsEnglish: ["Benevolent", "Poor", "Grateful", "Ungrateful"],
+    answer: "परोपकारी"
+  },
+  {
+    questionHindi: "'शेर' का स्त्रीलिंग क्या है?",
+    questionEnglish: "What is the feminine form of 'Sher' (lion)?",
+    optionsHindi: ["शेरी", "शेरनी", "शेरिका", "शेरिन"],
+    optionsEnglish: ["Sheri", "Sherni", "Sherika", "Sherin"],
+    answer: "शेरनी"
+  },
+  {
+    questionHindi: "जिस वाक्य से क्रिया के आने वाले समय में होने का बोध हो, उसे क्या कहते हैं?",
+    questionEnglish: "What is the tense called when a sentence indicates that an action will happen in the future?",
+    optionsHindi: ["संदिग्ध भूतकाल", "भूतकाल", "वर्तमान काल", "भविष्यत् काल"],
+    optionsEnglish: ["Doubtful past", "Past tense", "Present tense", "Future tense"],
+    answer: "भविष्यत् काल"
+  },
+  {
+    questionHindi: "'मधुशाला' के रचयिता कौन हैं?",
+    questionEnglish: "Who is the author of 'Madhushala'?",
+    optionsHindi: ["महादेवी वर्मा", "हरिवंश राय बच्चन", "रामधारी सिंह 'दिनकर'", "मैथिलीशरण गुप्त"],
+    optionsEnglish: ["Mahadevi Verma", "Harivansh Rai Bachchan", "Ramdhari Singh 'Dinkar'", "Maithili Sharan Gupt"],
+    answer: "हरिवंश राय बच्चन"
+  },
+  {
+    questionHindi: "निम्नलिखित में से कौन-सा जोड़ा समरूपी भिन्नार्थक शब्दों का है?",
+    questionEnglish: "Which of the following is a pair of similar-sounding words with different meanings?",
+    optionsHindi: ["अनल – आग", "नदी – सरिता", "आम – अमरूद", "अपेक्षा – उपेक्षा"],
+    optionsEnglish: ["Anal – fire", "River – stream", "Mango – guava", "Apeksha – Upeksha"],
+    answer: "अपेक्षा – उपेक्षा"
+  },
+  {
+    questionHindi: "'नीलकमल' में कौन-सा समास है?",
+    questionEnglish: "Which type of compound is used in 'Neelkamal'?",
+    optionsHindi: ["कर्मधारय", "द्वंद्व", "तत्पुरुष", "बहुव्रीहि"],
+    optionsEnglish: ["Karmadharaya", "Dvandva", "Tatpurusha", "Bahuvrihi"],
+    answer: "कर्मधारय"
+  },
 
 
 
@@ -25760,6 +27269,383 @@ sociologyOptionalPaper2: [
         
        generalKnowledge: [
 
+
+
+
+        
+  
+  {
+    questionHindi: "रवि 8 मीटर उत्तर की ओर चलता है, फिर दाएँ मुड़कर 6 मीटर और फिर दाएँ मुड़कर 16 मीटर चलता है। वह प्रारंभिक बिंदु से कितनी दूरी और किस दिशा में है?",
+    questionEnglish: "Ravi walks 8 m north, then 6 m right, and then 16 m right. How far and in which direction is he from the starting point?",
+    optionsHindi: ["14 मीटर दक्षिण-पूर्व", "10 मीटर उत्तर-पूर्व", "10 मीटर दक्षिण-पूर्व", "8 मीटर दक्षिण"],
+    optionsEnglish: ["14 m south-east", "10 m north-east", "10 m south-east", "8 m south"],
+    answer: "10 मीटर दक्षिण-पूर्व"
+  },
+  {
+    questionHindi: "श्रृंखला में अगला पद ज्ञात कीजिए: Z, ZY, ZYX, ZYXW, ?",
+    questionEnglish: "Find the next term: Z, ZY, ZYX, ZYXW, ?",
+    optionsHindi: ["ZYXWU", "ZYXVW", "ZYXWV", "YXWVU"],
+    optionsEnglish: ["ZYXWU", "ZYXVW", "ZYXWV", "YXWVU"],
+    answer: "ZYXWV"
+  },
+  {
+    questionHindi: "POLICEMAN के अक्षरों से चार शब्द बन सकते हैं, पर एक नहीं बन सकता। वह शब्द चुनिए।",
+    questionEnglish: "Four words can be formed from POLICEMAN, but one cannot. Identify it.",
+    optionsHindi: ["POLICE", "PENNY", "MAPLE", "CLAMP"],
+    optionsEnglish: ["POLICE", "PENNY", "MAPLE", "CLAMP"],
+    answer: "PENNY"
+  },
+  {
+    questionHindi: "चार कक्षाओं में प्रत्येक में 50 विद्यार्थी हैं। टेस्ट 2 में क्रमशः 30, 35, 40 और 25 विद्यार्थी उत्तीर्ण हुए। कुल 200 विद्यार्थियों में उत्तीर्ण विद्यार्थियों का प्रतिशत ज्ञात कीजिए।",
+    questionEnglish: "Four sections have 50 students each. In Test 2, 30, 35, 40 and 25 students passed. What percentage of the total 200 students passed?",
+    optionsHindi: ["65%", "60%", "70%", "62.5%"],
+    optionsEnglish: ["65%", "60%", "70%", "62.5%"],
+    answer: "65%"
+  },
+  {
+    questionHindi: "एक आदमी की ओर इशारा करते हुए सुनीता ने कहा, उसके पिता मेरे पिता के इकलौते पुत्र हैं। वह आदमी सुनीता का क्या लगता है?",
+    questionEnglish: "Pointing to a man, Sunita said, His father is the only son of my father. How is the man related to Sunita?",
+    optionsHindi: ["भाई", "भतीजा", "पिता", "मामा"],
+    optionsEnglish: ["Brother", "Nephew", "Father", "Maternal uncle"],
+    answer: "भतीजा"
+  },
+  {
+    questionHindi: "EXAMINATION के अक्षरों से चार शब्द बन सकते हैं, पर एक नहीं बन सकता। वह शब्द चुनिए।",
+    questionEnglish: "Four words can be formed from EXAMINATION, but one cannot. Identify it.",
+    optionsHindi: ["MOTION", "NATION", "TAXI", "EXAM"],
+    optionsEnglish: ["MOTION", "NATION", "TAXI", "EXAM"],
+    answer: "MOTION"
+  },
+  {
+    questionHindi: "सादृश्य पूरा कीजिए: घोड़ा : अस्तबल :: मधुमक्खी : ?",
+    questionEnglish: "Complete the analogy: Horse : Stable :: Bee : ?",
+    optionsHindi: ["शहद", "छत्ता", "डंक", "फूल"],
+    optionsEnglish: ["Honey", "Hive", "Sting", "Flower"],
+    answer: "छत्ता"
+  },
+  {
+    questionHindi: "यदि x ⊕ y = x² + y² + xy तथा x ⊖ y = x² − y² − xy हो, तो (4 ⊕ 3) ⊖ 2 का मान क्या है?",
+    questionEnglish: "If x ⊕ y = x² + y² + xy and x ⊖ y = x² − y² − xy, find (4 ⊕ 3) ⊖ 2.",
+    optionsHindi: ["1295", "1365", "1291", "1219"],
+    optionsEnglish: ["1295", "1365", "1291", "1219"],
+    answer: "1291"
+  },
+  {
+    questionHindi: "5 : 126 :: 7 : ?",
+    questionEnglish: "Find the missing number: 5 : 126 :: 7 : ?",
+    optionsHindi: ["342", "344", "350", "336"],
+    optionsEnglish: ["342", "344", "350", "336"],
+    answer: "344"
+  },
+  {
+    questionHindi: "60 विद्यार्थियों में से 35 क्रिकेट खेलते हैं, 28 फुटबॉल खेलते हैं और 12 दोनों खेलते हैं। कितने विद्यार्थी कोई भी खेल नहीं खेलते?",
+    questionEnglish: "Out of 60 students, 35 play cricket, 28 play football and 12 play both. How many play neither game?",
+    optionsHindi: ["9", "7", "12", "5"],
+    optionsEnglish: ["9", "7", "12", "5"],
+    answer: "9"
+  },
+  {
+    questionHindi: "बाघ, स्तनधारी और जंतु के बीच संबंध को कौन-सा कथन दर्शाता है?",
+    questionEnglish: "Which statement best represents the relationship among tiger, mammals and animals?",
+    optionsHindi: ["बाघ ⊂ स्तनधारी ⊂ जंतु", "तीनों अलग-अलग हैं", "स्तनधारी ⊂ बाघ ⊂ जंतु", "बाघ और स्तनधारी अलग हैं, दोनों जंतु हैं"],
+    optionsEnglish: ["Tiger ⊂ Mammals ⊂ Animals", "All three are separate", "Mammals ⊂ Tiger ⊂ Animals", "Tiger and mammals are separate, both are animals"],
+    answer: "बाघ ⊂ स्तनधारी ⊂ जंतु"
+  },
+  {
+    questionHindi: "विक्रम पूर्व की ओर 9 किमी चलता है, फिर बाएँ मुड़कर 12 किमी और फिर बाएँ मुड़कर 9 किमी चलता है। वह प्रारंभिक बिंदु से किस दिशा में और कितनी दूरी पर है?",
+    questionEnglish: "Vikram walks 9 km east, then 12 km left, and then 9 km left. How far and in which direction is he from the starting point?",
+    optionsHindi: ["15 किमी उत्तर-पूर्व", "12 किमी उत्तर-पश्चिम", "21 किमी उत्तर", "12 किमी उत्तर"],
+    optionsEnglish: ["15 km north-east", "12 km north-west", "21 km north", "12 km north"],
+    answer: "12 किमी उत्तर"
+  },
+  {
+    questionHindi: "यदि BRIGHT को DTKIJV लिखा जाता है, तो उसी भाषा में SCHOOL कैसे लिखा जाएगा?",
+    questionEnglish: "If BRIGHT is coded as DTKIJV, how will SCHOOL be coded?",
+    optionsHindi: ["UEJQQN", "UEIQQN", "QAFMMJ", "TDIPPM"],
+    optionsEnglish: ["UEJQQN", "UEIQQN", "QAFMMJ", "TDIPPM"],
+    answer: "UEJQQN"
+  },
+  {
+    questionHindi: "यदि '+' का अर्थ '×', '×' का अर्थ '÷', '÷' का अर्थ '−' और '−' का अर्थ '+' है, तो 18 + 3 × 6 ÷ 5 − 2 का मान क्या है?",
+    questionEnglish: "If '+' means '×', '×' means '÷', '÷' means '−' and '−' means '+', find 18 + 3 × 6 ÷ 5 − 2.",
+    optionsHindi: ["6", "4", "8", "10"],
+    optionsEnglish: ["6", "4", "8", "10"],
+    answer: "6"
+  },
+  {
+    questionHindi: "संबंधित शब्द ज्ञात कीजिए: योग : अंतर :: गुणनफल : ?",
+    questionEnglish: "Find the related word: Sum : Difference :: Product : ?",
+    optionsHindi: ["भागफल", "गुणज", "गुणनखंड", "शेषफल"],
+    optionsEnglish: ["Quotient", "Multiple", "Factor", "Remainder"],
+    answer: "भागफल"
+  },
+  {
+    questionHindi: "श्रृंखला में लुप्त पद ज्ञात कीजिए: P1QR, P2RT, P3SV, ?, P5UZ",
+    questionEnglish: "Find the missing term: P1QR, P2RT, P3SV, ?, P5UZ",
+    optionsHindi: ["P4SX", "P4TW", "P4UX", "P4TX"],
+    optionsEnglish: ["P4SX", "P4TW", "P4UX", "P4TX"],
+    answer: "P4TX"
+  },
+  {
+    questionHindi: "यदि '+' का अर्थ '−', '−' का अर्थ '×', '×' का अर्थ '÷' और '÷' का अर्थ '+' है, तो 24 + 8 − 3 × 6 ÷ 2 का मान क्या है?",
+    questionEnglish: "If '+' means '−', '−' means '×', '×' means '÷' and '÷' means '+', find 24 + 8 − 3 × 6 ÷ 2.",
+    optionsHindi: ["18", "26", "30", "22"],
+    optionsEnglish: ["18", "26", "30", "22"],
+    answer: "22"
+  },
+  {
+    questionHindi: "श्रृंखला में लुप्त संख्या ज्ञात कीजिए: 5, 6, 10, 19, 35, ?",
+    questionEnglish: "Find the missing number: 5, 6, 10, 19, 35, ?",
+    optionsHindi: ["56", "64", "60", "58"],
+    optionsEnglish: ["56", "64", "60", "58"],
+    answer: "60"
+  },
+  {
+    questionHindi: "11 : 17 अनुपात के दोनों पदों से कौन-सी संख्या घटाने पर अनुपात 2 : 5 हो जाएगा?",
+    questionEnglish: "What number must be subtracted from both terms of 11 : 17 to make the ratio 2 : 5?",
+    optionsHindi: ["5", "3", "9", "7"],
+    optionsEnglish: ["5", "3", "9", "7"],
+    answer: "7"
+  },
+  {
+    questionHindi: "रवि की आय मोहन की आय से 20% अधिक है। मोहन की आय रवि की आय से कितने प्रतिशत कम है?",
+    questionEnglish: "Ravi's income is 20% more than Mohan's. By what percentage is Mohan's income less than Ravi's?",
+    optionsHindi: ["20%", "25%", "15%", "16 2/3%"],
+    optionsEnglish: ["20%", "25%", "15%", "16 2/3%"],
+    answer: "16 2/3%"
+  },
+  {
+    questionHindi: "दो संख्याओं का HCF लंबी भाजन विधि से ज्ञात करने पर अंतिम भाजक 3 है और क्रमिक भागफल 1, 2 और 3 हैं। संख्याएँ ज्ञात कीजिए।",
+    questionEnglish: "The last divisor in the long-division method for HCF is 3, and the successive quotients are 1, 2 and 3. Find the numbers.",
+    optionsHindi: ["24, 15", "30, 21", "33, 21", "27, 18"],
+    optionsEnglish: ["24, 15", "30, 21", "33, 21", "27, 18"],
+    answer: "30, 21"
+  },
+  {
+    questionHindi: "दो रेलगाड़ियाँ एक ही दिशा में 72 किमी/घंटा और 54 किमी/घंटा की चाल से चल रही हैं। तेज़ गाड़ी धीमी गाड़ी में बैठे व्यक्ति को 12 सेकंड में पार करती है। तेज़ गाड़ी की लंबाई ज्ञात कीजिए।",
+    questionEnglish: "Two trains move in the same direction at 72 km/h and 54 km/h. The faster train crosses a person sitting in the slower train in 12 seconds. Find the faster train's length.",
+    optionsHindi: ["75 मीटर", "60 मीटर", "90 मीटर", "45 मीटर"],
+    optionsEnglish: ["75 m", "60 m", "90 m", "45 m"],
+    answer: "60 मीटर"
+  },
+  {
+    questionHindi: "एक बल्लेबाज़ ने 49 पारियों में एक निश्चित औसत से रन बनाए। 50वीं पारी में शून्य पर आउट होने से औसत 2 रन घट गया। नया औसत क्या है?",
+    questionEnglish: "A batsman played 49 innings at a certain average. Scoring zero in the 50th innings reduced the average by 2. What is the new average?",
+    optionsHindi: ["96", "98", "102", "100"],
+    optionsEnglish: ["96", "98", "102", "100"],
+    answer: "98"
+  },
+  {
+    questionHindi: "वह मूलधन क्या है जो 20% वार्षिक चक्रवृद्धि ब्याज की दर से 2 वर्ष में ₹7,200 हो जाता है?",
+    questionEnglish: "What principal becomes ₹7,200 in 2 years at 20% annual compound interest?",
+    optionsHindi: ["₹4,800", "₹5,000", "₹5,200", "₹4,500"],
+    optionsEnglish: ["₹4,800", "₹5,000", "₹5,200", "₹4,500"],
+    answer: "₹5,000"
+  },
+  {
+    questionHindi: "₹9,261 की राशि 3 वर्षों में 5% वार्षिक चक्रवृद्धि ब्याज पर प्राप्त होती है। मूलधन क्या है?",
+    questionEnglish: "₹9,261 is the amount after 3 years at 5% annual compound interest. Find the principal.",
+    optionsHindi: ["₹7,500", "₹8,400", "₹8,000", "₹7,800"],
+    optionsEnglish: ["₹7,500", "₹8,400", "₹8,000", "₹7,800"],
+    answer: "₹8,000"
+  },
+  {
+    questionHindi: "कुछ श्रमिकों की औसत मासिक आय ₹P है और दूसरे समूह की ₹Q है। पहले समूह में श्रमिकों की संख्या दूसरे समूह की 4 गुनी है। सभी श्रमिकों की औसत आय क्या है?",
+    questionEnglish: "One group has average monthly income ₹P and another ₹Q. If the first group has four times as many workers as the second, what is the combined average income?",
+    optionsHindi: ["(P + Q) / 2", "(P + 4Q) / 5", "(4P + Q) / 4", "(4P + Q) / 5"],
+    optionsEnglish: ["(P + Q) / 2", "(P + 4Q) / 5", "(4P + Q) / 4", "(4P + Q) / 5"],
+    answer: "(4P + Q) / 5"
+  },
+  {
+    questionHindi: "एक चुनाव में 90% मतदाताओं ने मतदान किया और डाले गए वोटों में 10% अवैध थे। एक उम्मीदवार को 7,290 वोट मिले, जो वैध वोटों का 90% है। कुल पंजीकृत मतदाता कितने थे?",
+    questionEnglish: "In an election, 90% of voters voted and 10% of votes cast were invalid. A candidate received 7,290 votes, 90% of the valid votes. How many registered voters were there?",
+    optionsHindi: ["9,000", "10,000", "8,100", "11,000"],
+    optionsEnglish: ["9,000", "10,000", "8,100", "11,000"],
+    answer: "10,000"
+  },
+  {
+    questionHindi: "एक पुलिसकर्मी को 300 मीटर दूर चोर दिखता है। चोर की चाल 12 किमी/घंटा और पुलिसकर्मी की 18 किमी/घंटा है। पकड़े जाने से पहले चोर कितनी दूर भागेगा?",
+    questionEnglish: "A policeman spots a thief 300 m away. The thief runs at 12 km/h and the policeman at 18 km/h. How far will the thief run before being caught?",
+    optionsHindi: ["600 मीटर", "900 मीटर", "750 मीटर", "1,200 मीटर"],
+    optionsEnglish: ["600 m", "900 m", "750 m", "1,200 m"],
+    answer: "600 मीटर"
+  },
+  {
+    questionHindi: "X और Y किसी काम को क्रमशः 20 और 30 दिनों में पूरा कर सकते हैं। दोनों 6 दिन साथ काम करते हैं, फिर Y चला जाता है और X शेष काम पूरा करता है। कुल कितने दिन लगेंगे?",
+    questionEnglish: "X and Y can complete a job in 20 and 30 days respectively. They work together for 6 days, then Y leaves and X finishes the rest. How many days are needed in total?",
+    optionsHindi: ["14 दिन", "16 दिन", "18 दिन", "15 दिन"],
+    optionsEnglish: ["14 days", "16 days", "18 days", "15 days"],
+    answer: "16 दिन"
+  },
+  {
+    questionHindi: "एक ठेकेदार 60 दिनों में सड़क बनाने के लिए 40 आदमी लगाता है। 30 दिनों बाद केवल एक-चौथाई सड़क बनी है। समय पर काम पूरा करने के लिए कितने अतिरिक्त आदमी चाहिए?",
+    questionEnglish: "A contractor employs 40 men to build a road in 60 days. After 30 days, only one-fourth is complete. How many extra men are needed to finish on time?",
+    optionsHindi: ["60", "100", "80", "120"],
+    optionsEnglish: ["60", "100", "80", "120"],
+    answer: "80"
+  },
+  {
+    questionHindi: "एक वस्तु 25% हानि पर बेची गई। यदि उसे ₹600 अधिक में बेचा जाता, तो 5% लाभ होता। क्रय मूल्य क्या है?",
+    questionEnglish: "An article is sold at a 25% loss. If it were sold for ₹600 more, there would be a 5% profit. What is its cost price?",
+    optionsHindi: ["₹1,800", "₹2,400", "₹2,000", "₹2,500"],
+    optionsEnglish: ["₹1,800", "₹2,400", "₹2,000", "₹2,500"],
+    answer: "₹2,000"
+  },
+  {
+    questionHindi: "एक व्यक्ति ₹6,000 में घोड़ा और ऊँट खरीदता है। घोड़े को 10% लाभ और ऊँट को 20% हानि पर बेचने पर कुल न लाभ होता है न हानि। सस्ते जानवर का क्रय मूल्य क्या है?",
+    questionEnglish: "A man buys a horse and a camel for ₹6,000. He sells the horse at 10% profit and the camel at 20% loss, breaking even overall. What is the cost price of the cheaper animal?",
+    optionsHindi: ["₹3,000", "₹2,000", "₹1,500", "₹2,500"],
+    optionsEnglish: ["₹3,000", "₹2,000", "₹1,500", "₹2,500"],
+    answer: "₹2,000"
+  },
+  {
+    questionHindi: "2³ × 3² × 5², 2² × 3³ × 5 और 2⁴ × 3 × 5³ का HCF ज्ञात कीजिए।",
+    questionEnglish: "Find the HCF of 2³ × 3² × 5², 2² × 3³ × 5 and 2⁴ × 3 × 5³.",
+    optionsHindi: ["2³ × 3 × 5", "2² × 3² × 5", "2² × 3 × 5", "2 × 3 × 5"],
+    optionsEnglish: ["2³ × 3 × 5", "2² × 3² × 5", "2² × 3 × 5", "2 × 3 × 5"],
+    answer: "2² × 3 × 5"
+  },
+  {
+    questionHindi: "60, 84 और 90 का LCM ज्ञात कीजिए।",
+    questionEnglish: "Find the LCM of 60, 84 and 90.",
+    optionsHindi: ["1080", "1260", "2520", "630"],
+    optionsEnglish: ["1080", "1260", "2520", "630"],
+    answer: "1260"
+  },
+  {
+    questionHindi: "दो व्यक्तियों का कुल वेतन समान है। पहले को मूल वेतन का 40% और दूसरे को मूल वेतन का 60% भत्ता मिलता है। उनके मूल वेतन का अनुपात क्या है?",
+    questionEnglish: "Two persons have equal total salaries. The first receives an allowance of 40% of basic pay and the second 60%. Find the ratio of their basic pays.",
+    optionsHindi: ["8:7", "7:8", "4:3", "3:2"],
+    optionsEnglish: ["8:7", "7:8", "4:3", "3:2"],
+    answer: "8:7"
+  },
+  {
+    questionHindi: "एक दुकानदार अंकित मूल्य पर 25% छूट देता है और फिर भी क्रय मूल्य पर 20% लाभ कमाता है। यदि वह वस्तु अंकित मूल्य पर बेचे, तो लाभ प्रतिशत क्या होगा?",
+    questionEnglish: "A shopkeeper gives a 25% discount on the marked price and still earns 20% profit. What would the profit percentage be if sold at the marked price?",
+    optionsHindi: ["50%", "45%", "55%", "60%"],
+    optionsEnglish: ["50%", "45%", "55%", "60%"],
+    answer: "60%"
+  },
+  {
+    questionHindi: "एक व्यापारी खुदरा विक्रेता को अंकित मूल्य पर 15% छूट देता है और छूट वाले मूल्य पर 8% पैकेजिंग शुल्क लेता है। खुदरा विक्रेता ₹4,590 में बेचकर 25% लाभ कमाता है। अंकित मूल्य क्या था?",
+    questionEnglish: "A trader gives a retailer a 15% discount and charges an extra 8% packaging fee on the discounted price. The retailer sells for ₹4,590 at 25% profit. Find the marked price.",
+    optionsHindi: ["₹4,500", "₹3,600", "₹4,200", "₹4,000"],
+    optionsEnglish: ["₹4,500", "₹3,600", "₹4,200", "₹4,000"],
+    answer: "₹4,000"
+  },
+  {
+    questionHindi: "विषम संख्या चुनिए: 17, 19, 27, 23",
+    questionEnglish: "Choose the odd one out: 17, 19, 27, 23.",
+    optionsHindi: ["17", "19", "23", "27"],
+    optionsEnglish: ["17", "19", "23", "27"],
+    answer: "27"
+  },
+  {
+    questionHindi: "4 × 4 के वर्गाकार ग्रिड में कुल कितने वर्ग हैं?",
+    questionEnglish: "How many squares are there in total in a 4 × 4 square grid?",
+    optionsHindi: ["30", "16", "24", "36"],
+    optionsEnglish: ["30", "16", "24", "36"],
+    answer: "30"
+  },
+  {
+    questionHindi: "श्रृंखला में अगला पद ज्ञात कीजिए: AZ, BY, CX, DW, ?",
+    questionEnglish: "Find the next term: AZ, BY, CX, DW, ?",
+    optionsHindi: ["EU", "FV", "DV", "EV"],
+    optionsEnglish: ["EU", "FV", "DV", "EV"],
+    answer: "EV"
+  },
+  {
+    questionHindi: "श्रृंखला 2, 6, 12, 20, 31, 42 में कौन-सा पद पैटर्न से मेल नहीं खाता?",
+    questionEnglish: "Which term does not fit the pattern: 2, 6, 12, 20, 31, 42?",
+    optionsHindi: ["12", "31", "20", "42"],
+    optionsEnglish: ["12", "31", "20", "42"],
+    answer: "31"
+  },
+  {
+    questionHindi: "त्रिभुज ABC की भुजा BC पर B, D, E, F, C क्रम में बिंदु हैं और D, E, F को शीर्ष A से जोड़ा गया है। कुल कितने त्रिभुज हैं?",
+    questionEnglish: "In triangle ABC, points B, D, E, F, C lie in that order on BC, and D, E and F are joined to vertex A. How many triangles are there?",
+    optionsHindi: ["6", "15", "12", "10"],
+    optionsEnglish: ["6", "15", "12", "10"],
+    answer: "10"
+  },
+  {
+    questionHindi: "विषम विकल्प चुनिए।",
+    questionEnglish: "Choose the odd one out.",
+    optionsHindi: ["चाय", "कॉफ़ी", "जूस", "ब्रेड"],
+    optionsEnglish: ["Tea", "Coffee", "Juice", "Bread"],
+    answer: "ब्रेड"
+  },
+  {
+    questionHindi: "विषम संख्या चुनिए: 57, 29, 41, 31",
+    questionEnglish: "Choose the odd number: 57, 29, 41, 31.",
+    optionsHindi: ["57", "29", "41", "31"],
+    optionsEnglish: ["57", "29", "41", "31"],
+    answer: "57"
+  },
+  {
+    questionHindi: "विषम संख्या युग्म चुनिए।",
+    questionEnglish: "Choose the odd number pair.",
+    optionsHindi: ["3 : 27", "4 : 64", "5 : 125", "6 : 218"],
+    optionsEnglish: ["3 : 27", "4 : 64", "5 : 125", "6 : 218"],
+    answer: "6 : 218"
+  },
+  {
+    questionHindi: "श्रृंखला में X ज्ञात कीजिए: 120, 111, 102, X, 84",
+    questionEnglish: "Find X: 120, 111, 102, X, 84.",
+    optionsHindi: ["91", "93", "95", "90"],
+    optionsEnglish: ["91", "93", "95", "90"],
+    answer: "93"
+  },
+  {
+    questionHindi: "श्रृंखला में अगली संख्या ज्ञात कीजिए: 400, 399, 397, 393, ?",
+    questionEnglish: "Find the next number: 400, 399, 397, 393, ?",
+    optionsHindi: ["383", "387", "385", "389"],
+    optionsEnglish: ["383", "387", "385", "389"],
+    answer: "385"
+  },
+  {
+    questionHindi: "अजय ने ₹1,800 में साइकिल खरीदी और ₹2,160 में बेच दी। लाभ प्रतिशत क्या है?",
+    questionEnglish: "Ajay bought a bicycle for ₹1,800 and sold it for ₹2,160. What is his profit percentage?",
+    optionsHindi: ["15%", "18%", "20%", "25%"],
+    optionsEnglish: ["15%", "18%", "20%", "25%"],
+    answer: "20%"
+  },
+  {
+    questionHindi: "3:30 बजे घड़ी की घंटे और मिनट की सुइयों के बीच कितना कोण बनता है?",
+    questionEnglish: "What is the angle between the hour and minute hands at 3:30?",
+    optionsHindi: ["75°", "90°", "105°", "60°"],
+    optionsEnglish: ["75°", "90°", "105°", "60°"],
+    answer: "75°"
+  },
+  {
+    questionHindi: "एक घन के सभी फलकों को रंगकर उसे 27 समान छोटे घनों में काटा जाता है। कितने छोटे घनों के ठीक दो फलक रंगे होंगे?",
+    questionEnglish: "A cube is painted on all faces and cut into 27 identical small cubes. How many have exactly two painted faces?",
+    optionsHindi: ["12", "8", "6", "24"],
+    optionsEnglish: ["12", "8", "6", "24"],
+    answer: "12"
+  },
+  {
+    questionHindi: "चार सहेलियाँ उत्तर की ओर मुँह करके बैठी हैं। नेहा, पूजा के बाईं ओर है लेकिन बगल में नहीं। रितु, नेहा और पूजा के बीच बैठी है। सीमा, पूजा के दाईं ओर है। बाएँ से दूसरे स्थान पर कौन है?",
+    questionEnglish: "Four friends sit facing north. Neha is to Pooja's left but not next to her. Ritu sits between Neha and Pooja. Seema sits to Pooja's right. Who sits second from the left?",
+    optionsHindi: ["रितु", "नेहा", "पूजा", "सीमा"],
+    optionsEnglish: ["Ritu", "Neha", "Pooja", "Seema"],
+    answer: "रितु"
+  },
+  {
+    questionHindi: "यदि CAT को XZG लिखा जाता है, तो उसी कूट भाषा में DOG कैसे लिखा जाएगा?",
+    questionEnglish: "If CAT is written as XZG, how will DOG be written in the same code?",
+    optionsHindi: ["WKT", "VLT", "WLT", "WLS"],
+    optionsEnglish: ["WKT", "VLT", "WLT", "WLS"],
+    answer: "WLT"
+  },
+  {
+    questionHindi: "असमान संख्या युग्म चुनिए।",
+    questionEnglish: "Find the dissimilar pair of numbers.",
+    optionsHindi: ["2 : 6", "5 : 15", "8 : 25", "7 : 21"],
+    optionsEnglish: ["2 : 6", "5 : 15", "8 : 25", "7 : 21"],
+    answer: "8 : 25"
+  },
+
          
 
     {
@@ -29411,6 +31297,570 @@ maths:  [
 
     mentalAptitudeReasoning: [
   
+
+
+        
+  {
+    questionHindi: "एक पाई चार्ट में पेय पदार्थों की खपत इस प्रकार है: जूस 30%, कॉफी 15%, चाय 35%, पानी 20%। कॉफी के क्षेत्र का कोण ज्ञात कीजिए।",
+    questionEnglish: "In a pie chart, beverage consumption is: Juice 30%, Coffee 15%, Tea 35%, Water 20%. Find the angle of the coffee sector.",
+    optionsHindi: ["45°", "60°", "72°", "54°"],
+    optionsEnglish: ["45°", "60°", "72°", "54°"],
+    answer: "54°"
+  },
+  {
+    questionHindi: "रिया 12 मीटर उत्तर की ओर चलती है, फिर दाएँ मुड़कर 16 मीटर चलती है। वह अपने प्रारंभिक बिंदु से कितनी दूर और किस दिशा में है?",
+    questionEnglish: "Riya walks 12 metres north, then turns right and walks 16 metres. How far and in which direction is she from her starting point?",
+    optionsHindi: ["20 मीटर दक्षिण-पश्चिम", "28 मीटर उत्तर-पूर्व", "4 मीटर पूर्व", "20 मीटर उत्तर-पूर्व"],
+    optionsEnglish: ["20 metres south-west", "28 metres north-east", "4 metres east", "20 metres north-east"],
+    answer: "20 मीटर उत्तर-पूर्व"
+  },
+  {
+    questionHindi: "अनुक्रम में अगला पद ज्ञात कीजिए: XY, XYY, XYYY, XYYYY, ?",
+    questionEnglish: "Find the next term in the sequence: XY, XYY, XYYY, XYYYY, ?",
+    optionsHindi: ["XYYYYYY", "XYYYYY", "XYYYY", "XXYYYYY"],
+    optionsEnglish: ["XYYYYYY", "XYYYYY", "XYYYY", "XXYYYYY"],
+    answer: "XYYYYY"
+  },
+  {
+    questionHindi: "दिए गए शब्द DIRECTION के अक्षरों का उपयोग करके कौन-सा शब्द नहीं बनाया जा सकता?",
+    questionEnglish: "Which word cannot be formed using the letters of DIRECTION?",
+    optionsHindi: ["CREDIT", "TRAIN", "DIET", "NOTICE"],
+    optionsEnglish: ["CREDIT", "TRAIN", "DIET", "NOTICE"],
+    answer: "TRAIN"
+  },
+  {
+    questionHindi: "कक्षा IX के चार संभाग A, B, C और D के परीक्षा परिणाम दिए गए हैं। दोनों परीक्षाओं में अनुत्तीर्ण छात्रों की कुल संख्या के आधार पर कौन-सा कथन सही है? दोनों परीक्षाओं में अनुत्तीर्ण: 30, 25, 19, 20; अर्धवार्षिक में अनुत्तीर्ण और वार्षिक में उत्तीर्ण: 12, 14, 10, 9; अर्धवार्षिक में उत्तीर्ण और वार्षिक में अनुत्तीर्ण: 8, 15, 11, 17।",
+    questionEnglish: "The results of four sections A, B, C and D of Class IX are given. Based on the total number of students failing in each exam, which statement is correct? Failed in both: 30, 25, 19, 20; failed in half-yearly but passed in annual: 12, 14, 10, 9; passed in half-yearly but failed in annual: 8, 15, 11, 17.",
+    optionsHindi: ["अर्धवार्षिक परीक्षा अधिक कठिन थी।", "वार्षिक परीक्षा अधिक कठिन थी।", "दोनों परीक्षाओं की तुलना नहीं की जा सकती।", "दोनों परीक्षाओं का कठिनाई स्तर समान था।"],
+    optionsEnglish: ["The half-yearly exam was more difficult.", "The annual exam was more difficult.", "The two exams cannot be compared.", "Both exams had the same difficulty level."],
+    answer: "वार्षिक परीक्षा अधिक कठिन थी।"
+  },
+  {
+    questionHindi: "एक आदमी की ओर इशारा करते हुए अनीता ने कहा, 'इसकी इकलौती बेटी मेरी माँ है।' वह आदमी अनीता का क्या लगता है?",
+    questionEnglish: "Pointing to a man, Anita said, 'His only daughter is my mother.' How is the man related to Anita?",
+    optionsHindi: ["नाना", "मामा", "दादा", "पिता"],
+    optionsEnglish: ["Maternal grandfather", "Maternal uncle", "Paternal grandfather", "Father"],
+    answer: "नाना"
+  },
+  {
+    questionHindi: "दिए गए शब्द EDUCATION के अक्षरों का उपयोग करके कौन-सा शब्द नहीं बनाया जा सकता?",
+    questionEnglish: "Which word cannot be formed using the letters of EDUCATION?",
+    optionsHindi: ["TONIC", "DUCT", "CAUTION", "NATIONAL"],
+    optionsEnglish: ["TONIC", "DUCT", "CAUTION", "NATIONAL"],
+    answer: "NATIONAL"
+  },
+  {
+    questionHindi: "सादृश्य पूरा कीजिए: पक्षी : घोंसला :: मधुमक्खी : ____",
+    questionEnglish: "Complete the analogy: Bird : Nest :: Bee : ____",
+    optionsHindi: ["पिंजरा", "छत्ता", "जाला", "पेड़"],
+    optionsEnglish: ["Cage", "Hive", "Web", "Tree"],
+    answer: "छत्ता"
+  },
+  {
+    questionHindi: "यदि p @ q = p² + q² + 2pq और p # q = p² − q² − 2pq है, तो (6 @ 3) # 5 का मान क्या है?",
+    questionEnglish: "If p @ q = p² + q² + 2pq and p # q = p² − q² − 2pq, what is the value of (6 @ 3) # 5?",
+    optionsHindi: ["5626", "6536", "5726", "5826"],
+    optionsEnglish: ["5626", "6536", "5726", "5826"],
+    answer: "5726"
+  },
+  {
+    questionHindi: "वह विकल्प ज्ञात कीजिए जो प्रश्नचिह्न के स्थान पर आएगा: 216 : 63 :: 343 : ?",
+    questionEnglish: "Find the alternative that replaces the question mark: 216 : 63 :: 343 : ?",
+    optionsHindi: ["73", "72", "142", "37"],
+    optionsEnglish: ["73", "72", "142", "37"],
+    answer: "73"
+  },
+  {
+    questionHindi: "एक वेन आरेख में लाल वस्तुएँ, प्लास्टिक की वस्तुएँ और गेंदें हैं। केवल लाल = 6, केवल लाल और प्लास्टिक = 10, केवल लाल और गेंद = 8, तीनों = 5, केवल प्लास्टिक = 14 और केवल गेंद = 9। कितनी लाल वस्तुएँ प्लास्टिक की नहीं हैं?",
+    questionEnglish: "A Venn diagram represents red objects, plastic objects and balls. Only red = 6, red and plastic only = 10, red and balls only = 8, all three = 5, only plastic = 14 and only balls = 9. How many red objects are not plastic?",
+    optionsHindi: ["16", "29", "19", "14"],
+    optionsEnglish: ["16", "29", "19", "14"],
+    answer: "14"
+  },
+  {
+    questionHindi: "कौन-सा आरेख एशिया, भारत और दिल्ली के बीच संबंध को सबसे अच्छा दर्शाता है?",
+    questionEnglish: "Which diagram best represents the relationship among Asia, India and Delhi?",
+    optionsHindi: ["तीन संकेंद्रित वृत्त, एक के अंदर एक", "तीन अलग-अलग वृत्त", "तीन एक-दूसरे को काटते वृत्त", "एक बड़े वृत्त के अंदर दो अलग-अलग वृत्त"],
+    optionsEnglish: ["Three concentric circles, one inside another", "Three separate circles", "Three intersecting circles", "Two separate circles inside one large circle"],
+    answer: "तीन संकेंद्रित वृत्त, एक के अंदर एक"
+  },
+  {
+    questionHindi: "रीना 10 किमी पश्चिम की ओर चली, फिर दाएँ मुड़कर 7 किमी चली, फिर बाएँ मुड़कर 5 किमी चली। अंत में वह बाएँ मुड़कर 15 किमी चलकर घर पहुँची। उसका घर प्रारंभिक बिंदु से किस दिशा में है?",
+    questionEnglish: "Reena walks 10 km west, turns right and walks 7 km, turns left and walks 5 km, then turns left and walks 15 km to reach home. In which direction is her home from the starting point?",
+    optionsHindi: ["दक्षिण-पश्चिम", "उत्तर-पश्चिम", "पश्चिम", "दक्षिण"],
+    optionsEnglish: ["South-west", "North-west", "West", "South"],
+    answer: "दक्षिण-पश्चिम"
+  },
+  {
+    questionHindi: "यदि MARKET को NBSLFU के रूप में कूटबद्ध किया जाता है, तो BASKET का कोड क्या होगा?",
+    questionEnglish: "If MARKET is coded as NBSLFU, what will be the code for BASKET?",
+    optionsHindi: ["CBTLFU", "CBTMFU", "DBTLFU", "CBSLFU"],
+    optionsEnglish: ["CBTLFU", "CBTMFU", "DBTLFU", "CBSLFU"],
+    answer: "CBTLFU"
+  },
+  {
+    questionHindi: "यदि '+' का अर्थ '×', '×' का अर्थ '+', '−' का अर्थ '÷' और '÷' का अर्थ '−' है, तो 12 + 3 × 8 ÷ 4 − 2 को सरल कीजिए।",
+    questionEnglish: "If '+' means '×', '×' means '+', '−' means '÷' and '÷' means '−', simplify 12 + 3 × 8 ÷ 4 − 2.",
+    optionsHindi: ["44", "38", "40", "42"],
+    optionsEnglish: ["44", "38", "40", "42"],
+    answer: "42"
+  },
+  {
+    questionHindi: "संबंधित शब्द ज्ञात कीजिए: सम : विषम :: अभाज्य : ?",
+    questionEnglish: "Find the related word: Even : Odd :: Prime : ?",
+    optionsHindi: ["संयुक्त संख्या", "पूर्णांक", "धनात्मक", "परिमेय"],
+    optionsEnglish: ["Composite number", "Integer", "Positive", "Rational"],
+    answer: "संयुक्त संख्या"
+  },
+  {
+    questionHindi: "श्रृंखला में लुप्त पद ज्ञात कीजिए: M2NP, M4OR, M6PT, ____, M10RX",
+    questionEnglish: "Find the missing term in the series: M2NP, M4OR, M6PT, ____, M10RX",
+    optionsHindi: ["M8QU", "M8QV", "M8RV", "M7QV"],
+    optionsEnglish: ["M8QU", "M8QV", "M8RV", "M7QV"],
+    answer: "M8QV"
+  },
+  {
+    questionHindi: "यदि '×' का अर्थ '+', '+' का अर्थ '−', '−' का अर्थ '×' और '÷' का अर्थ '÷' है, तो 36 ÷ 6 × 8 + 5 − 3 का मान क्या है?",
+    questionEnglish: "If '×' means '+', '+' means '−', '−' means '×' and '÷' means '÷', what is the value of 36 ÷ 6 × 8 + 5 − 3?",
+    optionsHindi: ["−9", "−1", "29", "1"],
+    optionsEnglish: ["−9", "−1", "29", "1"],
+    answer: "−1"
+  },
+  {
+    questionHindi: "दी गई श्रृंखला में लुप्त संख्या ज्ञात कीजिए: 5, 6, 10, 19, 35, ?",
+    questionEnglish: "Find the missing number in the series: 5, 6, 10, 19, 35, ?",
+    optionsHindi: ["60", "55", "64", "70"],
+    optionsEnglish: ["60", "55", "64", "70"],
+    answer: "60"
+  },
+  {
+    questionHindi: "वह संख्या ज्ञात कीजिए जिसे 17 : 22 के दोनों पदों से घटाने पर अनुपात 3 : 4 हो जाए।",
+    questionEnglish: "Find the number that must be subtracted from both terms of 17 : 22 to make the ratio 3 : 4.",
+    optionsHindi: ["3", "2", "4", "1"],
+    optionsEnglish: ["3", "2", "4", "1"],
+    answer: "2"
+  },
+  {
+    questionHindi: "राम की आय श्याम की आय से 60% अधिक है। श्याम की आय राम की आय से कितने प्रतिशत कम है?",
+    questionEnglish: "Ram's income is 60% more than Shyam's. By what percentage is Shyam's income less than Ram's?",
+    optionsHindi: ["37.5%", "62.5%", "60%", "40%"],
+    optionsEnglish: ["37.5%", "62.5%", "60%", "40%"],
+    answer: "37.5%"
+  },
+  {
+    questionHindi: "लंबी विभाजन विधि से दो संख्याओं का HCF निकालने पर अंतिम भाजक 3 है और क्रमिक भागफल 1, 2 और 3 हैं। दोनों संख्याएँ ज्ञात कीजिए।",
+    questionEnglish: "When finding the HCF of two numbers by the long division method, the last divisor is 3 and the successive quotients are 1, 2 and 3. Find the two numbers.",
+    optionsHindi: ["24, 30", "18, 30", "21, 33", "21, 30"],
+    optionsEnglish: ["24, 30", "18, 30", "21, 33", "21, 30"],
+    answer: "21, 30"
+  },
+  {
+    questionHindi: "दो ट्रेनें विपरीत दिशाओं में 50 किमी/घंटा और 40 किमी/घंटा की गति से चल रही हैं। तेज ट्रेन धीमी ट्रेन में बैठे व्यक्ति को 8 सेकंड में पार करती है। तेज ट्रेन की लंबाई कितनी है?",
+    questionEnglish: "Two trains move in opposite directions at 50 km/h and 40 km/h. The faster train passes a person sitting in the slower train in 8 seconds. Find the length of the faster train.",
+    optionsHindi: ["180 मीटर", "250 मीटर", "160 मीटर", "200 मीटर"],
+    optionsEnglish: ["180 metres", "250 metres", "160 metres", "200 metres"],
+    answer: "200 मीटर"
+  },
+  {
+    questionHindi: "एक क्रिकेटर का 39 पारियों में एक निश्चित औसत था। 40वीं पारी में शून्य पर आउट होने से उसका औसत 3 रन कम हो गया। उसका नया औसत क्या है?",
+    questionEnglish: "A cricketer had a certain average over 39 innings. Scoring zero in his 40th innings reduced his average by 3 runs. What is his new average?",
+    optionsHindi: ["117", "114", "120", "123"],
+    optionsEnglish: ["117", "114", "120", "123"],
+    answer: "117"
+  },
+  {
+    questionHindi: "दो वर्ष बाद 5% वार्षिक चक्रवृद्धि ब्याज पर राशि ₹6,615 हो जाती है। मूलधन कितना था?",
+    questionEnglish: "A sum becomes ₹6,615 after two years at 5% annual compound interest. What was the principal?",
+    optionsHindi: ["₹6,000", "₹5,500", "₹6,200", "₹5,800"],
+    optionsEnglish: ["₹6,000", "₹5,500", "₹6,200", "₹5,800"],
+    answer: "₹6,000"
+  },
+  {
+    questionHindi: "₹33,275 की राशि 3 वर्षों में 10% वार्षिक चक्रवृद्धि ब्याज पर जमा की जाती है। मूल राशि क्या है?",
+    questionEnglish: "A sum accumulates to ₹33,275 in 3 years at 10% annual compound interest. What is the original amount?",
+    optionsHindi: ["₹30,000", "₹22,500", "₹20,000", "₹25,000"],
+    optionsEnglish: ["₹30,000", "₹22,500", "₹20,000", "₹25,000"],
+    answer: "₹25,000"
+  },
+  {
+    questionHindi: "कुशल श्रमिकों की औसत मासिक आय ₹P और अकुशल श्रमिकों की ₹Q है। यदि कुशल श्रमिकों की संख्या अकुशल श्रमिकों से 7 गुना है, तो सभी श्रमिकों की औसत मासिक आय क्या होगी?",
+    questionEnglish: "The average monthly income of skilled workers is ₹P and that of unskilled workers is ₹Q. If there are seven times as many skilled workers as unskilled workers, what is the average monthly income of all workers?",
+    optionsHindi: ["(7P + Q) / 8", "(P + Q) / 2", "(7P + Q) / 7", "(P + 7Q) / 8"],
+    optionsEnglish: ["(7P + Q) / 8", "(P + Q) / 2", "(7P + Q) / 7", "(P + 7Q) / 8"],
+    answer: "(7P + Q) / 8"
+  },
+  {
+    questionHindi: "एक चुनाव में 75% मतदाताओं ने वोट डाले। इनमें से 4% वोट अवैध थे। एक उम्मीदवार को 8,640 वोट मिले, जो कुल वैध वोटों का 60% था। कुल पंजीकृत मतदाता कितने थे?",
+    questionEnglish: "In an election, 75% of voters cast their votes, of which 4% were invalid. A candidate received 8,640 votes, which were 60% of the valid votes. Find the total number of registered voters.",
+    optionsHindi: ["24,000", "22,500", "20,000", "18,000"],
+    optionsEnglish: ["24,000", "22,500", "20,000", "18,000"],
+    answer: "20,000"
+  },
+  {
+    questionHindi: "एक पुलिसकर्मी ने एक चोर को 300 मीटर की दूरी से देखा। चोर 12 किमी/घंटा और पुलिसकर्मी 15 किमी/घंटा की गति से दौड़ते हैं। पकड़े जाने से पहले चोर कितनी दूरी दौड़ेगा?",
+    questionEnglish: "A policeman spots a thief 300 metres ahead. The thief runs at 12 km/h and the policeman at 15 km/h. How far will the thief run before being caught?",
+    optionsHindi: ["1000 मीटर", "1500 मीटर", "900 मीटर", "1200 मीटर"],
+    optionsEnglish: ["1000 metres", "1500 metres", "900 metres", "1200 metres"],
+    answer: "1200 मीटर"
+  },
+  {
+    questionHindi: "A और B किसी काम को क्रमशः 12 और 20 दिनों में पूरा कर सकते हैं। वे साथ काम शुरू करते हैं, लेकिन 4 दिनों बाद B काम छोड़ देता है और A अकेले शेष काम पूरा करता है। पूरा काम कितने दिनों में होगा?",
+    questionEnglish: "A and B can complete a job in 12 and 20 days respectively. They start together, but B leaves after 4 days and A finishes the remaining work alone. How long does the entire job take?",
+    optionsHindi: ["8 दिन", "9 दिन", "5 दिन", "5 दिन"],
+    optionsEnglish: ["8 days", "9 days", "5 days", "5 days"],
+    answer: "5 दिन"
+  },
+  {
+    questionHindi: "एक ठेकेदार 30 दिनों में सुरंग बनाने के लिए 20 पुरुषों को काम पर रखता है। 18 दिनों बाद केवल एक-तिहाई काम पूरा हुआ है। काम 3 दिन पहले पूरा करने के लिए उसे कितने अतिरिक्त पुरुष नियुक्त करने चाहिए?",
+    questionEnglish: "A contractor employs 20 men to build a tunnel in 30 days. After 18 days, only one-third of the work is complete. How many additional men should he employ to finish 3 days early?",
+    optionsHindi: ["40 पुरुष", "70 पुरुष", "60 पुरुष", "50 पुरुष"],
+    optionsEnglish: ["40 men", "70 men", "60 men", "50 men"],
+    answer: "60 पुरुष"
+  },
+  {
+    questionHindi: "एक व्यक्ति किसी वस्तु को 10% हानि पर बेचता है। यदि वह इसे ₹1,500 अधिक में बेचता, तो उसे 5% लाभ होता। वस्तु का क्रय मूल्य क्या है?",
+    questionEnglish: "A man sells an article at a 10% loss. If he had sold it for ₹1,500 more, he would have made a 5% profit. What is its cost price?",
+    optionsHindi: ["₹10,000", "₹12,000", "₹9,000", "₹8,000"],
+    optionsEnglish: ["₹10,000", "₹12,000", "₹9,000", "₹8,000"],
+    answer: "₹10,000"
+  },
+  {
+    questionHindi: "एक व्यक्ति ₹6,300 में एक घोड़ा और एक ऊँट खरीदता है। घोड़े को 20% लाभ पर और ऊँट को 10% हानि पर बेचता है। दोनों का विक्रय मूल्य समान है। सस्ते जानवर का क्रय मूल्य कितना था?",
+    questionEnglish: "A man buys a horse and a camel for ₹6,300 in total. He sells the horse at a 20% profit and the camel at a 10% loss. If both selling prices are equal, what was the cost price of the cheaper animal?",
+    optionsHindi: ["₹3,000", "₹2,700", "₹3,600", "₹2,400"],
+    optionsEnglish: ["₹3,000", "₹2,700", "₹3,600", "₹2,400"],
+    answer: "₹2,700"
+  },
+  {
+    questionHindi: "2⁴ × 3³ × 5² और 2³ × 3⁵ × 5 का महत्तम समापवर्तक (HCF) ज्ञात कीजिए।",
+    questionEnglish: "Find the HCF of 2⁴ × 3³ × 5² and 2³ × 3⁵ × 5.",
+    optionsHindi: ["2³ × 3³ × 5²", "2³ × 3³ × 5", "2⁴ × 3⁵ × 5²", "2³ × 3⁵ × 5"],
+    optionsEnglish: ["2³ × 3³ × 5²", "2³ × 3³ × 5", "2⁴ × 3⁵ × 5²", "2³ × 3⁵ × 5"],
+    answer: "2³ × 3³ × 5"
+  },
+  {
+    questionHindi: "60, 84 और 126 का लघुत्तम समापवर्त्य (LCM) ज्ञात कीजिए।",
+    questionEnglish: "Find the LCM of 60, 84 and 126.",
+    optionsHindi: ["1890", "630", "1260", "2520"],
+    optionsEnglish: ["1890", "630", "1260", "2520"],
+    answer: "1260"
+  },
+  {
+    questionHindi: "दो व्यक्तियों का कुल वेतन-भत्ता समान है। एक व्यक्ति को मूल वेतन का 40% भत्ता और दूसरे को मूल वेतन का 60% भत्ता मिलता है। पहले व्यक्ति के मूल वेतन का दूसरे व्यक्ति के मूल वेतन से अनुपात क्या है?",
+    questionEnglish: "Two people receive the same total remuneration. One receives an allowance equal to 40% of basic pay and the other receives 60%. What is the ratio of the first person's basic pay to the second person's basic pay?",
+    optionsHindi: ["4 : 3", "3 : 2", "8 : 7", "7 : 8"],
+    optionsEnglish: ["4 : 3", "3 : 2", "8 : 7", "7 : 8"],
+    answer: "8 : 7"
+  },
+  {
+    questionHindi: "एक व्यापारी अंकित मूल्य पर 10% छूट देता है, फिर भी उसे क्रय मूल्य पर 35% लाभ होता है। यदि वह अंकित मूल्य पर बेचता है, तो लाभ प्रतिशत क्या होगा?",
+    questionEnglish: "A trader gives a 10% discount on the marked price but still earns 35% profit on cost price. What would the profit percentage be if he sold at the marked price?",
+    optionsHindi: ["60%", "40%", "45%", "50%"],
+    optionsEnglish: ["60%", "40%", "45%", "50%"],
+    answer: "50%"
+  },
+  {
+    questionHindi: "एक व्यापारी खुदरा विक्रेता को वस्तु पर 25% छूट देता है और छूट वाले मूल्य पर डिलीवरी तथा पैकेजिंग के लिए 10% अतिरिक्त शुल्क लेता है। खुदरा विक्रेता इसे ₹5,445 में बेचकर 10% लाभ कमाता है। वस्तु का अंकित मूल्य क्या था?",
+    questionEnglish: "A trader gives a retailer a 25% discount and charges an additional 10% of the discounted price for delivery and packaging. The retailer sells the item for ₹5,445 at a 10% profit. What was the marked price?",
+    optionsHindi: ["₹5,500", "₹6,000", "₹6,500", "₹7,200"],
+    optionsEnglish: ["₹5,500", "₹6,000", "₹6,500", "₹7,200"],
+    answer: "₹6,000"
+  },
+  {
+    questionHindi: "निम्नलिखित में से विषम संख्या चुनिए: 16, 25, 36, 45, 49",
+    questionEnglish: "Pick the odd one out: 16, 25, 36, 45, 49.",
+    optionsHindi: ["36", "49", "45", "25"],
+    optionsEnglish: ["36", "49", "45", "25"],
+    answer: "45"
+  },
+  {
+    questionHindi: "4 × 4 वर्ग का क्षेत्रफल 16 वर्ग इकाई है। पाँच टुकड़ों के क्षेत्रफल 6, 5, 4, 3 और 3 वर्ग इकाई हैं। वर्ग बनाने के लिए किस क्षेत्रफल वाला टुकड़ा आवश्यक नहीं होगा?",
+    questionEnglish: "A 4 × 4 square has an area of 16 square units. Five pieces have areas of 6, 5, 4, 3 and 3 square units. Which piece is not needed to make the square?",
+    optionsHindi: ["5", "6", "3", "4"],
+    optionsEnglish: ["5", "6", "3", "4"],
+    answer: "5"
+  },
+  {
+    questionHindi: "श्रृंखला में अगली आकृति ज्ञात कीजिए। तीर प्रत्येक चरण में 45° दक्षिणावर्त घूमता है: ↑, ↗, →, ↘, ?",
+    questionEnglish: "Find the next figure in the series. An arrow rotates 45° clockwise at each step: ↑, ↗, →, ↘, ?",
+    optionsHindi: ["↓", "←", "↖", "↙"],
+    optionsEnglish: ["↓", "←", "↖", "↙"],
+    answer: "↓"
+  },
+  {
+    questionHindi: "श्रृंखला में विषम पद ज्ञात कीजिए: C9, E25, G49, I80, K121",
+    questionEnglish: "Find the odd term in the series: C9, E25, G49, I80, K121.",
+    optionsHindi: ["C9", "E25", "I80", "K121"],
+    optionsEnglish: ["C9", "E25", "I80", "K121"],
+    answer: "I80"
+  },
+  {
+    questionHindi: "4 × 4 वर्गाकार ग्रिड में कुल कितने वर्ग होते हैं?",
+    questionEnglish: "How many squares are there in total in a 4 × 4 square grid?",
+    optionsHindi: ["16", "30", "36", "25"],
+    optionsEnglish: ["16", "30", "36", "25"],
+    answer: "30"
+  },
+  {
+    questionHindi: "दिए गए विकल्पों में से विषम चुनिए।",
+    questionEnglish: "Choose the odd one out from the given options.",
+    optionsHindi: ["जूस", "चाय", "बिस्किट", "कॉफी"],
+    optionsEnglish: ["Juice", "Tea", "Biscuit", "Coffee"],
+    answer: "बिस्किट"
+  },
+  {
+    questionHindi: "निम्नलिखित में से विषम संख्या चुनिए: 29, 37, 51, 41",
+    questionEnglish: "Select the odd one out: 29, 37, 51, 41.",
+    optionsHindi: ["41", "29", "51", "37"],
+    optionsEnglish: ["41", "29", "51", "37"],
+    answer: "51"
+  },
+  {
+    questionHindi: "विषम आकृति ज्ञात कीजिए।",
+    questionEnglish: "Find the odd figure.",
+    optionsHindi: ["वृत्त", "त्रिभुज", "पंचभुज", "वर्ग"],
+    optionsEnglish: ["Circle", "Triangle", "Pentagon", "Square"],
+    answer: "वृत्त"
+  },
+  {
+    questionHindi: "दी गई श्रृंखला में X का मान ज्ञात कीजिए: 120, 109, 98, X, 76",
+    questionEnglish: "Find X in the series: 120, 109, 98, X, 76.",
+    optionsHindi: ["87", "85", "90", "89"],
+    optionsEnglish: ["87", "85", "90", "89"],
+    answer: "87"
+  },
+  {
+    questionHindi: "श्रृंखला में अगली संख्या ज्ञात कीजिए: 3, 4, 6, 10, 18, ...",
+    questionEnglish: "Find the next number in the series: 3, 4, 6, 10, 18, ...",
+    optionsHindi: ["36", "30", "32", "34"],
+    optionsEnglish: ["36", "30", "32", "34"],
+    answer: "34"
+  },
+  {
+    questionHindi: "वरुण ने ₹1,250 में घड़ी खरीदी और ₹1,500 में बेच दी। उसका लाभ प्रतिशत क्या है?",
+    questionEnglish: "Varun bought a watch for ₹1,250 and sold it for ₹1,500. What is his profit percentage?",
+    optionsHindi: ["25%", "30%", "15%", "20%"],
+    optionsEnglish: ["25%", "30%", "15%", "20%"],
+    answer: "20%"
+  },
+  {
+    questionHindi: "एक वर्ग में छायांकित त्रिभुज क्रमशः ऊपर-बाएँ, ऊपर-दाएँ और नीचे-दाएँ कोनों में आता है। अगली आकृति में यह किस कोने में होगा?",
+    questionEnglish: "In successive figures, a shaded triangle occupies the top-left, top-right and bottom-right corners of a square. Which corner will it occupy next?",
+    optionsHindi: ["केंद्र में", "ऊपर-दाएँ", "नीचे-बाएँ", "ऊपर-बाएँ"],
+    optionsEnglish: ["At the centre", "Top-right", "Bottom-left", "Top-left"],
+    answer: "नीचे-बाएँ"
+  },
+  {
+    questionHindi: "एक सम चतुष्फलक (रेगुलर टेट्राहेड्रॉन) में कुल कितने किनारे होते हैं?",
+    questionEnglish: "How many edges does a regular tetrahedron have?",
+    optionsHindi: ["4", "6", "12", "8"],
+    optionsEnglish: ["4", "6", "12", "8"],
+    answer: "6"
+  },
+  {
+    questionHindi: "चार मित्र एक पंक्ति में बैठे हैं। राज, नेहा के बाईं ओर है। देव, नेहा के दाईं ओर है लेकिन उसके बगल में नहीं है। मिया, नेहा और देव के बीच में है। सबसे बाईं ओर कौन बैठा है?",
+    questionEnglish: "Four friends sit in a row. Raj is to Neha's left. Dev is to Neha's right but not adjacent to her. Mia sits between Neha and Dev. Who sits at the extreme left?",
+    optionsHindi: ["नेहा", "राज", "मिया", "देव"],
+    optionsEnglish: ["Neha", "Raj", "Mia", "Dev"],
+    answer: "राज"
+  },
+  {
+    questionHindi: "यदि ABC का कोड ZYX है, तो LMN का कोड क्या होगा?",
+    questionEnglish: "If ABC is coded as ZYX, what is the code for LMN?",
+    optionsHindi: ["NML", "OMN", "ONM", "PON"],
+    optionsEnglish: ["NML", "OMN", "ONM", "PON"],
+    answer: "ONM"
+  },
+  {
+    questionHindi: "असमान संख्या-युग्म ज्ञात कीजिए।",
+    questionEnglish: "Find the dissimilar pair of fractions.",
+    optionsHindi: ["3/7 : 12/28", "5/9 : 15/27", "4/9 : 12/25", "2/5 : 6/15"],
+    optionsEnglish: ["3/7 : 12/28", "5/9 : 15/27", "4/9 : 12/25", "2/5 : 6/15"],
+    answer: "4/9 : 12/25"
+  },
+  {
+    questionHindi: "एक महिला की ओर इशारा करते हुए रोहन ने कहा, 'वह मेरे पिता के इकलौते भाई की पत्नी है।' वह महिला रोहन से किस प्रकार संबंधित है?",
+    questionEnglish: "Pointing to a woman, Rohan said, 'She is the wife of my father's only brother.' How is she related to Rohan?",
+    optionsHindi: ["बुआ", "मौसी", "मामी", "चाची"],
+    optionsEnglish: ["Father's sister", "Maternal aunt", "Maternal uncle's wife", "Paternal uncle's wife"],
+    answer: "चाची"
+  },
+  {
+    questionHindi: "एक पासे में आमने-सामने के फलकों के अंकों का योग 7 होता है। यदि ऊपरी फलक पर 4 बिंदु हैं, तो नीचे के फलक पर कितने बिंदु होंगे?",
+    questionEnglish: "On a die, opposite faces add up to 7. If the top face shows 4 dots, how many dots are on the bottom face?",
+    optionsHindi: ["5", "3", "2", "6"],
+    optionsEnglish: ["5", "3", "2", "6"],
+    answer: "3"
+  },
+  {
+    questionHindi: "एक तस्वीर में आदमी की ओर इशारा करके रीता ने कहा, 'इसका इकलौता भाई मेरे पिता हैं।' रीता उस आदमी से किस प्रकार संबंधित है?",
+    questionEnglish: "Pointing to a man in a photograph, Rita said, 'His only brother is my father.' How is Rita related to that man?",
+    optionsHindi: ["बेटी", "पत्नी", "भतीजी", "बहन"],
+    optionsEnglish: ["Daughter", "Wife", "Niece", "Sister"],
+    answer: "भतीजी"
+  },
+  {
+    questionHindi: "हिंदी की 'प' ध्वनि का उच्चारण स्थान क्या है?",
+    questionEnglish: "What is the place of articulation of the Hindi sound 'प'?",
+    optionsHindi: ["तालव्य", "मूर्धन्य", "कंठ्य", "ओष्ठ्य"],
+    optionsEnglish: ["Palatal", "Retroflex", "Guttural", "Labial"],
+    answer: "ओष्ठ्य"
+  },
+  {
+    questionHindi: "निम्नलिखित में से पर्यायवाची शब्दों का कौन-सा युग्म सही नहीं है?",
+    questionEnglish: "Which of the following pairs is not a pair of synonyms?",
+    optionsHindi: ["नदी – सरिता", "आकाश – गगन", "पर्वत – सागर", "कमल – अरविंद"],
+    optionsEnglish: ["River – stream", "Sky – heaven", "Mountain – ocean", "Lotus – Aravind"],
+    answer: "पर्वत – सागर"
+  },
+  {
+    questionHindi: "'दोहा छंद' के विषम चरणों में कितनी मात्राएँ होती हैं?",
+    questionEnglish: "How many matras are there in the odd-numbered lines of a Doha metre?",
+    optionsHindi: ["13", "11", "12", "14"],
+    optionsEnglish: ["13", "11", "12", "14"],
+    answer: "13"
+  },
+  {
+    questionHindi: "'कामायनी' किसकी रचना है?",
+    questionEnglish: "Who wrote 'Kamayani'?",
+    optionsHindi: ["महादेवी वर्मा", "जयशंकर प्रसाद", "सूर्यकांत त्रिपाठी 'निराला'", "सुमित्रानंदन पंत"],
+    optionsEnglish: ["Mahadevi Verma", "Jaishankar Prasad", "Suryakant Tripathi 'Nirala'", "Sumitranandan Pant"],
+    answer: "जयशंकर प्रसाद"
+  },
+  {
+    questionHindi: "'महादेव' का सही समास-विग्रह कौन-सा है?",
+    questionEnglish: "Which is the correct expansion of the compound word 'Mahadev'?",
+    optionsHindi: ["देव और महान", "देवों के देव", "महान का देव", "महान है जो देव"],
+    optionsEnglish: ["A god and great", "God of gods", "God of greatness", "A god who is great"],
+    answer: "महान है जो देव"
+  },
+  {
+    questionHindi: "हिंदी वर्णमाला में स्पर्श व्यंजनों की संख्या कितनी है?",
+    questionEnglish: "How many stop consonants are there in the Hindi alphabet?",
+    optionsHindi: ["35", "33", "25", "27"],
+    optionsEnglish: ["35", "33", "25", "27"],
+    answer: "25"
+  },
+  {
+    questionHindi: "'च' का उच्चारण स्थान कौन-सा है?",
+    questionEnglish: "What is the place of articulation of 'च'?",
+    optionsHindi: ["कंठ", "मूर्धा", "तालु", "दंत"],
+    optionsEnglish: ["Throat", "Retroflex region", "Palate", "Teeth"],
+    answer: "तालु"
+  },
+  {
+    questionHindi: "'चौराहा' किस समास का उदाहरण है?",
+    questionEnglish: "Which type of compound is illustrated by the word 'Chauraha'?",
+    optionsHindi: ["द्वंद्व समास", "तत्पुरुष समास", "द्विगु समास", "अव्ययीभाव समास"],
+    optionsEnglish: ["Dvandva compound", "Tatpurusha compound", "Dvigu compound", "Avyayibhava compound"],
+    answer: "द्विगु समास"
+  },
+  {
+    questionHindi: "'कनक' शब्द के अर्थ क्या हैं?",
+    questionEnglish: "What are the meanings of the Hindi word 'Kanak'?",
+    optionsHindi: ["आग, धुआँ", "पानी, हवा", "चाँदी, ताँबा", "सोना, धतूरा"],
+    optionsEnglish: ["Fire, smoke", "Water, air", "Silver, copper", "Gold, Datura"],
+    answer: "सोना, धतूरा"
+  },
+  {
+    questionHindi: "'अभि' उपसर्ग से बना शब्द कौन-सा है?",
+    questionEnglish: "Which word is formed using the prefix 'अभि'?",
+    optionsHindi: ["आवरण", "अभिमान", "अनमोल", "प्रकाश"],
+    optionsEnglish: ["Covering", "Pride", "Priceless", "Light"],
+    answer: "अभिमान"
+  },
+  {
+    questionHindi: "'दुर्जन' शब्द में कौन-सी संधि है?",
+    questionEnglish: "Which type of sandhi occurs in the word 'Durjan'?",
+    optionsHindi: ["विसर्ग संधि", "व्यंजन संधि", "दीर्घ संधि", "स्वर संधि"],
+    optionsEnglish: ["Visarga sandhi", "Consonant sandhi", "Long-vowel sandhi", "Vowel sandhi"],
+    answer: "विसर्ग संधि"
+  },
+  {
+    questionHindi: "सही अर्थ वाला शब्द-युग्म कौन-सा है?",
+    questionEnglish: "Which word pair has the correct meanings?",
+    optionsHindi: ["दिन – दीन = गरीब – दिवस", "कुल – कूल = वंश – किनारा", "अश्व – अश्म = पत्थर – घोड़ा", "अंश – अंस = कंधा – हिस्सा"],
+    optionsEnglish: ["Din–Deen = poor–day", "Kul–Kool = lineage–bank", "Ashva–Ashma = stone–horse", "Ansh–Ans = shoulder–part"],
+    answer: "कुल – कूल = वंश – किनारा"
+  },
+  {
+    questionHindi: "'अमृत' का पर्यायवाची शब्द कौन-सा है?",
+    questionEnglish: "Which word is a synonym of 'Amrit' (nectar)?",
+    optionsHindi: ["सुधा", "विष", "जल", "अग्नि"],
+    optionsEnglish: ["Sudha (nectar)", "Poison", "Water", "Fire"],
+    answer: "सुधा"
+  },
+  {
+    questionHindi: "निम्नलिखित में से स्वर संधि का उदाहरण कौन-सा है?",
+    questionEnglish: "Which of the following is an example of vowel sandhi?",
+    optionsHindi: ["दुर्जन", "उन्नति", "सज्जन", "विद्यालय"],
+    optionsEnglish: ["Durjan", "Unnati", "Sajjan", "Vidyalaya"],
+    answer: "विद्यालय"
+  },
+  {
+    questionHindi: "शुद्ध वाक्य का चयन कीजिए।",
+    questionEnglish: "Select the grammatically correct sentence.",
+    optionsHindi: ["मुझसे रोटी खाया।", "मैंने रोटी खाई।", "मैं रोटी खाई।", "मैंने रोटी खाया।"],
+    optionsEnglish: ["Roti was eaten by me (incorrect form).", "I ate roti.", "I roti ate.", "I ate roti (incorrect gender agreement)."],
+    answer: "मैंने रोटी खाई।"
+  },
+  {
+    questionHindi: "निम्नलिखित में से कौन-सा वाक्य आसन्न भूतकाल का है?",
+    questionEnglish: "Which of the following sentences expresses the recent past tense?",
+    optionsHindi: ["वह घर पहुँचेगा।", "वह कल घर पहुँचा था।", "वह घर पहुँचता है।", "वह अभी-अभी घर पहुँचा है।"],
+    optionsEnglish: ["He will reach home.", "He had reached home yesterday.", "He reaches home.", "He has just reached home."],
+    answer: "वह अभी-अभी घर पहुँचा है।"
+  },
+  {
+    questionHindi: "निम्नलिखित में से किस वाक्य में समुच्चयबोधक अव्यय है?",
+    questionEnglish: "Which sentence contains a conjunction?",
+    optionsHindi: ["वह धीरे चलता है।", "पेड़ के नीचे बैठो।", "राम और श्याम खेल रहे हैं।", "अरे! यह क्या हुआ?"],
+    optionsEnglish: ["He walks slowly.", "Sit under the tree.", "Ram and Shyam are playing.", "Oh! What happened?"],
+    answer: "राम और श्याम खेल रहे हैं।"
+  },
+  {
+    questionHindi: "'जो दूसरों पर उपकार करता है' के लिए एक शब्द क्या है?",
+    questionEnglish: "What is the one-word term for 'a person who does good to others'?",
+    optionsHindi: ["परोपकारी", "निर्धन", "कृतज्ञ", "कृतघ्न"],
+    optionsEnglish: ["Benevolent", "Poor", "Grateful", "Ungrateful"],
+    answer: "परोपकारी"
+  },
+  {
+    questionHindi: "'शेर' का स्त्रीलिंग क्या है?",
+    questionEnglish: "What is the feminine form of 'Sher' (lion)?",
+    optionsHindi: ["शेरी", "शेरनी", "शेरिका", "शेरिन"],
+    optionsEnglish: ["Sheri", "Sherni", "Sherika", "Sherin"],
+    answer: "शेरनी"
+  },
+  {
+    questionHindi: "जिस वाक्य से क्रिया के आने वाले समय में होने का बोध हो, उसे क्या कहते हैं?",
+    questionEnglish: "What is the tense called when a sentence indicates that an action will happen in the future?",
+    optionsHindi: ["संदिग्ध भूतकाल", "भूतकाल", "वर्तमान काल", "भविष्यत् काल"],
+    optionsEnglish: ["Doubtful past", "Past tense", "Present tense", "Future tense"],
+    answer: "भविष्यत् काल"
+  },
+  {
+    questionHindi: "'मधुशाला' के रचयिता कौन हैं?",
+    questionEnglish: "Who is the author of 'Madhushala'?",
+    optionsHindi: ["महादेवी वर्मा", "हरिवंश राय बच्चन", "रामधारी सिंह 'दिनकर'", "मैथिलीशरण गुप्त"],
+    optionsEnglish: ["Mahadevi Verma", "Harivansh Rai Bachchan", "Ramdhari Singh 'Dinkar'", "Maithili Sharan Gupt"],
+    answer: "हरिवंश राय बच्चन"
+  },
+  {
+    questionHindi: "निम्नलिखित में से कौन-सा जोड़ा समरूपी भिन्नार्थक शब्दों का है?",
+    questionEnglish: "Which of the following is a pair of similar-sounding words with different meanings?",
+    optionsHindi: ["अनल – आग", "नदी – सरिता", "आम – अमरूद", "अपेक्षा – उपेक्षा"],
+    optionsEnglish: ["Anal – fire", "River – stream", "Mango – guava", "Apeksha – Upeksha"],
+    answer: "अपेक्षा – उपेक्षा"
+  },
+  {
+    questionHindi: "'नीलकमल' में कौन-सा समास है?",
+    questionEnglish: "Which type of compound is used in 'Neelkamal'?",
+    optionsHindi: ["कर्मधारय", "द्वंद्व", "तत्पुरुष", "बहुव्रीहि"],
+    optionsEnglish: ["Karmadharaya", "Dvandva", "Tatpurusha", "Bahuvrihi"],
+    answer: "कर्मधारय"
+  },
+
     {
     id: 1,
     questionHindi: "श्रृंखला में अगली संख्या क्या होगी? 2, 4, 8, 16, ?",
