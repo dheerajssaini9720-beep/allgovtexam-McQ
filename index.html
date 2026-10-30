@@ -14,6 +14,143 @@
     <link rel="icon" type="image/png" href="favicon.png">
 
     <link rel="stylesheet" href="style.css">
+    <!-- NEW: header controls, Daily Quiz card, dark mode -->
+    <style>
+/* Nayi cheezein: header controls, Daily Quiz card, dark mode */
+
+/* ---------- Header: language + theme controls ---------- */
+.lang-wrap { display: flex; align-items: center; gap: 6px; }
+.lang-label { font-size: 12px; font-weight: 600; white-space: nowrap; }
+#langSel, .theme-btn {
+  border: 1px solid #c9d3e6;
+  background: #fff;
+  color: #153c82;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.header-actions { flex-wrap: wrap; }
+
+@media (max-width: 600px) {
+  .lang-label { display: none; }           /* mobile par jagah bachane ke liye */
+  #langSel, .theme-btn { padding: 5px 8px; font-size: 12px; }
+}
+
+/* ---------- Daily Quiz card ---------- */
+.dq-section { display: flex; justify-content: center; padding: 22px 14px 6px; }
+.dq-card {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 340px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 22px 18px 18px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #153c82, #4f46e5);
+  box-shadow: 0 8px 22px rgba(21, 60, 130, .28);
+  transition: transform .2s, box-shadow .2s;
+}
+.dq-card:hover { transform: translateY(-3px); box-shadow: 0 12px 28px rgba(21, 60, 130, .38); }
+.dq-icon { font-size: 38px; line-height: 1; margin-bottom: 6px; }
+.dq-card h3 { margin: 4px 0; font-size: 24px; color: #fff; }
+.dq-card p { margin: 0 0 12px; font-size: 14px; color: #dbe4ff; }
+.dq-btn {
+  display: inline-block;
+  background: #fff;
+  color: #153c82;
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/* red LIVE dot (pop / pulse) */
+.dq-live {
+  position: absolute; top: 12px; right: 14px;
+  display: flex; align-items: center; gap: 6px;
+  font-size: 11px; font-weight: 800; letter-spacing: .5px;
+  background: rgba(255, 255, 255, .15);
+  padding: 3px 10px 3px 8px;
+  border-radius: 20px;
+}
+.dq-dot { position: relative; width: 9px; height: 9px; border-radius: 50%; background: #ef4444; display: inline-block; }
+.dq-dot::after {
+  content: ""; position: absolute; inset: 0; border-radius: 50%;
+  background: #ef4444;
+  animation: dqPulse 1.4s ease-out infinite;
+}
+@keyframes dqPulse {
+  0%   { transform: scale(1); opacity: .8; }
+  100% { transform: scale(3.2); opacity: 0; }
+}
+
+/* ---------- Dark mode ----------
+   NOTE: style.css mere paas nahi tha, isliye ye index.html ke class names ke
+   hisaab se overrides hain. style.css bhejoge to main isse exact kar dunga. */
+[data-theme="dark"] body { background: #0f1220 !important; color: #e8eaf3 !important; }
+
+[data-theme="dark"] .app-header,
+[data-theme="dark"] .mobile-navigation,
+[data-theme="dark"] .hero-section,
+[data-theme="dark"] .mission-section,
+[data-theme="dark"] .practice-section,
+[data-theme="dark"] .exam-section,
+[data-theme="dark"] .features-section,
+[data-theme="dark"] .about-section,
+[data-theme="dark"] .login-section,
+[data-theme="dark"] .question-section {
+  background: #0f1220 !important;
+  color: #e8eaf3 !important;
+}
+
+[data-theme="dark"] .info-card,
+[data-theme="dark"] .exam-card,
+[data-theme="dark"] .feature-card,
+[data-theme="dark"] .about-content,
+[data-theme="dark"] .login-box,
+[data-theme="dark"] .register-box,
+[data-theme="dark"] .review-box {
+  background: #181c2f !important;
+  border-color: #2a3050 !important;
+  color: #e8eaf3 !important;
+}
+
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] label,
+[data-theme="dark"] .misson-text h2 { color: #e8eaf3 !important; }
+
+[data-theme="dark"] p,
+[data-theme="dark"] small,
+[data-theme="dark"] .misson-text p { color: #aab2c8 !important; }
+
+[data-theme="dark"] .main-navigation a,
+[data-theme="dark"] .mobile-navigation a { color: #cfd6ea !important; }
+
+[data-theme="dark"] input,
+[data-theme="dark"] textarea,
+[data-theme="dark"] select {
+  background: #0f1220 !important;
+  color: #e8eaf3 !important;
+  border-color: #2a3050 !important;
+}
+
+[data-theme="dark"] #langSel,
+[data-theme="dark"] .theme-btn { background: #181c2f; color: #e8eaf3; border-color: #2a3050; }
+[data-theme="dark"] .lang-label { color: #aab2c8 !important; }
+
+/* Daily Quiz card dark mode me bhi wahi rahega (text white) */
+[data-theme="dark"] .dq-card h3 { color: #fff !important; }
+[data-theme="dark"] .dq-card p { color: #dbe4ff !important; }
+    </style>
+    <script>
+        try { var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+    </script>
 
     <!-- NEW: styles for footer links and WhatsApp buttons -->
     <style>
@@ -85,6 +222,16 @@
 
 
         <div class="header-actions">
+
+            <div class="lang-wrap">
+                <label for="langSel" class="lang-label">Select Language</label>
+                <select id="langSel">
+                    <option value="hi">हिंदी</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+
+            <button type="button" id="themeBtn" class="theme-btn"></button>
 
             <button class="notification-btn" type="button">
                 🔔
@@ -281,6 +428,20 @@
 
             </div>
 
+        </section>
+
+
+
+        <!-- ================= DAILY QUIZ CARD ================= -->
+
+        <section id="daily-quiz" class="dq-section">
+            <a href="quiz.html" class="dq-card">
+                <span class="dq-live"><i class="dq-dot"></i>LIVE</span>
+                <div class="dq-icon">📰</div>
+                <h3>Daily Quiz</h3>
+                <p>Current Affairs • 10 Questions</p>
+                <span class="dq-btn">Start Quiz →</span>
+            </a>
         </section>
 
 
@@ -928,6 +1089,210 @@
      <script type="module" src="firebase-auth.js"></script>
 
      
+
+<!-- NEW: dark mode + Hindi/English -->
+<script>
+/* Dark/Light mode + Hindi/English for index.html
+   localStorage keys: "theme" ("dark"/"light") and "lang" ("hi"/"en")
+   (quiz.html uses the same keys, so choice stays same on both pages) */
+(function () {
+  "use strict";
+
+  /* ---------- Hindi text (English text -> Hindi text) ---------- */
+  var D = {
+    "Select Language": "भाषा चुनें",
+    "Home": "होम", "Exams": "परीक्षाएं", "Practice": "अभ्यास", "About": "हमारे बारे में",
+    "👤 Login": "👤 लॉगिन", "Logout": "लॉगआउट", "Login": "लॉगिन",
+
+    "Daily Quiz": "डेली क्विज़",
+    "Current Affairs • 10 Questions": "करंट अफेयर्स • 10 प्रश्न",
+    "Start Quiz →": "क्विज़ शुरू करें →",
+    "LIVE": "लाइव",
+
+    "Your Dream, Our Mission 🎯 with Practice smart. Succeed big.": "आपका सपना, हमारा मिशन 🎯 स्मार्ट अभ्यास करें। बड़ी सफलता पाएं।",
+    "Daily MCQ practice to take you one step closer to your government job.": "रोज़ाना MCQ अभ्यास, आपकी सरकारी नौकरी की ओर एक कदम और करीब।",
+    "🎯 Your Success, Our Mission": "🎯 आपकी सफलता, हमारा मिशन",
+    "Exam Practice": "परीक्षा अभ्यास",
+    "Prepare. Practice. Improve.": "तैयारी करें। अभ्यास करें। सुधार करें।",
+    "Practice MCQs, improve your knowledge and prepare smarter for your government exams.": "MCQ का अभ्यास करें, अपना ज्ञान बढ़ाएं और अपनी सरकारी परीक्षाओं की स्मार्ट तैयारी करें।",
+    "Start Practice →": "अभ्यास शुरू करें →",
+    "Smart Study": "स्मार्ट पढ़ाई", "Better Practice": "बेहतर अभ्यास", "Bright Future": "उज्ज्वल भविष्य",
+
+    "Choose an exam and start practicing MCQs.": "परीक्षा चुनें और MCQ का अभ्यास शुरू करें।",
+    "Practice MCQs": "MCQ अभ्यास",
+    "Practice important questions for your exam.": "अपनी परीक्षा के लिए महत्वपूर्ण प्रश्नों का अभ्यास करें।",
+    "Test Your Speed": "अपनी स्पीड जांचें",
+    "Solve questions and improve your speed.": "प्रश्न हल करें और अपनी स्पीड बढ़ाएं।",
+    "Check Your Result": "अपना रिजल्ट देखें",
+    "Track your performance after every test.": "हर टेस्ट के बाद अपना प्रदर्शन ट्रैक करें।",
+
+    "Choose Your Preparation Exam": "अपनी तैयारी की परीक्षा चुनें",
+    "Select your exam and start practicing MCQs.": "अपनी परीक्षा चुनें और MCQ का अभ्यास शुरू करें।",
+    "Start Exam →": "परीक्षा शुरू करें →",
+    "UP Police": "यूपी पुलिस", "Delhi Police": "दिल्ली पुलिस", "Railway (RRB)": "रेलवे (RRB)",
+    "Teaching / CTET": "शिक्षण / CTET", "Indian Army": "भारतीय सेना",
+    "Indian Air Force": "भारतीय वायु सेना", "Indian Navy": "भारतीय नौसेना",
+    "Indian Post": "भारतीय डाक", "Other State Government Exams": "अन्य राज्य सरकार की परीक्षाएं",
+
+    "Boost Your Preparation": "अपनी तैयारी को बढ़ावा दें",
+    "Free previous papers, notes, admit cards and results, all in one place": "मुफ्त पिछले साल के पेपर, नोट्स, एडमिट कार्ड और रिजल्ट, सब एक जगह",
+    "PDF / Previous Papers": "PDF / पिछले साल के पेपर",
+    "Previous year papers and PDFs": "पिछले साल के पेपर और PDF",
+    "Admit Card / Check Result": "एडमिट कार्ड / रिजल्ट देखें",
+    "Official links in one place": "आधिकारिक लिंक एक जगह",
+    "Open →": "खोलें →",
+
+    "Why Choose Exam Mantra?": "Exam Mantra क्यों चुनें?",
+    "Everything you need for better exam practice.": "बेहतर परीक्षा अभ्यास के लिए ज़रूरी सब कुछ।",
+    "Important MCQs": "महत्वपूर्ण MCQ",
+    "Practice useful questions for competitive exams.": "प्रतियोगी परीक्षाओं के लिए उपयोगी प्रश्नों का अभ्यास करें।",
+    "Quick Practice": "तेज़ अभ्यास",
+    "Practice questions quickly and improve your speed.": "प्रश्न जल्दी हल करें और अपनी स्पीड बढ़ाएं।",
+    "Track Progress": "प्रगति ट्रैक करें",
+    "Check your performance and improve your preparation.": "अपना प्रदर्शन देखें और अपनी तैयारी सुधारें।",
+    "Exam Focused": "परीक्षा केंद्रित",
+    "Prepare according to your selected government exam.": "अपनी चुनी हुई सरकारी परीक्षा के अनुसार तैयारी करें।",
+
+    "About Exam Mantra MCQ": "Exam Mantra MCQ के बारे में",
+    "Exam Mantra MCQ is a practice platform designed to help students and competitive exam aspirants prepare through MCQ-based practice.": "Exam Mantra MCQ एक अभ्यास प्लेटफॉर्म है, जो विद्यार्थियों और प्रतियोगी परीक्षा के उम्मीदवारों को MCQ आधारित अभ्यास से तैयारी में मदद करता है।",
+    "Choose your exam, practice questions, check your results and improve your preparation step by step.": "अपनी परीक्षा चुनें, प्रश्न हल करें, रिजल्ट देखें और कदम-दर-कदम अपनी तैयारी सुधारें।",
+
+    "Login / Create Account": "लॉगिन / अकाउंट बनाएं",
+    "login or create a free account to get started.": "शुरू करने के लिए लॉगिन करें या मुफ्त अकाउंट बनाएं।",
+    "Welcome Back 👋": "वापसी पर स्वागत है 👋",
+    "Login to your Exam Mantra account.": "अपने Exam Mantra अकाउंट में लॉगिन करें।",
+    "Email Address": "ईमेल पता", "Password": "पासवर्ड", "Forgot password?": "पासवर्ड भूल गए?",
+    "Create Account 📝": "अकाउंट बनाएं 📝",
+    "Create your free Exam Mantra account.": "अपना मुफ्त Exam Mantra अकाउंट बनाएं।",
+    "Full Name": "पूरा नाम", "Mobile Number": "मोबाइल नंबर",
+    "Confirm Password": "पासवर्ड की पुष्टि करें", "Create Account": "अकाउंट बनाएं",
+
+    "🔒 Privacy Policy": "🔒 गोपनीयता नीति",
+    "📞 Contact Us": "📞 संपर्क करें",
+    "💬 Join WhatsApp Channel": "💬 व्हाट्सऐप चैनल जॉइन करें",
+    "💬 Join Channel": "💬 चैनल जॉइन करें",
+    "⭐ Rate Exam Mantra MCQ": "⭐ Exam Mantra MCQ को रेट करें",
+    "Submit Review": "रिव्यू भेजें",
+    "© 2026 Exam Mantra MCQ. All Rights Reserved.": "© 2026 Exam Mantra MCQ. सर्वाधिकार सुरक्षित।"
+  };
+
+  /* "Practice X MCQs" / "Practice X exam MCQs" cards */
+  var RX = [
+    [/^Practice (.+?)(?: exam)? MCQs$/, function (m) { return m[1] + " MCQ का अभ्यास करें"; }]
+  ];
+
+  var PH = {
+    "Enter your email": "अपना ईमेल दर्ज करें",
+    "Enter your password": "अपना पासवर्ड दर्ज करें",
+    "Enter your full name": "अपना पूरा नाम दर्ज करें",
+    "Enter your mobile number": "अपना मोबाइल नंबर दर्ज करें",
+    "Create a password": "पासवर्ड बनाएं",
+    "Confirm your password": "पासवर्ड दोबारा दर्ज करें",
+    "Apna review likho (optional)": "अपना रिव्यू लिखें (वैकल्पिक)"
+  };
+
+  var LABEL = {
+    en: { dark: "🌙 Dark Mode", light: "☀️ Light Mode" },
+    hi: { dark: "🌙 डार्क मोड", light: "☀️ लाइट मोड" }
+  };
+
+  function get(k, f) { try { return localStorage.getItem(k) || f; } catch (e) { return f; } }
+  function set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+
+  var lang = get("lang", "en");
+  var theme = get("theme", (window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches) ? "dark" : "light");
+
+  var done = new WeakMap(); // text node -> { orig, tr }
+  var donePh = new WeakMap(); // element -> { orig, tr }
+
+  function lookup(text) {
+    var key = text.replace(/\s+/g, " ").trim();
+    if (!key) return null;
+    if (D.hasOwnProperty(key)) return D[key];
+    for (var i = 0; i < RX.length; i++) {
+      var m = RX[i][0].exec(key);
+      if (m) return RX[i][1](m);
+    }
+    return null;
+  }
+
+  function textNodes() {
+    var out = [];
+    var w = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
+    var n;
+    while ((n = w.nextNode())) {
+      var p = n.parentNode;
+      if (!p) continue;
+      var tag = p.nodeName;
+      if (tag === "SCRIPT" || tag === "STYLE" || tag === "TEXTAREA" || tag === "OPTION") continue;
+      if (p.id === "themeBtn") continue;
+      out.push(n);
+    }
+    return out;
+  }
+
+  function translate() {
+    textNodes().forEach(function (n) {
+      var rec = done.get(n);
+      if (lang === "hi") {
+        if (rec) return;
+        var tr = lookup(n.nodeValue);
+        if (!tr) return;
+        var m = /^(\s*)([\s\S]*?)(\s*)$/.exec(n.nodeValue);
+        var val = m[1] + tr + m[3];
+        done.set(n, { orig: n.nodeValue, tr: val });
+        n.nodeValue = val;
+      } else if (rec) {
+        // restore only if nobody else changed the text in the meantime
+        if (n.nodeValue === rec.tr) n.nodeValue = rec.orig;
+        done.delete(n);
+      }
+    });
+
+    document.querySelectorAll("input[placeholder], textarea[placeholder]").forEach(function (el) {
+      var rec = donePh.get(el);
+      if (lang === "hi") {
+        if (rec) return;
+        var cur = el.getAttribute("placeholder");
+        if (PH.hasOwnProperty(cur)) {
+          donePh.set(el, { orig: cur, tr: PH[cur] });
+          el.setAttribute("placeholder", PH[cur]);
+        }
+      } else if (rec) {
+        if (el.getAttribute("placeholder") === rec.tr) el.setAttribute("placeholder", rec.orig);
+        donePh.delete(el);
+      }
+    });
+  }
+
+  function paintTheme() {
+    document.documentElement.setAttribute("data-theme", theme);
+    var b = document.getElementById("themeBtn");
+    if (b) b.textContent = theme === "dark" ? LABEL[lang].light : LABEL[lang].dark;
+  }
+
+  function paintLang() {
+    document.documentElement.lang = lang;
+    var sel = document.getElementById("langSel");
+    if (sel) sel.value = lang;
+    translate();
+    paintTheme();
+  }
+
+  function init() {
+    var sel = document.getElementById("langSel");
+    var btn = document.getElementById("themeBtn");
+    if (sel) sel.addEventListener("change", function () { lang = sel.value; set("lang", lang); paintLang(); });
+    if (btn) btn.addEventListener("click", function () {
+      theme = theme === "dark" ? "light" : "dark"; set("theme", theme); paintTheme();
+    });
+    paintLang();
+  }
+
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
+  else init();
+})();
+</script>
 
 <script src="questions.js"></script>
 <script src="questions2.js"></script>

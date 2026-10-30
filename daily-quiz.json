@@ -1,0 +1,254 @@
+{
+  "2026-10-30": [
+    {
+      "q": {
+        "hi": "अक्टूबर 2026 में अशोक सेन किस प्रतिष्ठित पदक को पाने वाले पहले भारतीय भौतिकविद् बने?",
+        "en": "In October 2026, Ashoke Sen became the first Indian physicist to receive which prestigious medal?"
+      },
+      "options": {
+        "hi": [
+          "डिराक मेडल",
+          "ऑस्कर क्लेन मेडल",
+          "अबेल पुरस्कार",
+          "फील्ड्स मेडल"
+        ],
+        "en": [
+          "Dirac Medal",
+          "Oskar Klein Medal",
+          "Abel Prize",
+          "Fields Medal"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "hi": "उन्हें स्ट्रिंग थ्योरी में योगदान के लिए ऑस्कर क्लेन मेडल 2026 मिला। यह पदक स्टॉकहोम विश्वविद्यालय और रॉयल स्वीडिश एकेडमी की नोबेल भौतिकी समिति देती है।",
+        "en": "He received the Oskar Klein Medal 2026 for his work in string theory. The medal is awarded by Stockholm University and the Nobel Committee for Physics of the Royal Swedish Academy."
+      }
+    },
+    {
+      "q": {
+        "hi": "25 अक्टूबर 2026 के रन-ऑफ चुनाव में कौन चौथी बार ब्राज़ील का राष्ट्रपति चुना गया?",
+        "en": "Who was re-elected President of Brazil for a fourth term in the 25 October 2026 run-off?"
+      },
+      "options": {
+        "hi": [
+          "फ्लावियो बोल्सोनारो",
+          "जायर बोल्सोनारो",
+          "लुइज़ इनासियो लूला दा सिल्वा",
+          "डिल्मा रूसेफ"
+        ],
+        "en": [
+          "Flávio Bolsonaro",
+          "Jair Bolsonaro",
+          "Luiz Inácio Lula da Silva",
+          "Dilma Rousseff"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "hi": "लूला को लगभग 51.79% वोट मिले और फ्लावियो बोल्सोनारो को 48.21%। वे 5 जनवरी 2027 को शपथ लेंगे।",
+        "en": "Lula won about 51.79% of the vote against Flávio Bolsonaro's 48.21%. He is set to be sworn in on 5 January 2027."
+      }
+    },
+    {
+      "q": {
+        "hi": "5वें एशियाई पैरा खेल 2026 (18 से 24 अक्टूबर) किस देश में हुए?",
+        "en": "In which country were the 5th Asian Para Games 2026 (18 to 24 October) held?"
+      },
+      "options": {
+        "hi": [
+          "जापान",
+          "चीन",
+          "दक्षिण कोरिया",
+          "कतर"
+        ],
+        "en": [
+          "Japan",
+          "China",
+          "South Korea",
+          "Qatar"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "hi": "खेल जापान के आइची और नागोया में हुए। अगले एशियाई पैरा खेल 2030 में दोहा (कतर) में होंगे।",
+        "en": "The Games were held in Aichi and Nagoya, Japan. The next Asian Para Games in 2030 will be hosted by Doha, Qatar."
+      }
+    },
+    {
+      "q": {
+        "hi": "एशियाई पैरा खेल 2026 में भारत ने कुल कितने पदक जीते और चौथा स्थान पाया?",
+        "en": "How many medals in total did India win at the Asian Para Games 2026 to finish 4th?"
+      },
+      "options": {
+        "hi": [
+          "99",
+          "108",
+          "114",
+          "124"
+        ],
+        "en": [
+          "99",
+          "108",
+          "114",
+          "124"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "hi": "भारत ने 30 स्वर्ण, 35 रजत और 49 कांस्य यानी कुल 114 पदक जीते। यह भारत का अब तक का सर्वश्रेष्ठ प्रदर्शन है (पिछली बार 2023 में 108 पदक)। चीन पहले स्थान पर रहा।",
+        "en": "India won 30 gold, 35 silver and 49 bronze, 114 in total, its best-ever haul (previous best was 108 in 2023). China topped the table."
+      }
+    },
+    {
+      "q": {
+        "hi": "आर्मी कमांडर्स कॉन्फ्रेंस में संशोधित 'लैंड वारफेयर डॉक्ट्रिन' किसने जारी की?",
+        "en": "Who released the revised 'Land Warfare Doctrine' at the Army Commanders' Conference?"
+      },
+      "options": {
+        "hi": [
+          "अमित शाह",
+          "एस. जयशंकर",
+          "जनरल धीरज सेठ",
+          "राजनाथ सिंह"
+        ],
+        "en": [
+          "Amit Shah",
+          "S. Jaishankar",
+          "General Dhiraj Seth",
+          "Rajnath Singh"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "hi": "रक्षा मंत्री राजनाथ सिंह ने इसे जारी किया। यह दिसंबर 2018 की डॉक्ट्रिन की जगह लेती है और इसमें ड्रोन, AI और मल्टी-डोमेन ऑपरेशन्स शामिल हैं। सम्मेलन की अध्यक्षता सेना प्रमुख जनरल धीरज सेठ ने की।",
+        "en": "Defence Minister Rajnath Singh released it. It replaces the December 2018 doctrine and covers drones, AI and multi-domain operations. The conference was chaired by Army Chief General Dhiraj Seth."
+      }
+    },
+    {
+      "q": {
+        "hi": "2029 की सीनियर वर्ल्ड वेटलिफ्टिंग चैंपियनशिप की मेज़बानी कौन-सा भारतीय शहर करेगा?",
+        "en": "Which Indian city will host the 2029 Senior World Weightlifting Championships?"
+      },
+      "options": {
+        "hi": [
+          "गांधीनगर",
+          "अहमदाबाद",
+          "मुंबई",
+          "नई दिल्ली"
+        ],
+        "en": [
+          "Gandhinagar",
+          "Ahmedabad",
+          "Mumbai",
+          "New Delhi"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "hi": "IWF ने अहमदाबाद को चुना। भारत पहली बार सीनियर वर्ल्ड वेटलिफ्टिंग चैंपियनशिप की मेज़बानी करेगा। अहमदाबाद 2030 राष्ट्रमंडल खेलों की भी मेज़बानी करेगा।",
+        "en": "The IWF picked Ahmedabad, so India will host the senior event for the first time. Ahmedabad is also scheduled to host the 2030 Commonwealth Games."
+      }
+    },
+    {
+      "q": {
+        "hi": "IITM, नई दिल्ली में उद्घाटित 'AATAL' प्रयोगशाला किस काम से जुड़ी है?",
+        "en": "The 'AATAL' laboratory inaugurated at IITM, New Delhi is related to which work?"
+      },
+      "options": {
+        "hi": [
+          "भूकंप की भविष्यवाणी",
+          "समुद्री धाराओं का अध्ययन",
+          "वायु प्रदूषण के स्रोतों और एरोसोल की विषाक्तता का विश्लेषण",
+          "मिट्टी की जांच"
+        ],
+        "en": [
+          "Earthquake prediction",
+          "Study of ocean currents",
+          "Analysing air pollution sources and aerosol toxicity",
+          "Soil testing"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "hi": "AATAL यानी वायुमंडलीय रसायन और एरोसोल विषाक्तता विश्लेषण प्रयोगशाला। इसका उद्घाटन डॉ. जितेंद्र सिंह ने किया और यह मिशन मौसम के तहत बनी है।",
+        "en": "AATAL stands for Atmospheric Chemistry and Aerosol Toxicity Analysis Laboratory. It was inaugurated by Dr Jitendra Singh and was set up under Mission Mausam."
+      }
+    },
+    {
+      "q": {
+        "hi": "फ्रंटियर नागालैंड टेरिटोरियल अथॉरिटी (FNTA) बिल 2026 के तहत नागालैंड के कितने पूर्वी जिलों को स्वायत्तता मिलेगी?",
+        "en": "Under the Frontier Nagaland Territorial Authority (FNTA) Bill 2026, how many eastern districts of Nagaland get autonomy?"
+      },
+      "options": {
+        "hi": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "en": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "hi": "राष्ट्रपति मुर्मू ने बिल को मंज़ूरी दी। ये छह जिले हैं: तुएनसांग, मोन, लोंगलेंग, किफिरे, नोकलाक और शमातोर। FNTA 46 विषयों पर अधिकार रखेगी।",
+        "en": "President Murmu gave assent to the bill. The six districts are Tuensang, Mon, Longleng, Kiphire, Noklak and Shamator. FNTA will have powers over 46 subjects."
+      }
+    },
+    {
+      "q": {
+        "hi": "1947 में इन्फैंट्री डे (27 अक्टूबर) किस घटना की याद में मनाया जाता है?",
+        "en": "Infantry Day (27 October) commemorates the landing of troops at which place in 1947?"
+      },
+      "options": {
+        "hi": [
+          "जम्मू",
+          "लेह",
+          "बारामुला",
+          "श्रीनगर"
+        ],
+        "en": [
+          "Jammu",
+          "Leh",
+          "Baramulla",
+          "Srinagar"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "hi": "27 अक्टूबर 1947 को सिख रेजिमेंट की पहली बटालियन श्रीनगर हवाई अड्डे पर उतरी थी। 2026 में यह 80वां इन्फैंट्री डे था। इसे शौर्य दिवस भी कहते हैं।",
+        "en": "On 27 October 1947 the 1st Battalion of the Sikh Regiment landed at Srinagar airfield. 2026 marked the 80th Infantry Day, also called Shaurya Diwas."
+      }
+    },
+    {
+      "q": {
+        "hi": "प्रधानमंत्री मोदी ने RBI के डेटा सेंटर और साइबर सुरक्षा प्रशिक्षण संस्थान का उद्घाटन किस शहर के पास किया?",
+        "en": "Near which city did PM Modi inaugurate the RBI's Data Centre and Cybersecurity Training Institute?"
+      },
+      "options": {
+        "hi": [
+          "भुवनेश्वर",
+          "वाराणसी",
+          "हैदराबाद",
+          "मुंबई"
+        ],
+        "en": [
+          "Bhubaneswar",
+          "Varanasi",
+          "Hyderabad",
+          "Mumbai"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "hi": "उद्घाटन भुवनेश्वर (ओडिशा) के पास जटनी के इन्फो वैली-II में हुआ। उसी दिन प्रधानमंत्री वाराणसी में भी थे, जहां उन्होंने वायुसेना दिवस का प्रदर्शन देखा।",
+        "en": "The inauguration was at Info Valley-II, Jatni, near Bhubaneswar, Odisha. The same day the PM was in Varanasi, where he watched the IAF Day aerial display."
+      }
+    }
+  ]
+}

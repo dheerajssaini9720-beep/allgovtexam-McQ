@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daily Quiz - Current Affairs | AllGovtExamMCQ</title>
+<style>
+  :root {
+    --bg: #f4f6fb; --card: #ffffff; --text: #1f2430; --muted: #6b7280;
+    --primary: #4f46e5; --border: #e3e7f0; --ok: #16a34a; --bad: #dc2626;
+    --ok-bg: #dcfce7; --bad-bg: #fee2e2;
+  }
+  [data-theme="dark"] {
+    --bg: #0f1220; --card: #181c2f; --text: #e8eaf3; --muted: #9aa3b8;
+    --primary: #818cf8; --border: #2a3050; --ok: #4ade80; --bad: #f87171;
+    --ok-bg: #12351f; --bad-bg: #3b1616;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+         background: var(--bg); color: var(--text); min-height: 100vh; }
+  header { flex-wrap: wrap; display: flex; align-items: center; justify-content: space-between; gap: 8px;
+           padding: 12px 16px; background: var(--card); border-bottom: 1px solid var(--border);
+           position: sticky; top: 0; z-index: 5; }
+  header a { color: var(--primary); text-decoration: none; font-weight: 600; }
+  .tools { display: flex; gap: 8px; }
+  .lbl { align-self: center; font-size: 13px; color: var(--muted); }
+  .tools { flex-wrap: wrap; }
+  .tools select, .tools button { border: 1px solid var(--border); background: var(--bg); color: var(--text);
+                  padding: 6px 12px; border-radius: 8px; cursor: pointer; font-size: 14px; }
+  main { max-width: 640px; margin: 20px auto; padding: 0 14px 40px; }
+  h1 { font-size: 22px; margin: 0 0 4px; display: flex; align-items: center; gap: 10px; }
+  .live { width: 10px; height: 10px; border-radius: 50%; background: #ef4444; position: relative; }
+  .live::after { content: ""; position: absolute; inset: 0; border-radius: 50%; background: #ef4444;
+                 animation: pulse 1.4s ease-out infinite; }
+  @keyframes pulse { 0% { transform: scale(1); opacity: .7; } 100% { transform: scale(3); opacity: 0; } }
+  .date { color: var(--muted); font-size: 14px; margin-bottom: 16px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 18px; }
+  .bar { height: 6px; background: var(--border); border-radius: 99px; overflow: hidden; margin-bottom: 14px; }
+  .bar i { display: block; height: 100%; width: 0; background: var(--primary); transition: width .3s; }
+  .count { color: var(--muted); font-size: 13px; margin-bottom: 8px; }
+  .q { font-size: 18px; line-height: 1.5; font-weight: 600; margin-bottom: 14px; }
+  .opt { display: block; width: 100%; text-align: left; padding: 12px 14px; margin-bottom: 10px;
+         background: var(--card); color: var(--text); border: 1.5px solid var(--border);
+         border-radius: 10px; font-size: 16px; cursor: pointer; }
+  .opt:hover:not(:disabled) { border-color: var(--primary); }
+  .opt.correct { border-color: var(--ok); background: var(--ok-bg); }
+  .opt.wrong { border-color: var(--bad); background: var(--bad-bg); }
+  .opt:disabled { cursor: default; }
+  .explain { margin-top: 6px; padding: 10px 12px; border-radius: 10px; background: var(--bg);
+             color: var(--muted); font-size: 14px; line-height: 1.5; }
+  .primary { margin-top: 14px; width: 100%; padding: 12px; border: 0; border-radius: 10px;
+             background: var(--primary); color: #fff; font-size: 16px; font-weight: 600; cursor: pointer; }
+  .primary[hidden] { display: none; }
+  .score { font-size: 44px; font-weight: 700; text-align: center; margin: 8px 0; color: var(--primary); }
+  .center { text-align: center; }
+  .msg { text-align: center; color: var(--muted); padding: 30px 10px; }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" id="back">← Home</a>
+  <div class="tools">
+    <label for="langSel" id="langLabel" class="lbl">Select Language</label>
+    <select id="langSel">
+      <option value="hi">हिंदी</option>
+      <option value="en">English</option>
+    </select>
+    <button id="themeBtn" type="button"></button>
+  </div>
+</header>
+
+<main>
+  <h1><span class="live"></span><span id="title">Daily Quiz</span></h1>
+  <div class="date" id="dateText"></div>
+  <div class="card" id="box"><div class="msg" id="loading">Loading...</div></div>
+</main>
+
+<script>
+/* ---------- Common settings (same keys can be reused on index.html) ---------- */
+var UI = {
+  hi: { title: "डेली क्विज़", sub: "करंट अफेयर्स", back: "← होम", selLang: "भाषा चुनें", dark: "🌙 डार्क मोड", light: "☀️ लाइट मोड", next: "अगला प्रश्न", finish: "रिजल्ट देखें",
+        q: "प्रश्न", score: "आपका स्कोर", again: "फिर से खेलें", loading: "लोड हो रहा है...",
+        err: "आज का क्विज़ अभी उपलब्ध नहीं है। थोड़ी देर बाद आएं।", right: "सही!", wrong: "गलत!",
+        ans: "सही उत्तर", great: "शानदार!", good: "अच्छा प्रयास!", more: "और मेहनत करें!" },
+  en: { title: "Daily Quiz", sub: "Current Affairs", back: "← Home", selLang: "Select Language", dark: "🌙 Dark Mode", light: "☀️ Light Mode", next: "Next Question", finish: "See Result",
+        q: "Question", score: "Your Score", again: "Play Again", loading: "Loading...",
+        err: "Today's quiz is not available yet. Please check back later.", right: "Correct!", wrong: "Wrong!",
+        ans: "Correct answer", great: "Excellent!", good: "Good effort!", more: "Keep practising!" }
+};
+
+function load(key, fallback) { try { return localStorage.getItem(key) || fallback; } catch (e) { return fallback; } }
+function save(key, val) { try { localStorage.setItem(key, val); } catch (e) {} }
+
+var lang  = load("lang", "hi");
+var theme = load("theme", window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+
+/* ---------- Quiz state ---------- */
+var questions = [], idx = 0, score = 0, picked = null, finished = false, quizDate = "";
+var box = document.getElementById("box");
+
+function t(k) { return UI[lang][k]; }
+function pad(n) { return String(n).padStart(2, "0"); }
+function todayKey() { var d = new Date(); return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate()); }
+
+function applyTheme() {
+  document.documentElement.setAttribute("data-theme", theme);
+  document.getElementById("themeBtn").textContent = theme === "dark" ? t("light") : t("dark");
+}
+function applyLang() {
+  document.documentElement.lang = lang;
+  document.getElementById("langSel").value = lang;
+  document.getElementById("langLabel").textContent = t("selLang");
+  document.getElementById("themeBtn").textContent = theme === "dark" ? t("light") : t("dark");
+  document.getElementById("title").textContent = t("title") + " - " + t("sub");
+  document.getElementById("back").textContent = t("back");
+  document.getElementById("dateText").textContent = quizDate;
+  if (questions.length) render();
+}
+
+document.getElementById("themeBtn").onclick = function () {
+  theme = theme === "dark" ? "light" : "dark"; save("theme", theme); applyTheme();
+};
+document.getElementById("langSel").onchange = function () {
+  lang = this.value; save("lang", lang); applyLang();
+};
+
+/* ---------- Render ---------- */
+function render() {
+  if (finished) return renderResult();
+  var q = questions[idx];
+  var opts = q.options[lang];
+  var html = '<div class="bar"><i style="width:' + (idx / questions.length * 100) + '%"></i></div>' +
+             '<div class="count">' + t("q") + " " + (idx + 1) + " / " + questions.length + "</div>" +
+             '<div class="q">' + q.q[lang] + "</div>";
+  opts.forEach(function (o, i) {
+    var cls = "opt";
+    if (picked !== null) {
+      if (i === q.answer) cls += " correct";
+      else if (i === picked) cls += " wrong";
+    }
+    html += '<button class="' + cls + '" data-i="' + i + '"' + (picked !== null ? " disabled" : "") + ">" + o + "</button>";
+  });
+  if (picked !== null) {
+    var ok = picked === q.answer;
+    html += '<div class="explain"><b>' + (ok ? t("right") : t("wrong") + " " + t("ans") + ": " + opts[q.answer]) + "</b>" +
+            (q.explain ? "<br>" + q.explain[lang] : "") + "</div>" +
+            '<button class="primary" id="nextBtn">' + (idx === questions.length - 1 ? t("finish") : t("next")) + "</button>";
+  }
+  box.innerHTML = html;
+  box.querySelectorAll(".opt").forEach(function (b) {
+    b.onclick = function () {
+      if (picked !== null) return;
+      picked = +b.dataset.i;
+      if (picked === questions[idx].answer) score++;
+      render();
+    };
+  });
+  var nb = document.getElementById("nextBtn");
+  if (nb) nb.onclick = function () {
+    picked = null;
+    if (idx === questions.length - 1) finished = true; else idx++;
+    render();
+  };
+}
+
+function renderResult() {
+  var p = score / questions.length;
+  var msg = p >= 0.8 ? t("great") : p >= 0.5 ? t("good") : t("more");
+  box.innerHTML = '<div class="center"><div class="count">' + t("score") + "</div>" +
+    '<div class="score">' + score + " / " + questions.length + "</div>" +
+    '<div class="q">' + msg + "</div>" +
+    '<button class="primary" id="again">' + t("again") + "</button></div>";
+  document.getElementById("again").onclick = function () {
+    idx = 0; score = 0; picked = null; finished = false; render();
+  };
+}
+
+/* ---------- Load today's questions ---------- */
+function pickDay(data) {
+  var today = todayKey();
+  if (data[today]) return today;
+  // aaj ki date nahi mili to sabse nayi purani date dikha do
+  var keys = Object.keys(data).sort().filter(function (k) { return k <= today; });
+  return keys.length ? keys[keys.length - 1] : null;
+}
+
+applyTheme();
+fetch("daily-quiz.json?v=" + todayKey())
+  .then(function (r) { return r.json(); })
+  .then(function (data) {
+    var key = pickDay(data);
+    if (!key) throw new Error("no quiz");
+    quizDate = key;
+    questions = data[key];
+    applyLang();
+  })
+  .catch(function () {
+    document.getElementById("title").textContent = t("title") + " - " + t("sub");
+    box.innerHTML = '<div class="msg">' + t("err") + "</div>";
+  });
+applyLang();
+</script>
+</body>
+</html>
