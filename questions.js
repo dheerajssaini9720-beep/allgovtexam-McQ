@@ -6283,6 +6283,182 @@ ssccgl: {
     difficulty: "Easy"
 },
 
+  {
+    questionHindi: "एक पुरुष ने एक महिला की ओर इशारा करके कहा, “इसके पिता की इकलौती बेटी मेरी माँ के इकलौते बेटे की पत्नी है।” वह पुरुष उस महिला से किस प्रकार संबंधित है?",
+    questionEnglish: "A man pointed to a woman and said, “Her father's only daughter is the wife of my mother's only son.” How is the man related to the woman?",
+    optionsHindi: ["पति", "भाई", "देवर", "पुत्र"],
+    optionsEnglish: ["Husband", "Brother", "Brother-in-law", "Son"],
+    answer: "पति"
+  },
+  {
+    questionHindi: "एक लड़की ने कहा, “वह मेरी माँ के भाई की इकलौती बेटी का पति है।” वह व्यक्ति लड़की से किस प्रकार संबंधित है?",
+    questionEnglish: "A girl said, “He is the husband of the only daughter of my mother's brother.” How is the man related to the girl?",
+    optionsHindi: ["मामा", "जीजा (ममेरी बहन का पति)", "चाचा", "भाई"],
+    optionsEnglish: ["Maternal uncle", "Brother-in-law (cousin's husband)", "Paternal uncle", "Brother"],
+    answer: "जीजा (ममेरी बहन का पति)"
+  },
+  {
+    questionHindi: "एक पुरुष एक महिला की ओर इशारा करते हुए कहता है, “वह मेरे पिता के इकलौते बेटे की माँ है।” महिला उस पुरुष से किस प्रकार संबंधित है?",
+    questionEnglish: "A man points to a woman and says, “She is the mother of my father's only son.” How is the woman related to the man?",
+    optionsHindi: ["बहन", "दादी", "माँ", "चाची"],
+    optionsEnglish: ["Sister", "Grandmother", "Mother", "Aunt"],
+    answer: "माँ"
+  },
+  {
+    questionHindi: "रवि ने सुनील की ओर इशारा करते हुए कहा, “ये मेरी दादी के इकलौते पुत्र की पत्नी का भाई है।” सुनील रवि से किस प्रकार संबंधित है?",
+    questionEnglish: "Ravi pointed to Sunil and said, “He is the brother of the wife of my grandmother's only son.” How is Sunil related to Ravi?",
+    optionsHindi: ["मामा", "चाचा", "ताऊ", "फूफा"],
+    optionsEnglish: ["Maternal uncle", "Paternal uncle", "Elder paternal uncle", "Uncle by marriage"],
+    answer: "मामा"
+  },
+  {
+    questionHindi: "MILK : PLON :: BOOK : ?",
+    questionEnglish: "MILK : PLON :: BOOK : ?",
+    optionsHindi: ["ERRM", "ERRN", "ERNN", "EQRN"],
+    optionsEnglish: ["ERRM", "ERRN", "ERNN", "EQRN"],
+    answer: "ERRN"
+  },
+  {
+    questionHindi: "यदि FAN को ‘GBO’ लिखा जाता है, तो FIRE को किस प्रकार लिखा जाएगा?",
+    questionEnglish: "If FAN is coded as GBO, how will FIRE be coded?",
+    optionsHindi: ["GKSF", "GJSF", "GJSD", "EHQD"],
+    optionsEnglish: ["GKSF", "GJSF", "GJSD", "EHQD"],
+    answer: "GJSF"
+  },
+  {
+    questionHindi: "श्रृंखला में प्रश्नवाचक चिह्न (?) के स्थान पर क्या आएगा: 3, 8, 18, 38, 78, ?",
+    questionEnglish: "What comes next in the series: 3, 8, 18, 38, 78, ?",
+    optionsHindi: ["148", "156", "158", "160"],
+    optionsEnglish: ["148", "156", "158", "160"],
+    answer: "158"
+  },
+  {
+    questionHindi: "श्रृंखला में अगली संख्या ज्ञात कीजिए: 4, 9, 19, 39, 79, ?",
+    questionEnglish: "Find the next number in the series: 4, 9, 19, 39, 79, ?",
+    optionsHindi: ["119", "149", "159", "169"],
+    optionsEnglish: ["119", "149", "159", "169"],
+    answer: "159"
+  },
+  {
+    questionHindi: "श्रृंखला AEI, BFJ, CGK, DHL, ? में अगला अक्षर-समूह चुनिए।",
+    questionEnglish: "Choose the next letter group in the series AEI, BFJ, CGK, DHL, ?",
+    optionsHindi: ["EJM", "EIN", "EIM", "FIM"],
+    optionsEnglish: ["EJM", "EIN", "EIM", "FIM"],
+    answer: "EIM"
+  },
+  {
+    questionHindi: "श्रृंखला ZYX, WVU, TSR, QPO, ? में अगला अक्षर-समूह चुनिए।",
+    questionEnglish: "Choose the next letter group in the series ZYX, WVU, TSR, QPO, ?",
+    optionsHindi: ["MNL", "NML", "NLM", "OML"],
+    optionsEnglish: ["MNL", "NML", "NLM", "OML"],
+    answer: "NML"
+  },
+  {
+    questionHindi: "निम्नलिखित में से कौन-सा विकल्प विषम है?",
+    questionEnglish: "Which of the following options is the odd one out?",
+    optionsHindi: ["5, 11, 17", "7, 13, 19", "9, 15, 21", "4, 11, 18"],
+    optionsEnglish: ["5, 11, 17", "7, 13, 19", "9, 15, 21", "4, 11, 18"],
+    answer: "4, 11, 18"
+  },
+  {
+    questionHindi: "निम्नलिखित संख्याओं में से विषम संख्या पहचानिए: 2, 3, 5, 7, 9, 11, 13",
+    questionEnglish: "Identify the odd number: 2, 3, 5, 7, 9, 11, 13",
+    optionsHindi: ["3", "9", "11", "13"],
+    optionsEnglish: ["3", "9", "11", "13"],
+    answer: "9"
+  },
+  {
+    questionHindi: "यदि @ = ×, # = +, $ = −, % = ÷ है, तो मान ज्ञात कीजिए: 12 @ 4 $ 20 % 5 # 3",
+    questionEnglish: "If @ = ×, # = +, $ = −, and % = ÷, find the value of 12 @ 4 $ 20 % 5 # 3.",
+    optionsHindi: ["40", "44", "47", "51"],
+    optionsEnglish: ["40", "44", "47", "51"],
+    answer: "47"
+  },
+  {
+    questionHindi: "यदि P = ×, Q = ÷, R = +, S = − है, तो मान ज्ञात कीजिए: 36 Q 6 R 7 P 3 S 5",
+    questionEnglish: "If P = ×, Q = ÷, R = +, and S = −, find the value of 36 Q 6 R 7 P 3 S 5.",
+    optionsHindi: ["19", "22", "24", "27"],
+    optionsEnglish: ["19", "22", "24", "27"],
+    answer: "22"
+  },
+  {
+    questionHindi: "किस अक्षर-युग्म का समूह अन्य विकल्पों के समान पैटर्न का पालन नहीं करता?",
+    questionEnglish: "Which pair of letter groups does not follow the same pattern as the others?",
+    optionsHindi: ["BD : CE", "FH : GI", "KM : LN", "PR : QT"],
+    optionsEnglish: ["BD : CE", "FH : GI", "KM : LN", "PR : QT"],
+    answer: "PR : QT"
+  },
+  {
+    questionHindi: "किलोग्राम : भार :: मीटर : ?",
+    questionEnglish: "Kilogram : Weight :: Metre : ?",
+    optionsHindi: ["ऊँचाई", "लंबाई", "आयतन", "समय"],
+    optionsEnglish: ["Height", "Length", "Volume", "Time"],
+    answer: "लंबाई"
+  },
+  {
+    questionHindi: "वोल्ट : विभवांतर :: एम्पियर : ?",
+    questionEnglish: "Volt : Potential difference :: Ampere : ?",
+    optionsHindi: ["शक्ति", "आवेश", "धारा", "प्रतिरोध"],
+    optionsEnglish: ["Power", "Charge", "Current", "Resistance"],
+    answer: "धारा"
+  },
+  {
+    questionHindi: "गंगा : भारत :: राइन : ?",
+    questionEnglish: "Ganga : India :: Rhine : ?",
+    optionsHindi: ["अफ्रीका", "यूरोप", "एशिया", "उत्तरी अमेरिका"],
+    optionsEnglish: ["Africa", "Europe", "Asia", "North America"],
+    answer: "यूरोप"
+  },
+  {
+    questionHindi: "COMPUTER शब्द के अक्षरों को वर्णानुक्रम में व्यवस्थित किया गया है। बाएँ से चौथे और दाएँ से तीसरे अक्षर के बीच कितने अक्षर हैं?",
+    questionEnglish: "The letters of COMPUTER are arranged alphabetically. How many letters are between the fourth letter from the left and the third letter from the right?",
+    optionsHindi: ["0", "1", "2", "3"],
+    optionsEnglish: ["0", "1", "2", "3"],
+    answer: "1"
+  },
+  {
+    questionHindi: "PLANET शब्द के अक्षरों को वर्णानुक्रम में व्यवस्थित किया गया है। दाएँ से दूसरे अक्षर के बाईं ओर कितने अक्षर हैं?",
+    questionEnglish: "The letters of PLANET are arranged alphabetically. How many letters are to the left of the second letter from the right?",
+    optionsHindi: ["3", "4", "5", "2"],
+    optionsEnglish: ["3", "4", "5", "2"],
+    answer: "4"
+  },
+  {
+    questionHindi: "एक व्यक्ति 5 km उत्तर चलता है, फिर दाएँ मुड़कर 3 km चलता है, फिर दाएँ मुड़कर 5 km चलता है। वह प्रारंभिक बिंदु से कितनी दूर और किस दिशा में है?",
+    questionEnglish: "A person walks 5 km north, turns right and walks 3 km, then turns right and walks 5 km. How far and in which direction is the person from the starting point?",
+    optionsHindi: ["3 km पश्चिम", "8 km पूर्व", "3 km पूर्व", "13 km उत्तर"],
+    optionsEnglish: ["3 km west", "8 km east", "3 km east", "13 km north"],
+    answer: "3 km पूर्व"
+  },
+  {
+    questionHindi: "चार व्यक्ति A, B, C और D उत्तर की ओर मुख करके एक पंक्ति में बैठे हैं। B, A के ठीक दाएँ और C, A के ठीक दाएँ बैठा है। D सबसे बाएँ छोर पर है। बाएँ से दूसरे स्थान पर कौन बैठा है?",
+    questionEnglish: "A, B, C and D sit in a row facing north. B sits immediately to the right of A, and C sits immediately to the right of A. D is at the extreme left. Who sits second from the left?",
+    optionsHindi: ["A", "B", "C", "D"],
+    optionsEnglish: ["A", "B", "C", "D"],
+    answer: "B"
+  },
+  {
+    questionHindi: "श्रृंखला में अगली संख्या ज्ञात कीजिए: 7, 10, 16, 28, 52, ?",
+    questionEnglish: "Find the next number in the series: 7, 10, 16, 28, 52, ?",
+    optionsHindi: ["96", "98", "100", "104"],
+    optionsEnglish: ["96", "98", "100", "104"],
+    answer: "100"
+  },
+  {
+    questionHindi: "40 विद्यार्थियों की कक्षा में रवि ऊपर से 12वें स्थान पर है। नीचे से उसका स्थान क्या है?",
+    questionEnglish: "Ravi ranks 12th from the top in a class of 40 students. What is his rank from the bottom?",
+    optionsHindi: ["28", "29", "30", "31"],
+    optionsEnglish: ["28", "29", "30", "31"],
+    answer: "29"
+  },
+  {
+    questionHindi: "3:30 बजे घड़ी की घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनता है?",
+    questionEnglish: "What is the angle between the hour and minute hands of a clock at 3:30?",
+    optionsHindi: ["45°", "60°", "75°", "90°"],
+    optionsEnglish: ["45°", "60°", "75°", "90°"],
+    answer: "75°"
+  },
+
 {
     questionHindi: "‘आकाश’ का पर्यायवाची शब्द कौन-सा है?",
     questionEnglish: "Which is a synonym of 'Aakash'?",
@@ -7180,7 +7356,181 @@ ssccgl: {
 
 generalKnowledge: [
 
-
+  {
+    questionHindi: "भारत का संविधान किस तिथि को लागू हुआ?",
+    questionEnglish: "On which date did the Constitution of India come into effect?",
+    optionsHindi: ["15 अगस्त 1947", "26 नवंबर 1949", "26 जनवरी 1950", "26 जनवरी 1947"],
+    optionsEnglish: ["15 August 1947", "26 November 1949", "26 January 1950", "26 January 1947"],
+    answer: "26 जनवरी 1950"
+  },
+  {
+    questionHindi: "भारतीय संविधान का अनुच्छेद 21 किससे संबंधित है?",
+    questionEnglish: "What does Article 21 of the Indian Constitution relate to?",
+    optionsHindi: ["समानता का अधिकार", "प्राण और दैहिक स्वतंत्रता का संरक्षण", "धार्मिक स्वतंत्रता", "शिक्षा का अधिकार"],
+    optionsEnglish: ["Right to Equality", "Protection of life and personal liberty", "Freedom of religion", "Right to Education"],
+    answer: "प्राण और दैहिक स्वतंत्रता का संरक्षण"
+  },
+  {
+    questionHindi: "राज्यसभा के सदस्यों का कार्यकाल कितने वर्ष का होता है?",
+    questionEnglish: "What is the term of office of Rajya Sabha members?",
+    optionsHindi: ["4 वर्ष", "5 वर्ष", "6 वर्ष", "7 वर्ष"],
+    optionsEnglish: ["4 years", "5 years", "6 years", "7 years"],
+    answer: "6 वर्ष"
+  },
+  {
+    questionHindi: "प्लासी का युद्ध किस वर्ष लड़ा गया था?",
+    questionEnglish: "In which year was the Battle of Plassey fought?",
+    optionsHindi: ["1757", "1761", "1764", "1857"],
+    optionsEnglish: ["1757", "1761", "1764", "1857"],
+    answer: "1757"
+  },
+  {
+    questionHindi: "निम्नलिखित में से कौन-सा सिंधु घाटी सभ्यता का प्रसिद्ध बंदरगाह नगर था?",
+    questionEnglish: "Which of the following was a famous port city of the Indus Valley Civilization?",
+    optionsHindi: ["हड़प्पा", "मोहनजोदड़ो", "रोपड़", "लोथल"],
+    optionsEnglish: ["Harappa", "Mohenjo-daro", "Ropar", "Lothal"],
+    answer: "लोथल"
+  },
+  {
+    questionHindi: "मौर्य वंश की स्थापना किसने की थी?",
+    questionEnglish: "Who founded the Maurya dynasty?",
+    optionsHindi: ["अशोक", "बिंदुसार", "चंद्रगुप्त मौर्य", "पुष्यभूति"],
+    optionsEnglish: ["Ashoka", "Bindusara", "Chandragupta Maurya", "Pushyabhuti"],
+    answer: "चंद्रगुप्त मौर्य"
+  },
+  {
+    questionHindi: "‘भारत छोड़ो आंदोलन’ किस वर्ष शुरू हुआ था?",
+    questionEnglish: "In which year did the Quit India Movement begin?",
+    optionsHindi: ["1930", "1942", "1946", "1920"],
+    optionsEnglish: ["1930", "1942", "1946", "1920"],
+    answer: "1942"
+  },
+  {
+    questionHindi: "गंगा नदी की प्रमुख धारा भागीरथी का उद्गम स्थल कौन-सा है?",
+    questionEnglish: "What is the source of the Bhagirathi, the main stream of the Ganga River?",
+    optionsHindi: ["यमुनोत्री", "केदारनाथ", "बद्रीनाथ", "गंगोत्री"],
+    optionsEnglish: ["Yamunotri", "Kedarnath", "Badrinath", "Gangotri"],
+    answer: "गंगोत्री"
+  },
+  {
+    questionHindi: "भारत में बहने वाली सबसे लंबी नदी कौन-सी है?",
+    questionEnglish: "Which is the longest river flowing within India?",
+    optionsHindi: ["यमुना", "गोदावरी", "गंगा", "कृष्णा"],
+    optionsEnglish: ["Yamuna", "Godavari", "Ganga", "Krishna"],
+    answer: "गंगा"
+  },
+  {
+    questionHindi: "हमारे सौरमंडल का सबसे बड़ा ग्रह कौन-सा है?",
+    questionEnglish: "Which is the largest planet in our solar system?",
+    optionsHindi: ["शनि", "बृहस्पति", "पृथ्वी", "मंगल"],
+    optionsEnglish: ["Saturn", "Jupiter", "Earth", "Mars"],
+    answer: "बृहस्पति"
+  },
+  {
+    questionHindi: "प्रकाश संश्लेषण की प्रक्रिया में पौधे वायुमंडल से कौन-सी गैस ग्रहण करते हैं?",
+    questionEnglish: "Which gas do plants absorb from the atmosphere during photosynthesis?",
+    optionsHindi: ["ऑक्सीजन", "नाइट्रोजन", "कार्बन डाइऑक्साइड", "हाइड्रोजन"],
+    optionsEnglish: ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+    answer: "कार्बन डाइऑक्साइड"
+  },
+  {
+    questionHindi: "मानव रक्त का सामान्य pH मान लगभग कितना होता है?",
+    questionEnglish: "What is the approximate normal pH of human blood?",
+    optionsHindi: ["7.4", "7.0", "6.4", "8.4"],
+    optionsEnglish: ["7.4", "7.0", "6.4", "8.4"],
+    answer: "7.4"
+  },
+  {
+    questionHindi: "विटामिन C की कमी से कौन-सा रोग होता है?",
+    questionEnglish: "Which disease is caused by a deficiency of vitamin C?",
+    optionsHindi: ["रिकेट्स", "स्कर्वी", "रतौंधी", "बेरी-बेरी"],
+    optionsEnglish: ["Rickets", "Scurvy", "Night blindness", "Beriberi"],
+    answer: "स्कर्वी"
+  },
+  {
+    questionHindi: "ध्वनि की तीव्रता (लाउडनेस) मापने की इकाई क्या है?",
+    questionEnglish: "What is the unit used to measure sound loudness?",
+    optionsHindi: ["हर्ट्ज़", "ओम", "वाट", "डेसीबल"],
+    optionsEnglish: ["Hertz", "Ohm", "Watt", "Decibel"],
+    answer: "डेसीबल"
+  },
+  {
+    questionHindi: "बल का SI मात्रक क्या है?",
+    questionEnglish: "What is the SI unit of force?",
+    optionsHindi: ["न्यूटन", "जूल", "वाट", "पास्कल"],
+    optionsEnglish: ["Newton", "Joule", "Watt", "Pascal"],
+    answer: "न्यूटन"
+  },
+  {
+    questionHindi: "मानव रक्त के हीमोग्लोबिन में कौन-सा तत्व पाया जाता है?",
+    questionEnglish: "Which element is found in human blood haemoglobin?",
+    optionsHindi: ["कैल्शियम", "लोहा", "सोडियम", "आयोडीन"],
+    optionsEnglish: ["Calcium", "Iron", "Sodium", "Iodine"],
+    answer: "लोहा"
+  },
+  {
+    questionHindi: "भारत का राष्ट्रीय पशु कौन-सा है?",
+    questionEnglish: "What is the national animal of India?",
+    optionsHindi: ["सिंह", "हाथी", "बाघ", "तेंदुआ"],
+    optionsEnglish: ["Lion", "Elephant", "Tiger", "Leopard"],
+    answer: "बाघ"
+  },
+  {
+    questionHindi: "स्वतंत्र भारत की पहली महिला प्रधानमंत्री कौन थीं?",
+    questionEnglish: "Who was the first woman Prime Minister of independent India?",
+    optionsHindi: ["इंदिरा गांधी", "सुचेता कृपलानी", "सरोजिनी नायडू", "प्रतिभा पाटिल"],
+    optionsEnglish: ["Indira Gandhi", "Sucheta Kripalani", "Sarojini Naidu", "Pratibha Patil"],
+    answer: "इंदिरा गांधी"
+  },
+  {
+    questionHindi: "भारतीय रिज़र्व बैंक (RBI) का मुख्यालय कहाँ स्थित है?",
+    questionEnglish: "Where is the headquarters of the Reserve Bank of India (RBI) located?",
+    optionsHindi: ["दिल्ली", "कोलकाता", "मुंबई", "चेन्नई"],
+    optionsEnglish: ["Delhi", "Kolkata", "Mumbai", "Chennai"],
+    answer: "मुंबई"
+  },
+  {
+    questionHindi: "0° अक्षांश रेखा को क्या कहते हैं?",
+    questionEnglish: "What is the 0° latitude line called?",
+    optionsHindi: ["भूमध्य रेखा", "कर्क रेखा", "मकर रेखा", "प्रधान मध्याह्न रेखा"],
+    optionsEnglish: ["Equator", "Tropic of Cancer", "Tropic of Capricorn", "Prime Meridian"],
+    answer: "भूमध्य रेखा"
+  },
+  {
+    questionHindi: "कर्क रेखा भारत के कितने राज्यों से होकर गुजरती है?",
+    questionEnglish: "Through how many Indian states does the Tropic of Cancer pass?",
+    optionsHindi: ["6", "8", "9", "10"],
+    optionsEnglish: ["6", "8", "9", "10"],
+    answer: "8"
+  },
+  {
+    questionHindi: "दिल्ली सल्तनत का पहला सुल्तान कौन था?",
+    questionEnglish: "Who was the first Sultan of the Delhi Sultanate?",
+    optionsHindi: ["इल्तुतमिश", "कुतुबुद्दीन ऐबक", "बलबन", "रज़िया सुल्ताना"],
+    optionsEnglish: ["Iltutmish", "Qutb-ud-din Aibak", "Balban", "Razia Sultan"],
+    answer: "कुतुबुद्दीन ऐबक"
+  },
+  {
+    questionHindi: "‘चिपको आंदोलन’ किससे संबंधित है?",
+    questionEnglish: "What was the Chipko Movement associated with?",
+    optionsHindi: ["वृक्षों की रक्षा", "जल संरक्षण", "भूमि सुधार", "तंबाकू निषेध"],
+    optionsEnglish: ["Protection of trees", "Water conservation", "Land reform", "Tobacco prohibition"],
+    answer: "वृक्षों की रक्षा"
+  },
+  {
+    questionHindi: "वस्तु एवं सेवा कर (GST) भारत में किस वर्ष लागू हुआ?",
+    questionEnglish: "In which year was the Goods and Services Tax (GST) implemented in India?",
+    optionsHindi: ["2015", "2016", "2017", "2018"],
+    optionsEnglish: ["2015", "2016", "2017", "2018"],
+    answer: "2017"
+  },
+  {
+    questionHindi: "क्षेत्रफल की दृष्टि से भारत का सबसे बड़ा राज्य कौन-सा है?",
+    questionEnglish: "Which is the largest state in India by area?",
+    optionsHindi: ["मध्य प्रदेश", "राजस्थान", "महाराष्ट्र", "उत्तर प्रदेश"],
+    optionsEnglish: ["Madhya Pradesh", "Rajasthan", "Maharashtra", "Uttar Pradesh"],
+    answer: "राजस्थान"
+  },
   {
     "questionHindi": "भारतीय संविधान का कौन-सा अनुच्छेद भारत के राष्ट्रपति को वित्तीय आपातकाल लगाने की शक्ति देता है?",
     "questionEnglish": "Which Article of the Indian Constitution empowers the President of India to declare a Financial Emergency?",
@@ -8094,7 +8444,357 @@ generalKnowledge: [
 
 
 maths: [
- 
+   {
+    questionHindi: "480 का 25% और 150 का 40% का योग कितना है?",
+    questionEnglish: "What is the sum of 25% of 480 and 40% of 150?",
+    optionsHindi: ["170", "180", "190", "200"],
+    optionsEnglish: ["170", "180", "190", "200"],
+    answer: "180"
+  },
+  {
+    questionHindi: "एक वस्तु ₹800 में खरीदी गई और 15% लाभ पर बेची गई। उसका विक्रय मूल्य क्या है?",
+    questionEnglish: "An item was bought for ₹800 and sold at a profit of 15%. What is its selling price?",
+    optionsHindi: ["₹880", "₹900", "₹920", "₹940"],
+    optionsEnglish: ["₹880", "₹900", "₹920", "₹940"],
+    answer: "₹920"
+  },
+  {
+    questionHindi: "5 संख्याओं का औसत 24 है। यदि उनमें से 4 संख्याओं का औसत 22 है, तो पाँचवीं संख्या क्या है?",
+    questionEnglish: "The average of 5 numbers is 24. If the average of 4 of them is 22, what is the fifth number?",
+    optionsHindi: ["32", "34", "36", "38"],
+    optionsEnglish: ["32", "34", "36", "38"],
+    answer: "32"
+  },
+  {
+    questionHindi: "दो संख्याओं का अनुपात 3 : 5 है और उनका योग 160 है। बड़ी संख्या क्या है?",
+    questionEnglish: "Two numbers are in the ratio 3:5 and their sum is 160. What is the larger number?",
+    optionsHindi: ["60", "80", "90", "100"],
+    optionsEnglish: ["60", "80", "90", "100"],
+    answer: "100"
+  },
+  {
+    questionHindi: "A किसी कार्य को 10 दिनों में और B उसी कार्य को 15 दिनों में पूरा कर सकता है। दोनों मिलकर कार्य कितने दिनों में पूरा करेंगे?",
+    questionEnglish: "A can complete a job in 10 days and B can complete the same job in 15 days. How many days will they take working together?",
+    optionsHindi: ["5 दिन", "6 दिन", "7.5 दिन", "8 दिन"],
+    optionsEnglish: ["5 days", "6 days", "7.5 days", "8 days"],
+    answer: "6 दिन"
+  },
+  {
+    questionHindi: "120 मीटर लंबी रेलगाड़ी 54 km/h की गति से चल रही है। वह एक खंभे को कितने समय में पार करेगी?",
+    questionEnglish: "A 120-metre-long train is moving at 54 km/h. How long will it take to pass a pole?",
+    optionsHindi: ["5 सेकंड", "6 सेकंड", "8 सेकंड", "10 सेकंड"],
+    optionsEnglish: ["5 seconds", "6 seconds", "8 seconds", "10 seconds"],
+    answer: "8 सेकंड"
+  },
+  {
+    questionHindi: "₹5,000 पर 8% वार्षिक दर से 3 वर्ष का साधारण ब्याज कितना होगा?",
+    questionEnglish: "What is the simple interest on ₹5,000 for 3 years at 8% per annum?",
+    optionsHindi: ["₹1,200", "₹1,250", "₹1,400", "₹1,500"],
+    optionsEnglish: ["₹1,200", "₹1,250", "₹1,400", "₹1,500"],
+    answer: "₹1,200"
+  },
+  {
+    questionHindi: "₹10,000 पर 10% वार्षिक दर से 2 वर्ष का चक्रवृद्धि ब्याज कितना होगा?",
+    questionEnglish: "What is the compound interest on ₹10,000 for 2 years at 10% per annum?",
+    optionsHindi: ["₹2,000", "₹2,100", "₹2,200", "₹2,400"],
+    optionsEnglish: ["₹2,000", "₹2,100", "₹2,200", "₹2,400"],
+    answer: "₹2,100"
+  },
+  {
+    questionHindi: "14 cm त्रिज्या वाले वृत्त का क्षेत्रफल क्या है? (π = 22/7)",
+    questionEnglish: "What is the area of a circle with radius 14 cm? (π = 22/7)",
+    optionsHindi: ["154 cm²", "308 cm²", "462 cm²", "616 cm²"],
+    optionsEnglish: ["154 cm²", "308 cm²", "462 cm²", "616 cm²"],
+    answer: "616 cm²"
+  },
+  {
+    questionHindi: "सरल कीजिए: 3/4 − 2/5",
+    questionEnglish: "Simplify: 3/4 − 2/5",
+    optionsHindi: ["7/20", "9/20", "11/20", "1/20"],
+    optionsEnglish: ["7/20", "9/20", "11/20", "1/20"],
+    answer: "7/20"
+  },
+  {
+    questionHindi: "√1764 का मान क्या है?",
+    questionEnglish: "What is the value of √1764?",
+    optionsHindi: ["38", "42", "44", "46"],
+    optionsEnglish: ["38", "42", "44", "46"],
+    answer: "42"
+  },
+  {
+    questionHindi: "यदि x + y = 10 और xy = 21 है, तो x² + y² का मान क्या होगा?",
+    questionEnglish: "If x + y = 10 and xy = 21, what is the value of x² + y²?",
+    optionsHindi: ["58", "62", "79", "121"],
+    optionsEnglish: ["58", "62", "79", "121"],
+    answer: "58"
+  },
+  {
+    questionHindi: "20% और 10% की दो क्रमागत छूटों के बराबर एकल छूट कितने प्रतिशत है?",
+    questionEnglish: "What single discount is equivalent to two successive discounts of 20% and 10%?",
+    optionsHindi: ["25%", "26%", "28%", "30%"],
+    optionsEnglish: ["25%", "26%", "28%", "30%"],
+    answer: "28%"
+  },
+  {
+    questionHindi: "एक वस्तु का अंकित मूल्य ₹1,500 है। उस पर 12% की छूट दी जाए तो विक्रय मूल्य क्या होगा?",
+    questionEnglish: "An item is marked at ₹1,500. What will be its selling price after a 12% discount?",
+    optionsHindi: ["₹1,300", "₹1,320", "₹1,350", "₹1,380"],
+    optionsEnglish: ["₹1,300", "₹1,320", "₹1,350", "₹1,380"],
+    answer: "₹1,320"
+  },
+  {
+    questionHindi: "12 और 18 का ल.स.प. (LCM) क्या है?",
+    questionEnglish: "What is the LCM of 12 and 18?",
+    optionsHindi: ["24", "36", "48", "72"],
+    optionsEnglish: ["24", "36", "48", "72"],
+    answer: "36"
+  },
+  {
+    questionHindi: "एक समकोण त्रिभुज का आधार 6 cm और ऊँचाई 8 cm है। उसका कर्ण कितना होगा?",
+    questionEnglish: "A right-angled triangle has a base of 6 cm and a height of 8 cm. What is its hypotenuse?",
+    optionsHindi: ["9 cm", "10 cm", "12 cm", "14 cm"],
+    optionsEnglish: ["9 cm", "10 cm", "12 cm", "14 cm"],
+    answer: "10 cm"
+  },
+  {
+    questionHindi: "एक कार 45 km/h की गति से 180 km की दूरी कितने समय में तय करेगी?",
+    questionEnglish: "How long will a car take to cover 180 km at a speed of 45 km/h?",
+    optionsHindi: ["3 घंटे", "3.5 घंटे", "4 घंटे", "4.5 घंटे"],
+    optionsEnglish: ["3 hours", "3.5 hours", "4 hours", "4.5 hours"],
+    answer: "4 घंटे"
+  },
+  {
+    questionHindi: "300 में 20% की वृद्धि की गई और फिर प्राप्त संख्या में 20% की कमी की गई। अंतिम संख्या क्या है?",
+    questionEnglish: "300 is increased by 20%, and then the resulting number is decreased by 20%. What is the final number?",
+    optionsHindi: ["288", "292", "296", "300"],
+    optionsEnglish: ["288", "292", "296", "300"],
+    answer: "288"
+  },
+  {
+    questionHindi: "यदि 3x − 7 = 20 है, तो x का मान क्या है?",
+    questionEnglish: "If 3x − 7 = 20, what is the value of x?",
+    optionsHindi: ["7", "8", "9", "10"],
+    optionsEnglish: ["7", "8", "9", "10"],
+    answer: "9"
+  },
+  {
+    questionHindi: "30 लीटर दूध और पानी के मिश्रण में दूध और पानी का अनुपात 4 : 1 है। मिश्रण में पानी कितने लीटर है?",
+    questionEnglish: "A 30-litre mixture of milk and water has a milk-to-water ratio of 4:1. How many litres of water are in the mixture?",
+    optionsHindi: ["4 लीटर", "5 लीटर", "6 लीटर", "8 लीटर"],
+    optionsEnglish: ["4 litres", "5 litres", "6 litres", "8 litres"],
+    answer: "6 लीटर"
+  },
+  {
+    questionHindi: "P और Q बराबर समय के लिए 2 : 3 के अनुपात में निवेश करते हैं। कुल लाभ ₹7,500 है। P का हिस्सा कितना होगा?",
+    questionEnglish: "P and Q invest in the ratio 2:3 for the same period. If the total profit is ₹7,500, what is P's share?",
+    optionsHindi: ["₹3,000", "₹3,500", "₹4,000", "₹4,500"],
+    optionsEnglish: ["₹3,000", "₹3,500", "₹4,000", "₹4,500"],
+    answer: "₹3,000"
+  },
+  {
+    questionHindi: "एक आयत की लंबाई 15 cm और चौड़ाई 8 cm है। उसके विकर्ण की लंबाई कितनी है?",
+    questionEnglish: "A rectangle is 15 cm long and 8 cm wide. What is the length of its diagonal?",
+    optionsHindi: ["16 cm", "17 cm", "18 cm", "19 cm"],
+    optionsEnglish: ["16 cm", "17 cm", "18 cm", "19 cm"],
+    answer: "17 cm"
+  },
+  {
+    questionHindi: "पहली 10 प्राकृतिक संख्याओं का योग क्या है?",
+    questionEnglish: "What is the sum of the first 10 natural numbers?",
+    optionsHindi: ["45", "50", "55", "60"],
+    optionsEnglish: ["45", "50", "55", "60"],
+    answer: "55"
+  },
+  {
+    questionHindi: "एक व्यक्ति कोई दूरी 40 km/h की गति से जाता है और उसी दूरी को 60 km/h की गति से वापस आता है। पूरी यात्रा की औसत गति क्या है?",
+    questionEnglish: "A person travels a distance at 40 km/h and returns over the same distance at 60 km/h. What is the average speed for the whole journey?",
+    optionsHindi: ["46 km/h", "48 km/h", "50 km/h", "52 km/h"],
+    optionsEnglish: ["46 km/h", "48 km/h", "50 km/h", "52 km/h"],
+    answer: "48 km/h"
+  },
+  {
+    questionHindi: "एक वस्तु ₹250 में खरीदी गई और ₹300 में बेची गई। लाभ प्रतिशत कितना है?",
+    questionEnglish: "An item was bought for ₹250 and sold for ₹300. What is the profit percentage?",
+    optionsHindi: ["10%", "15%", "20%", "25%"],
+    optionsEnglish: ["10%", "15%", "20%", "25%"],
+    answer: "20%"
+  },
+  {
+    questionHindi: "वाक्य के उस भाग को चुनिए जिसमें त्रुटि है: Each of the students (1) / have submitted (2) / their assignment (3) / on time (4).",
+    questionEnglish: "Find the part of the sentence that contains an error: Each of the students (1) / have submitted (2) / their assignment (3) / on time (4).",
+    optionsHindi: ["(1)", "(2)", "(3)", "(4)"],
+    optionsEnglish: ["(1)", "(2)", "(3)", "(4)"],
+    answer: "(2)"
+  },
+  {
+    questionHindi: "वाक्य को Active से Passive में बदलिए: The chef is preparing a new dish.",
+    questionEnglish: "Change the sentence from active to passive: The chef is preparing a new dish.",
+    optionsHindi: ["A new dish is prepared by the chef.", "A new dish was being prepared by the chef.", "A new dish is being prepared by the chef.", "A new dish has been prepared by the chef."],
+    optionsEnglish: ["A new dish is prepared by the chef.", "A new dish was being prepared by the chef.", "A new dish is being prepared by the chef.", "A new dish has been prepared by the chef."],
+    answer: "A new dish is being prepared by the chef."
+  },
+  {
+    questionHindi: "वाक्य को Passive से Active में बदलिए: The window was broken by the child.",
+    questionEnglish: "Convert the sentence from passive to active voice: The window was broken by the child.",
+    optionsHindi: ["The child had broken the window.", "The child broke the window.", "The child has broken the window.", "The child was breaking the window."],
+    optionsEnglish: ["The child had broken the window.", "The child broke the window.", "The child has broken the window.", "The child was breaking the window."],
+    answer: "The child broke the window."
+  },
+  {
+    questionHindi: "सही विकल्प चुनिए: She is very good ______ mathematics.",
+    questionEnglish: "Select the correct option: She is very good ______ mathematics.",
+    optionsHindi: ["in", "on", "at", "with"],
+    optionsEnglish: ["in", "on", "at", "with"],
+    answer: "at"
+  },
+  {
+    questionHindi: "सही विकल्प चुनिए: He has been living in this city ______ 2015.",
+    questionEnglish: "Select the correct option: He has been living in this city ______ 2015.",
+    optionsHindi: ["for", "since", "from", "by"],
+    optionsEnglish: ["for", "since", "from", "by"],
+    answer: "since"
+  },
+  {
+    questionHindi: "दिए गए शब्द ABUNDANT का सबसे उपयुक्त समानार्थी शब्द चुनिए।",
+    questionEnglish: "Select the most appropriate synonym of the word ABUNDANT.",
+    optionsHindi: ["Plentiful", "Scarce", "Tiny", "Rare"],
+    optionsEnglish: ["Plentiful", "Scarce", "Tiny", "Rare"],
+    answer: "Plentiful"
+  },
+  {
+    questionHindi: "दिए गए शब्द BRAVE का सबसे उपयुक्त विलोम शब्द चुनिए।",
+    questionEnglish: "Select the most appropriate antonym of the word BRAVE.",
+    optionsHindi: ["Fearless", "Heroic", "Cowardly", "Bold"],
+    optionsEnglish: ["Fearless", "Heroic", "Cowardly", "Bold"],
+    answer: "Cowardly"
+  },
+  {
+    questionHindi: "‘A person who loves and collects books’ के लिए सही one-word substitute चुनिए।",
+    questionEnglish: "Choose the correct one-word substitute for: ‘A person who loves and collects books’.",
+    optionsHindi: ["Philatelist", "Numismatist", "Cartographer", "Bibliophile"],
+    optionsEnglish: ["Philatelist", "Numismatist", "Cartographer", "Bibliophile"],
+    answer: "Bibliophile"
+  },
+  {
+    questionHindi: "मुहावरे ‘Break the ice’ का सही अर्थ चुनिए।",
+    questionEnglish: "Choose the correct meaning of the idiom ‘Break the ice’.",
+    optionsHindi: ["To break something fragile", "To start a friendly conversation", "To feel very cold", "To end a friendship"],
+    optionsEnglish: ["To break something fragile", "To start a friendly conversation", "To feel very cold", "To end a friendship"],
+    answer: "To start a friendly conversation"
+  },
+  {
+    questionHindi: "मुहावरे ‘Once in a blue moon’ का सही अर्थ चुनिए।",
+    questionEnglish: "Choose the correct meaning of the idiom ‘Once in a blue moon’.",
+    optionsHindi: ["Very frequently", "Every month", "Very rarely", "Only at night"],
+    optionsEnglish: ["Very frequently", "Every month", "Very rarely", "Only at night"],
+    answer: "Very rarely"
+  },
+  {
+    questionHindi: "सही वर्तनी चुनिए।",
+    questionEnglish: "Spot the correct spelling.",
+    optionsHindi: ["Accomodation", "Accommodation", "Acommodation", "Acomodation"],
+    optionsEnglish: ["Accomodation", "Accommodation", "Acommodation", "Acomodation"],
+    answer: "Accommodation"
+  },
+  {
+    questionHindi: "गलत वर्तनी वाले शब्द की पहचान कीजिए।",
+    questionEnglish: "Identify the misspelt word.",
+    optionsHindi: ["Necessary", "Separate", "Definitely", "Occurence"],
+    optionsEnglish: ["Necessary", "Separate", "Definitely", "Occurence"],
+    answer: "Occurence"
+  },
+  {
+    questionHindi: "वाक्य को Direct से Indirect Speech में बदलिए: He said, “I am tired.”",
+    questionEnglish: "Change the sentence from direct to indirect speech: He said, “I am tired.”",
+    optionsHindi: ["He said that he is tired.", "He said that he was tired.", "He said that I was tired.", "He said that he has been tired."],
+    optionsEnglish: ["He said that he is tired.", "He said that he was tired.", "He said that I was tired.", "He said that he has been tired."],
+    answer: "He said that he was tired."
+  },
+  {
+    questionHindi: "वाक्य को Indirect से Direct Speech में बदलिए: She said that she would come the next day.",
+    questionEnglish: "Change the sentence from indirect to direct speech: She said that she would come the next day.",
+    optionsHindi: ["She said, “I would come tomorrow.”", "She said, “I will come the next day.”", "She said, “I will come tomorrow.”", "She said, “I came tomorrow.”"],
+    optionsEnglish: ["She said, “I would come tomorrow.”", "She said, “I will come the next day.”", "She said, “I will come tomorrow.”", "She said, “I came tomorrow.”"],
+    answer: "She said, “I will come tomorrow.”"
+  },
+  {
+    questionHindi: "वाक्यों को सही क्रम में व्यवस्थित कीजिए: 1. The farmer sowed the seeds in spring. 2. He watered them regularly. 3. After a few months, the crop was ready. 4. Finally, he harvested the grains and sold them.",
+    questionEnglish: "Rearrange the sentences in the correct order: 1. The farmer sowed the seeds in spring. 2. He watered them regularly. 3. After a few months, the crop was ready. 4. Finally, he harvested the grains and sold them.",
+    optionsHindi: ["2-1-3-4", "1-3-2-4", "1-2-3-4", "4-3-2-1"],
+    optionsEnglish: ["2-1-3-4", "1-3-2-4", "1-2-3-4", "4-3-2-1"],
+    answer: "1-2-3-4"
+  },
+  {
+    questionHindi: "रेखांकित भाग को सही विकल्प से बदलिए: He insisted to go there without waiting.",
+    questionEnglish: "Choose the most suitable option to replace the highlighted part: He insisted to go there without waiting.",
+    optionsHindi: ["insisted to go", "insisted for going", "insisted on going", "insisted going"],
+    optionsEnglish: ["insisted to go", "insisted for going", "insisted on going", "insisted going"],
+    answer: "insisted on going"
+  },
+  {
+    questionHindi: "गद्यांश के अनुसार, उसका मुख्य विचार क्या है? Water is essential for all forms of life, yet millions of people around the world still lack access to clean drinking water. Rapid urbanisation, industrial pollution and wasteful habits have placed enormous pressure on rivers and groundwater. Experts suggest that rainwater harvesting, repairing leaking pipes and reusing treated wastewater can significantly reduce this pressure. However, such measures succeed only when ordinary citizens take responsibility and use water wisely.",
+    questionEnglish: "Read the passage. What is its main idea? Water is essential for all forms of life, yet millions of people around the world still lack access to clean drinking water. Rapid urbanisation, industrial pollution and wasteful habits have placed enormous pressure on rivers and groundwater. Experts suggest that rainwater harvesting, repairing leaking pipes and reusing treated wastewater can significantly reduce this pressure. However, such measures succeed only when ordinary citizens take responsibility and use water wisely.",
+    optionsHindi: ["Water pollution is caused only by industries", "Water must be conserved through responsible use by everyone", "Rivers are drying up everywhere", "Urbanisation is always beneficial"],
+    optionsEnglish: ["Water pollution is caused only by industries", "Water must be conserved through responsible use by everyone", "Rivers are drying up everywhere", "Urbanisation is always beneficial"],
+    answer: "Water must be conserved through responsible use by everyone"
+  },
+  {
+    questionHindi: "गद्यांश के अनुसार, जल संसाधनों पर दबाव कम करने के लिए निम्नलिखित में से किस उपाय का उल्लेख नहीं किया गया है?",
+    questionEnglish: "According to the passage, which measure to reduce pressure on water resources is NOT mentioned?",
+    optionsHindi: ["Rainwater harvesting", "Repairing leaking pipes", "Building more dams", "Reusing treated wastewater"],
+    optionsEnglish: ["Rainwater harvesting", "Repairing leaking pipes", "Building more dams", "Reusing treated wastewater"],
+    answer: "Building more dams"
+  },
+  {
+    questionHindi: "गद्यांश के अनुसार, नदियों और भूजल पर दबाव किस कारण पड़ा है?",
+    questionEnglish: "According to the passage, what has put pressure on rivers and groundwater?",
+    optionsHindi: ["Heavy rainfall", "Lack of experts", "Too many rivers", "Rapid urbanisation and pollution"],
+    optionsEnglish: ["Heavy rainfall", "Lack of experts", "Too many rivers", "Rapid urbanisation and pollution"],
+    answer: "Rapid urbanisation and pollution"
+  },
+  {
+    questionHindi: "गद्यांश में प्रयुक्त शब्द ‘enormous’ का सबसे उपयुक्त समानार्थी शब्द चुनिए।",
+    questionEnglish: "Select the most appropriate synonym of ‘enormous’ as used in the passage.",
+    optionsHindi: ["Tiny", "Huge", "Weak", "Calm"],
+    optionsEnglish: ["Tiny", "Huge", "Weak", "Calm"],
+    answer: "Huge"
+  },
+  {
+    questionHindi: "सही विकल्प चुनिए: If I ______ you, I would apologise to her.",
+    questionEnglish: "Select the correct option: If I ______ you, I would apologise to her.",
+    optionsHindi: ["was", "am", "be", "were"],
+    optionsEnglish: ["was", "am", "be", "were"],
+    answer: "were"
+  },
+  {
+    questionHindi: "सही विकल्प चुनिए: She is ______ honest woman.",
+    questionEnglish: "Select the correct option: She is ______ honest woman.",
+    optionsHindi: ["a", "the", "an", "no article"],
+    optionsEnglish: ["a", "the", "an", "no article"],
+    answer: "an"
+  },
+  {
+    questionHindi: "सही विकल्प चुनिए: He is senior ______ me by two years.",
+    questionEnglish: "Select the correct option: He is senior ______ me by two years.",
+    optionsHindi: ["than", "to", "from", "over"],
+    optionsEnglish: ["than", "to", "from", "over"],
+    answer: "to"
+  },
+  {
+    questionHindi: "‘Flour’ का समान उच्चारण वाला शब्द चुनिए।",
+    questionEnglish: "Select the word that is a homophone of ‘flour’.",
+    optionsHindi: ["Flower", "Floor", "Flavour", "Flow"],
+    optionsEnglish: ["Flower", "Floor", "Flavour", "Flow"],
+    answer: "Flower"
+  },
+  {
+    questionHindi: "मुहावरे ‘A hot potato’ का सही अर्थ चुनिए।",
+    questionEnglish: "Choose the correct meaning of the idiom ‘A hot potato’.",
+    optionsHindi: ["A tasty snack", "A controversial issue that is difficult to handle", "A very hot day", "A cheap meal"],
+    optionsEnglish: ["A tasty snack", "A controversial issue that is difficult to handle", "A very hot day", "A cheap meal"],
+    answer: "A controversial issue that is difficult to handle"
+  },
+
 
 
   {
