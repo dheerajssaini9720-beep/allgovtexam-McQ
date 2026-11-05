@@ -1,298 +1,285 @@
 {
   "2026-10-30": [
-
-    
     {
-
-      
-  "q": {
-    "hi": "20वें एशियाई खेल 2026 (19 सितंबर – 4 अक्टूबर) की मेज़बानी किस शहर ने की?",
-    "en": "Which city hosted the 20th Asian Games 2026 (19 September – 4 October)?"
-  },
-  "options": {
-    "hi": ["हांगझोऊ (चीन)", "जकार्ता (इंडोनेशिया)", "इंचियोन (दक्षिण कोरिया)", "आइची-नागोया (जापान)"],
-    "en": ["Hangzhou (China)", "Jakarta (Indonesia)", "Incheon (South Korea)", "Aichi-Nagoya (Japan)"]
-  },
-  "answer": 3,
-  "explain": {
-    "hi": "20वें एशियाई खेल जापान के आइची प्रान्त और नागोया शहर में 19 सितंबर से 4 अक्टूबर 2026 तक हुए। इनमें लगभग 500 भारतीय खिलाड़ियों ने हिस्सा लिया।",
-    "en": "The 20th Asian Games were held in Aichi Prefecture and Nagoya, Japan, from 19 September to 4 October 2026. India sent around 500 athletes."
-  }
-},
-{
-  "q": {
-    "hi": "एशियाई खेल 2026 में भारत ने कुल कितने पदक जीते और पदक तालिका में कौन सा स्थान पाया?",
-    "en": "How many medals did India win in total at the Asian Games 2026, and what rank did it get?"
-  },
-  "options": {
-    "hi": ["70 पदक, 5वाँ स्थान", "85 पदक, चौथा स्थान", "99 पदक, तीसरा स्थान", "106 पदक, चौथा स्थान"],
-    "en": ["70 medals, 5th place", "85 medals, 4th place", "99 medals, 3rd place", "106 medals, 4th place"]
-  },
-  "answer": 1,
-  "explain": {
-    "hi": "भारत ने 21 स्वर्ण, 27 रजत और 37 कांस्य यानी कुल 85 पदक जीते और चौथे स्थान पर रहा। चीन (341 पदक) पहले और जापान (269) दूसरे स्थान पर रहा। यह हांगझोऊ की तुलना में कम रहा, लेकिन जकार्ता 2018 के 70 पदकों से ज़्यादा है।",
-    "en": "India won 21 gold, 27 silver and 37 bronze, 85 in total, and finished 4th. China (341 medals) was first and Japan (269) second. It was lower than Hangzhou but higher than the 70 medals at Jakarta 2018."
-  }
-},
-{
-  "q": {
-    "hi": "एशियाई खेल 2026 के हॉकी फाइनल में भारतीय पुरुष टीम ने किसे 5-1 से हराकर खिताब बरकरार रखा?",
-    "en": "Whom did the Indian men's hockey team beat 5-1 in the Asian Games 2026 final to retain the title?"
-  },
-  "options": {
-    "hi": ["पाकिस्तान", "जापान", "मलेशिया", "दक्षिण कोरिया"],
-    "en": ["Pakistan", "Japan", "Malaysia", "South Korea"]
-  },
-  "answer": 2,
-  "explain": {
-    "hi": "भारतीय पुरुष हॉकी टीम ने फाइनल में मलेशिया को 5-1 से हराया। यह भारत का 21वाँ और आखिरी स्वर्ण पदक था। महिला हॉकी टीम ने भी 44 साल बाद एशियाई खेलों का स्वर्ण जीता।",
-    "en": "The Indian men's hockey team beat Malaysia 5-1 in the final. It was India's 21st and last gold of the Games. The women's hockey team also won Asian Games gold after a 44-year wait."
-  }
-},
-{
-  "q": {
-    "hi": "एशियाई खेल 2026 में बॉक्सिंग का स्वर्ण जीतकर मैरी कॉम के बाद ऐसा करने वाली दूसरी भारतीय महिला मुक्केबाज़ कौन बनीं?",
-    "en": "Who became only the second Indian woman boxer after Mary Kom to win an Asian Games gold, at the 2026 edition?"
-  },
-  "options": {
-    "hi": ["लवलीना बोरगोहेन", "निकहत ज़रीन", "नीतू घनघस", "मंजू रानी"],
-    "en": ["Lovlina Borgohain", "Nikhat Zareen", "Nitu Ghanghas", "Manju Rani"]
-  },
-  "answer": 0,
-  "explain": {
-    "hi": "लवलीना बोरगोहेन ने स्वर्ण जीता और मैरी कॉम (2014 इंचियोन) के बाद एशियाई खेलों में बॉक्सिंग स्वर्ण जीतने वाली दूसरी भारतीय महिला बनीं। भारत ने इन खेलों में बॉक्सिंग के तीन खिताब जीते।",
-    "en": "Lovlina Borgohain won gold and became the second Indian woman after Mary Kom (Incheon 2014) to win an Asian Games boxing gold. India won three boxing titles at these Games."
-  }
-},
-{
-  "q": {
-    "hi": "नोबेल पुरस्कार 2026 (चिकित्सा/फिजियोलॉजी) किस खोज के लिए दिया गया?",
-    "en": "For which discovery was the Nobel Prize 2026 in Physiology or Medicine awarded?"
-  },
-  "options": {
-    "hi": ["mRNA वैक्सीन तकनीक", "CRISPR जीन एडिटिंग", "प्रकाश-नियंत्रित आयन चैनल और ऑप्टोजेनेटिक्स", "GLP-1 दवाएँ"],
-    "en": ["mRNA vaccine technology", "CRISPR gene editing", "Light-gated ion channels and optogenetics", "GLP-1 drugs"]
-  },
-  "answer": 2,
-  "explain": {
-    "hi": "यह पुरस्कार कार्ल डाइसेरोथ, पीटर हेगमैन और जॉर्ज नागेल को प्रकाश-नियंत्रित आयन चैनलों और ऑप्टोजेनेटिक्स की खोज के लिए मिला। इस तकनीक से प्रकाश द्वारा न्यूरॉन्स को नियंत्रित किया जाता है।",
-    "en": "Karl Deisseroth, Peter Hegemann and Georg Nagel won for discoveries on light-gated ion channels and optogenetics, a technique that controls neurons using light."
-  }
-},
-{
-  "q": {
-    "hi": "नोबेल भौतिकी पुरस्कार 2026, IceCube न्यूट्रिनो ऑब्ज़र्वेटरी में योगदान के लिए किसे दिया गया?",
-    "en": "Who won the Nobel Prize in Physics 2026 for contributions to the IceCube Neutrino Observatory?"
-  },
-  "options": {
-    "hi": ["फ्रांसिस हैल्ज़ेन", "ऐन ल'ह्यूलियर", "रोजर पेनरोज़", "सॉल पर्लमटर"],
-    "en": ["Francis Halzen", "Anne L'Huillier", "Roger Penrose", "Saul Perlmutter"]
-  },
-  "answer": 0,
-  "explain": {
-    "hi": "फ्रांसिस हैल्ज़ेन को IceCube न्यूट्रिनो ऑब्ज़र्वेटरी में निर्णायक योगदान और खगोलीय स्रोतों से आने वाले उच्च-ऊर्जा न्यूट्रिनो की खोज के लिए पुरस्कार मिला।",
-    "en": "Francis Halzen was honoured for his decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin."
-  }
-},
-{
-  "q": {
-    "hi": "नोबेल रसायन पुरस्कार 2026 हेनरी कागन और केन्सो सोई को किस क्षेत्र में योगदान के लिए मिला?",
-    "en": "Henri B. Kagan and Kenso Soai won the Nobel Prize in Chemistry 2026 for work in which area?"
-  },
-  "options": {
-    "hi": ["मेटल-ऑर्गेनिक फ्रेमवर्क", "क्लिक केमिस्ट्री", "प्रोटीन डिज़ाइन", "असममित कार्बनिक संश्लेषण"],
-    "en": ["Metal-organic frameworks", "Click chemistry", "Protein design", "Asymmetric organic synthesis"]
-  },
-  "answer": 3,
-  "explain": {
-    "hi": "2026 का रसायन नोबेल असममित कार्बनिक संश्लेषण (asymmetric organic synthesis) के लिए हेनरी बी. कागन और केन्सो सोई को दिया गया।",
-    "en": "The 2026 Chemistry Nobel went to Henri B. Kagan and Kenso Soai for asymmetric organic synthesis."
-  }
-},
-{
-  "q": {
-    "hi": "नोबेल साहित्य पुरस्कार 2026 किसे मिला?",
-    "en": "Who won the Nobel Prize in Literature 2026?"
-  },
-  "options": {
-    "hi": ["हान कांग", "ऐन कार्सन", "योन फ़ॉसे", "लुईस ग्लिक"],
-    "en": ["Han Kang", "Anne Carson", "Jon Fosse", "Louise Glück"]
-  },
-  "answer": 1,
-  "explain": {
-    "hi": "कनाडाई लेखिका ऐन कार्सन को 2026 का साहित्य नोबेल मिला। उनका लेखन कविता, गद्य, अनुवाद, आलोचना और शास्त्रीय विद्वत्ता को जोड़ता है।",
-    "en": "Canadian writer Anne Carson won the 2026 Nobel Prize in Literature. Her work combines poetry, prose, translation, criticism and classical scholarship."
-  }
-},
-{
-  "q": {
-    "hi": "नोबेल शांति पुरस्कार 2026 भारतीय मूल की किस न्यायविद् को मिला?",
-    "en": "Which Indian-origin jurist won the Nobel Peace Prize 2026?"
-  },
-  "options": {
-    "hi": ["नरगिस मोहम्मदी", "मारिया कोरिना मचाडो", "नवनीतम 'नवी' पिल्लै", "अबी अहमद"],
-    "en": ["Narges Mohammadi", "María Corina Machado", "Navanethem 'Navi' Pillay", "Abiy Ahmed"]
-  },
-  "answer": 2,
-  "explain": {
-    "hi": "नवनीतम 'नवी' पिल्लै को शांति और अंतरराष्ट्रीय कानून को बढ़ावा देने के प्रयासों के लिए 9 अक्टूबर 2026 को शांति नोबेल दिया गया। वे भारतीय मूल की हैं।",
-    "en": "Navanethem 'Navi' Pillay was awarded the Peace Prize on 9 October 2026 for her efforts to promote peace and international law. She is of Indian origin."
-  }
-},
-{
-  "q": {
-    "hi": "2026 में प्रत्येक नोबेल पुरस्कार की राशि कितनी रही?",
-    "en": "What was the prize money for each Nobel Prize category in 2026?"
-  },
-  "options": {
-    "hi": ["9 मिलियन स्वीडिश क्रोना", "10 मिलियन स्वीडिश क्रोना", "11 मिलियन स्वीडिश क्रोना", "12 मिलियन स्वीडिश क्रोना"],
-    "en": ["9 million SEK", "10 million SEK", "11 million SEK", "12 million SEK"]
-  },
-  "answer": 3,
-  "explain": {
-    "hi": "2026 में पुरस्कार राशि बढ़ाकर 12 मिलियन स्वीडिश क्रोना (लगभग 1.2 मिलियन डॉलर) की गई, जो 2025 में 11 मिलियन थी। पुरस्कार समारोह 10 दिसंबर को होता है।",
-    "en": "The prize money was raised to 12 million SEK (about $1.2 million) from 11 million in 2025. The award ceremony is held on 10 December."
-  }
-},
-{
-  "q": {
-    "hi": "FIFA विश्व कप 2026 का फाइनल किसने जीता?",
-    "en": "Who won the FIFA World Cup 2026 final?"
-  },
-  "options": {
-    "hi": ["अर्जेंटीना", "फ्रांस", "स्पेन", "इंग्लैंड"],
-    "en": ["Argentina", "France", "Spain", "England"]
-  },
-  "answer": 2,
-  "explain": {
-    "hi": "स्पेन ने 19 जुलाई 2026 को न्यूयॉर्क न्यू जर्सी स्टेडियम में अर्जेंटीना को अतिरिक्त समय में 1-0 से हराकर दूसरी बार विश्व कप जीता। विजयी गोल फेरान टोरेस ने किया।",
-    "en": "Spain beat Argentina 1-0 after extra time at New York New Jersey Stadium on 19 July 2026 to win their second World Cup. Ferran Torres scored the winner."
-  }
-},
-{
-  "q": {
-    "hi": "FIFA विश्व कप 2026 में सर्वश्रेष्ठ खिलाड़ी का गोल्डन बॉल किसे मिला?",
-    "en": "Who won the Golden Ball (best player) at the FIFA World Cup 2026?"
-  },
-  "options": {
-    "hi": ["लियोनेल मेसी", "रोड्री", "किलियन एम्बाप्पे", "जूड बेलिंगहैम"],
-    "en": ["Lionel Messi", "Rodri", "Kylian Mbappé", "Jude Bellingham"]
-  },
-  "answer": 1,
-  "explain": {
-    "hi": "स्पेन के कप्तान रोड्री को गोल्डन बॉल मिला। मेसी को सिल्वर बॉल और एम्बाप्पे को ब्रॉन्ज़ बॉल मिला। एम्बाप्पे ने 10 गोल के साथ दूसरी बार गोल्डन बूट जीता।",
-    "en": "Spain captain Rodri won the Golden Ball. Messi took the Silver Ball and Mbappé the Bronze Ball. Mbappé won the Golden Boot for a second time with 10 goals."
-  }
-},
-{
-  "q": {
-    "hi": "ICC पुरुष T20 विश्व कप 2026 के फाइनल (अहमदाबाद) में भारत ने न्यूज़ीलैंड को कितने रनों से हराया?",
-    "en": "By how many runs did India beat New Zealand in the ICC Men's T20 World Cup 2026 final at Ahmedabad?"
-  },
-  "options": {
-    "hi": ["86 रन", "96 रन", "105 रन", "118 रन"],
-    "en": ["86 runs", "96 runs", "105 runs", "118 runs"]
-  },
-  "answer": 1,
-  "explain": {
-    "hi": "भारत ने 8 मार्च 2026 को 255/5 बनाकर न्यूज़ीलैंड को 159 पर ऑल आउट किया और 96 रन से जीत दर्ज की। भारत तीन T20 विश्व कप जीतने वाली पहली टीम, खिताब बचाने वाली पहली टीम और घरेलू ज़मीन पर जीतने वाली पहली टीम बनी। कप्तान सूर्यकुमार यादव थे।",
-    "en": "On 8 March 2026 India made 255/5 and bowled New Zealand out for 159 to win by 96 runs. India became the first team to win three T20 World Cups, the first to defend the title and the first to win it at home. Suryakumar Yadav was captain."
-  }
-},
-{
-  "q": {
-    "hi": "T20 विश्व कप 2026 में 'प्लेयर ऑफ़ द टूर्नामेंट' कौन चुना गया?",
-    "en": "Who was named Player of the Tournament at the T20 World Cup 2026?"
-  },
-  "options": {
-    "hi": ["जसप्रीत बुमराह", "साहिबज़ादा फ़रहान", "संजू सैमसन", "विल जैक्स"],
-    "en": ["Jasprit Bumrah", "Sahibzada Farhan", "Sanju Samson", "Will Jacks"]
-  },
-  "answer": 2,
-  "explain": {
-    "hi": "संजू सैमसन ने लगभग 199 की स्ट्राइक रेट से 321 रन बनाए और 'प्लेयर ऑफ़ द टूर्नामेंट' बने। सबसे ज़्यादा रन पाकिस्तान के साहिबज़ादा फ़रहान (383) ने बनाए।",
-    "en": "Sanju Samson scored 321 runs at a strike rate of nearly 199 and was named Player of the Tournament. Pakistan's Sahibzada Farhan scored the most runs (383)."
-  }
-},
-{
-  "q": {
-    "hi": "T20 विश्व कप 2026 के फाइनल में 'प्लेयर ऑफ़ द मैच' जसप्रीत बुमराह के गेंदबाज़ी आँकड़े क्या थे?",
-    "en": "What were the bowling figures of Jasprit Bumrah, Player of the Match in the T20 World Cup 2026 final?"
-  },
-  "options": {
-    "hi": ["3/12", "4/22", "5/18", "4/15"],
-    "en": ["3/12", "4/22", "5/18", "4/15"]
-  },
-  "answer": 3,
-  "explain": {
-    "hi": "बुमराह ने 4 ओवर में 15 रन देकर 4 विकेट लिए और वे फाइनल के प्लेयर ऑफ़ द मैच बने। वे 14 विकेट के साथ टूर्नामेंट के संयुक्त सर्वाधिक विकेट लेने वाले गेंदबाज़ भी रहे।",
-    "en": "Bumrah took 4 wickets for 15 runs in 4 overs and was Player of the Match in the final. He also finished as the joint-leading wicket-taker with 14 wickets."
-  }
-},
-{
-  "q": {
-    "hi": "7 अक्टूबर 2026 की MPC बैठक के बाद RBI की रेपो दर कितनी हो गई?",
-    "en": "What did the RBI repo rate become after the MPC meeting of 7 October 2026?"
-  },
-  "options": {
-    "hi": ["5.25%", "5.50%", "5.75%", "6.00%"],
-    "en": ["5.25%", "5.50%", "5.75%", "6.00%"]
-  },
-  "answer": 1,
-  "explain": {
-    "hi": "MPC ने सर्वसम्मति से रेपो दर 25 आधार अंक बढ़ाकर 5.25% से 5.50% की। यह लगभग तीन साल में पहली बढ़ोतरी है। SDF दर 5.25% और MSF व बैंक दर 5.75% हैं। अगली MPC बैठक 2-4 दिसंबर 2026 को है।",
-    "en": "The MPC unanimously raised the repo rate by 25 bps from 5.25% to 5.50%, the first hike in nearly three years. SDF is 5.25% and MSF and Bank Rate are 5.75%. The next MPC meeting is on 2-4 December 2026."
-  }
-},
-{
-  "q": {
-    "hi": "अक्टूबर 2026 की मौद्रिक नीति में RBI ने अपना रुख (stance) किसमें बदला?",
-    "en": "To what did the RBI change its monetary policy stance in the October 2026 policy?"
-  },
-  "options": {
-    "hi": ["तटस्थ (Neutral)", "उदार (Accommodative)", "संतुलित सख्ती (Calibrated Tightening)", "समायोजन वापसी (Withdrawal of Accommodation)"],
-    "en": ["Neutral", "Accommodative", "Calibrated Tightening", "Withdrawal of Accommodation"]
-  },
-  "answer": 2,
-  "explain": {
-    "hi": "RBI गवर्नर संजय मल्होत्रा ने रुख 'तटस्थ' से बदलकर 'संतुलित सख्ती' कर दिया, जिसका मतलब है कि निकट भविष्य में दर कटौती की संभावना नहीं है। RBI ने FY27 के लिए GDP वृद्धि 7.1% और CPI मुद्रास्फीति 5.2% का अनुमान रखा है।",
-    "en": "Governor Sanjay Malhotra shifted the stance from 'neutral' to 'calibrated tightening', meaning near-term rate cuts are off the table. RBI projects FY27 GDP growth at 7.1% and CPI inflation at 5.2%."
-  }
-},
-{
-  "q": {
-    "hi": "2026 के विधानसभा चुनाव में TMC का 15 साल का शासन खत्म होने के बाद पश्चिम बंगाल के मुख्यमंत्री के रूप में किसने शपथ ली?",
-    "en": "Who was sworn in as West Bengal Chief Minister after the 2026 election ended TMC's 15-year rule?"
-  },
-  "options": {
-    "hi": ["दिलीप घोष", "समिक भट्टाचार्य", "शुभेंदु अधिकारी", "सुकांत मजूमदार"],
-    "en": ["Dilip Ghosh", "Samik Bhattacharya", "Suvendu Adhikari", "Sukanta Majumdar"]
-  },
-  "answer": 2,
-
-
-
-
+      "q": {
+        "hi": "20वें एशियाई खेल 2026 (19 सितंबर – 4 अक्टूबर) की मेज़बानी किस शहर ने की?",
+        "en": "Which city hosted the 20th Asian Games 2026 (19 September – 4 October)?"
+      },
+      "options": {
+        "hi": ["हांगझोऊ (चीन)", "जकार्ता (इंडोनेशिया)", "इंचियोन (दक्षिण कोरिया)", "आइची-नागोया (जापान)"],
+        "en": ["Hangzhou (China)", "Jakarta (Indonesia)", "Incheon (South Korea)", "Aichi-Nagoya (Japan)"]
+      },
+      "answer": 3,
+      "explain": {
+        "hi": "20वें एशियाई खेल जापान के आइची प्रान्त और नागोया शहर में 19 सितंबर से 4 अक्टूबर 2026 तक हुए। इनमें लगभग 500 भारतीय खिलाड़ियों ने हिस्सा लिया।",
+        "en": "The 20th Asian Games were held in Aichi Prefecture and Nagoya, Japan, from 19 September to 4 October 2026. India sent around 500 athletes."
+      }
+    },
+    {
+      "q": {
+        "hi": "एशियाई खेल 2026 में भारत ने कुल कितने पदक जीते और पदक तालिका में कौन सा स्थान पाया?",
+        "en": "How many medals did India win in total at the Asian Games 2026, and what rank did it get?"
+      },
+      "options": {
+        "hi": ["70 पदक, 5वाँ स्थान", "85 पदक, चौथा स्थान", "99 पदक, तीसरा स्थान", "106 पदक, चौथा स्थान"],
+        "en": ["70 medals, 5th place", "85 medals, 4th place", "99 medals, 3rd place", "106 medals, 4th place"]
+      },
+      "answer": 1,
+      "explain": {
+        "hi": "भारत ने 21 स्वर्ण, 27 रजत और 37 कांस्य यानी कुल 85 पदक जीते और चौथे स्थान पर रहा। चीन (341 पदक) पहले और जापान (269) दूसरे स्थान पर रहा। यह हांगझोऊ की तुलना में कम रहा, लेकिन जकार्ता 2018 के 70 पदकों से ज़्यादा है।",
+        "en": "India won 21 gold, 27 silver and 37 bronze, 85 in total, and finished 4th. China (341 medals) was first and Japan (269) second. It was lower than Hangzhou but higher than the 70 medals at Jakarta 2018."
+      }
+    },
+    {
+      "q": {
+        "hi": "एशियाई खेल 2026 के हॉकी फाइनल में भारतीय पुरुष टीम ने किसे 5-1 से हराकर खिताब बरकरार रखा?",
+        "en": "Whom did the Indian men's hockey team beat 5-1 in the Asian Games 2026 final to retain the title?"
+      },
+      "options": {
+        "hi": ["पाकिस्तान", "जापान", "मलेशिया", "दक्षिण कोरिया"],
+        "en": ["Pakistan", "Japan", "Malaysia", "South Korea"]
+      },
+      "answer": 2,
+      "explain": {
+        "hi": "भारतीय पुरुष हॉकी टीम ने फाइनल में मलेशिया को 5-1 से हराया। यह भारत का 21वाँ और आखिरी स्वर्ण पदक था। महिला हॉकी टीम ने भी 44 साल बाद एशियाई खेलों का स्वर्ण जीता।",
+        "en": "The Indian men's hockey team beat Malaysia 5-1 in the final. It was India's 21st and last gold of the Games. The women's hockey team also won Asian Games gold after a 44-year wait."
+      }
+    },
+    {
+      "q": {
+        "hi": "एशियाई खेल 2026 में बॉक्सिंग का स्वर्ण जीतकर मैरी कॉम के बाद ऐसा करने वाली दूसरी भारतीय महिला मुक्केबाज़ कौन बनीं?",
+        "en": "Who became only the second Indian woman boxer after Mary Kom to win an Asian Games gold, at the 2026 edition?"
+      },
+      "options": {
+        "hi": ["लवलीना बोरगोहेन", "निकहत ज़रीन", "नीतू घनघस", "मंजू रानी"],
+        "en": ["Lovlina Borgohain", "Nikhat Zareen", "Nitu Ghanghas", "Manju Rani"]
+      },
+      "answer": 0,
+      "explain": {
+        "hi": "लवलीना बोरगोहेन ने स्वर्ण जीता और मैरी कॉम (2014 इंचियोन) के बाद एशियाई खेलों में बॉक्सिंग स्वर्ण जीतने वाली दूसरी भारतीय महिला बनीं। भारत ने इन खेलों में बॉक्सिंग के तीन खिताब जीते।",
+        "en": "Lovlina Borgohain won gold and became the second Indian woman after Mary Kom (Incheon 2014) to win an Asian Games boxing gold. India won three boxing titles at these Games."
+      }
+    },
+    {
+      "q": {
+        "hi": "नोबेल पुरस्कार 2026 (चिकित्सा/फिजियोलॉजी) किस खोज के लिए दिया गया?",
+        "en": "For which discovery was the Nobel Prize 2026 in Physiology or Medicine awarded?"
+      },
+      "options": {
+        "hi": ["mRNA वैक्सीन तकनीक", "CRISPR जीन एडिटिंग", "प्रकाश-नियंत्रित आयन चैनल और ऑप्टोजेनेटिक्स", "GLP-1 दवाएँ"],
+        "en": ["mRNA vaccine technology", "CRISPR gene editing", "Light-gated ion channels and optogenetics", "GLP-1 drugs"]
+      },
+      "answer": 2,
+      "explain": {
+        "hi": "यह पुरस्कार कार्ल डाइसेरोथ, पीटर हेगमैन और जॉर्ज नागेल को प्रकाश-नियंत्रित आयन चैनलों और ऑप्टोजेनेटिक्स की खोज के लिए मिला। इस तकनीक से प्रकाश द्वारा न्यूरॉन्स को नियंत्रित किया जाता है।",
+        "en": "Karl Deisseroth, Peter Hegemann and Georg Nagel won for discoveries on light-gated ion channels and optogenetics, a technique that controls neurons using light."
+      }
+    },
+    {
+      "q": {
+        "hi": "नोबेल भौतिकी पुरस्कार 2026, IceCube न्यूट्रिनो ऑब्ज़र्वेटरी में योगदान के लिए किसे दिया गया?",
+        "en": "Who won the Nobel Prize in Physics 2026 for contributions to the IceCube Neutrino Observatory?"
+      },
+      "options": {
+        "hi": ["फ्रांसिस हैल्ज़ेन", "ऐन ल'ह्यूलियर", "रोजर पेनरोज़", "सॉल पर्लमटर"],
+        "en": ["Francis Halzen", "Anne L'Huillier", "Roger Penrose", "Saul Perlmutter"]
+      },
+      "answer": 0,
+      "explain": {
+        "hi": "फ्रांसिस हैल्ज़ेन को IceCube न्यूट्रिनो ऑब्ज़र्वेटरी में निर्णायक योगदान और खगोलीय स्रोतों से आने वाले उच्च-ऊर्जा न्यूट्रिनो की खोज के लिए पुरस्कार मिला।",
+        "en": "Francis Halzen was honoured for his decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin."
+      }
+    },
+    {
+      "q": {
+        "hi": "नोबेल रसायन पुरस्कार 2026 हेनरी कागन और केन्सो सोई को किस क्षेत्र में योगदान के लिए मिला?",
+        "en": "Henri B. Kagan and Kenso Soai won the Nobel Prize in Chemistry 2026 for work in which area?"
+      },
+      "options": {
+        "hi": ["मेटल-ऑर्गेनिक फ्रेमवर्क", "क्लिक केमिस्ट्री", "प्रोटीन डिज़ाइन", "असममित कार्बनिक संश्लेषण"],
+        "en": ["Metal-organic frameworks", "Click chemistry", "Protein design", "Asymmetric organic synthesis"]
+      },
+      "answer": 3,
+      "explain": {
+        "hi": "2026 का रसायन नोबेल असममित कार्बनिक संश्लेषण (asymmetric organic synthesis) के लिए हेनरी बी. कागन और केन्सो सोई को दिया गया।",
+        "en": "The 2026 Chemistry Nobel went to Henri B. Kagan and Kenso Soai for asymmetric organic synthesis."
+      }
+    },
+    {
+      "q": {
+        "hi": "नोबेल साहित्य पुरस्कार 2026 किसे मिला?",
+        "en": "Who won the Nobel Prize in Literature 2026?"
+      },
+      "options": {
+        "hi": ["हान कांग", "ऐन कार्सन", "योन फ़ॉसे", "लुईस ग्लिक"],
+        "en": ["Han Kang", "Anne Carson", "Jon Fosse", "Louise Glück"]
+      },
+      "answer": 1,
+      "explain": {
+        "hi": "कनाडाई लेखिका ऐन कार्सन को 2026 का साहित्य नोबेल मिला। उनका लेखन कविता, गद्य, अनुवाद, आलोचना और शास्त्रीय विद्वत्ता को जोड़ता है।",
+        "en": "Canadian writer Anne Carson won the 2026 Nobel Prize in Literature. Her work combines poetry, prose, translation, criticism and classical scholarship."
+      }
+    },
+    {
+      "q": {
+        "hi": "नोबेल शांति पुरस्कार 2026 भारतीय मूल की किस न्यायविद् को मिला?",
+        "en": "Which Indian-origin jurist won the Nobel Peace Prize 2026?"
+      },
+      "options": {
+        "hi": ["नरगिस मोहम्मदी", "मारिया कोरिना मचाडो", "नवनीतम 'नवी' पिल्लै", "अबी अहमद"],
+        "en": ["Narges Mohammadi", "María Corina Machado", "Navanethem 'Navi' Pillay", "Abiy Ahmed"]
+      },
+      "answer": 2,
+      "explain": {
+        "hi": "नवनीतम 'नवी' पिल्लै को शांति और अंतरराष्ट्रीय कानून को बढ़ावा देने के प्रयासों के लिए 9 अक्टूबर 2026 को शांति नोबेल दिया गया। वे भारतीय मूल की हैं।",
+        "en": "Navanethem 'Navi' Pillay was awarded the Peace Prize on 9 October 2026 for her efforts to promote peace and international law. She is of Indian origin."
+      }
+    },
+    {
+      "q": {
+        "hi": "2026 में प्रत्येक नोबेल पुरस्कार की राशि कितनी रही?",
+        "en": "What was the prize money for each Nobel Prize category in 2026?"
+      },
+      "options": {
+        "hi": ["9 मिलियन स्वीडिश क्रोना", "10 मिलियन स्वीडिश क्रोना", "11 मिलियन स्वीडिश क्रोना", "12 मिलियन स्वीडिश क्रोना"],
+        "en": ["9 million SEK", "10 million SEK", "11 million SEK", "12 million SEK"]
+      },
+      "answer": 3,
+      "explain": {
+        "hi": "2026 में पुरस्कार राशि बढ़ाकर 12 मिलियन स्वीडिश क्रोना (लगभग 1.2 मिलियन डॉलर) की गई, जो 2025 में 11 मिलियन थी। पुरस्कार समारोह 10 दिसंबर को होता है।",
+        "en": "The prize money was raised to 12 million SEK (about $1.2 million) from 11 million in 2025. The award ceremony is held on 10 December."
+      }
+    },
+    {
+      "q": {
+        "hi": "FIFA विश्व कप 2026 का फाइनल किसने जीता?",
+        "en": "Who won the FIFA World Cup 2026 final?"
+      },
+      "options": {
+        "hi": ["अर्जेंटीना", "फ्रांस", "स्पेन", "इंग्लैंड"],
+        "en": ["Argentina", "France", "Spain", "England"]
+      },
+      "answer": 2,
+      "explain": {
+        "hi": "स्पेन ने 19 जुलाई 2026 को न्यूयॉर्क न्यू जर्सी स्टेडियम में अर्जेंटीना को अतिरिक्त समय में 1-0 से हराकर दूसरी बार विश्व कप जीता। विजयी गोल फेरान टोरेस ने किया।",
+        "en": "Spain beat Argentina 1-0 after extra time at New York New Jersey Stadium on 19 July 2026 to win their second World Cup. Ferran Torres scored the winner."
+      }
+    },
+    {
+      "q": {
+        "hi": "FIFA विश्व कप 2026 में सर्वश्रेष्ठ खिलाड़ी का गोल्डन बॉल किसे मिला?",
+        "en": "Who won the Golden Ball (best player) at the FIFA World Cup 2026?"
+      },
+      "options": {
+        "hi": ["लियोनेल मेसी", "रोड्री", "किलियन एम्बाप्पे", "जूड बेलिंगहैम"],
+        "en": ["Lionel Messi", "Rodri", "Kylian Mbappé", "Jude Bellingham"]
+      },
+      "answer": 1,
+      "explain": {
+        "hi": "स्पेन के कप्तान रोड्री को गोल्डन बॉल मिला। मेसी को सिल्वर बॉल और एम्बाप्पे को ब्रॉन्ज़ बॉल मिला। एम्बाप्पे ने 10 गोल के साथ दूसरी बार गोल्डन बूट जीता।",
+        "en": "Spain captain Rodri won the Golden Ball. Messi took the Silver Ball and Mbappé the Bronze Ball. Mbappé won the Golden Boot for a second time with 10 goals."
+      }
+    },
+    {
+      "q": {
+        "hi": "ICC पुरुष T20 विश्व कप 2026 के फाइनल (अहमदाबाद) में भारत ने न्यूज़ीलैंड को कितने रनों से हराया?",
+        "en": "By how many runs did India beat New Zealand in the ICC Men's T20 World Cup 2026 final at Ahmedabad?"
+      },
+      "options": {
+        "hi": ["86 रन", "96 रन", "105 रन", "118 रन"],
+        "en": ["86 runs", "96 runs", "105 runs", "118 runs"]
+      },
+      "answer": 1,
+      "explain": {
+        "hi": "भारत ने 8 मार्च 2026 को 255/5 बनाकर न्यूज़ीलैंड को 159 पर ऑल आउट किया और 96 रन से जीत दर्ज की। भारत तीन T20 विश्व कप जीतने वाली पहली टीम, खिताब बचाने वाली पहली टीम और घरेलू ज़मीन पर जीतने वाली पहली टीम बनी। कप्तान सूर्यकुमार यादव थे।",
+        "en": "On 8 March 2026 India made 255/5 and bowled New Zealand out for 159 to win by 96 runs. India became the first team to win three T20 World Cups, the first to defend the title and the first to win it at home. Suryakumar Yadav was captain."
+      }
+    },
+    {
+      "q": {
+        "hi": "T20 विश्व कप 2026 में 'प्लेयर ऑफ़ द टूर्नामेंट' कौन चुना गया?",
+        "en": "Who was named Player of the Tournament at the T20 World Cup 2026?"
+      },
+      "options": {
+        "hi": ["जसप्रीत बुमराह", "साहिबज़ादा फ़रहान", "संजू सैमसन", "विल जैक्स"],
+        "en": ["Jasprit Bumrah", "Sahibzada Farhan", "Sanju Samson", "Will Jacks"]
+      },
+      "answer": 2,
+      "explain": {
+        "hi": "संजू सैमसन ने लगभग 199 की स्ट्राइक रेट से 321 रन बनाए और 'प्लेयर ऑफ़ द टूर्नामेंट' बने। सबसे ज़्यादा रन पाकिस्तान के साहिबज़ादा फ़रहान (383) ने बनाए।",
+        "en": "Sanju Samson scored 321 runs at a strike rate of nearly 199 and was named Player of the Tournament. Pakistan's Sahibzada Farhan scored the most runs (383)."
+      }
+    },
+    {
+      "q": {
+        "hi": "T20 विश्व कप 2026 के फाइनल में 'प्लेयर ऑफ़ द मैच' जसप्रीत बुमराह के गेंदबाज़ी आँकड़े क्या थे?",
+        "en": "What were the bowling figures of Jasprit Bumrah, Player of the Match in the T20 World Cup 2026 final?"
+      },
+      "options": {
+        "hi": ["3/12", "4/22", "5/18", "4/15"],
+        "en": ["3/12", "4/22", "5/18", "4/15"]
+      },
+      "answer": 3,
+      "explain": {
+        "hi": "बुमराह ने 4 ओवर में 15 रन देकर 4 विकेट लिए और वे फाइनल के प्लेयर ऑफ़ द मैच बने। वे 14 विकेट के साथ टूर्नामेंट के संयुक्त सर्वाधिक विकेट लेने वाले गेंदबाज़ भी रहे।",
+        "en": "Bumrah took 4 wickets for 15 runs in 4 overs and was Player of the Match in the final. He also finished as the joint-leading wicket-taker with 14 wickets."
+      }
+    },
+    {
+      "q": {
+        "hi": "7 अक्टूबर 2026 की MPC बैठक के बाद RBI की रेपो दर कितनी हो गई?",
+        "en": "What did the RBI repo rate become after the MPC meeting of 7 October 2026?"
+      },
+      "options": {
+        "hi": ["5.25%", "5.50%", "5.75%", "6.00%"],
+        "en": ["5.25%", "5.50%", "5.75%", "6.00%"]
+      },
+      "answer": 1,
+      "explain": {
+        "hi": "MPC ने सर्वसम्मति से रेपो दर 25 आधार अंक बढ़ाकर 5.25% से 5.50% की। यह लगभग तीन साल में पहली बढ़ोतरी है। SDF दर 5.25% और MSF व बैंक दर 5.75% हैं। अगली MPC बैठक 2-4 दिसंबर 2026 को है।",
+        "en": "The MPC unanimously raised the repo rate by 25 bps from 5.25% to 5.50%, the first hike in nearly three years. SDF is 5.25% and MSF and Bank Rate are 5.75%. The next MPC meeting is on 2-4 December 2026."
+      }
+    },
+    {
+      "q": {
+        "hi": "अक्टूबर 2026 की मौद्रिक नीति में RBI ने अपना रुख (stance) किसमें बदला?",
+        "en": "To what did the RBI change its monetary policy stance in the October 2026 policy?"
+      },
+      "options": {
+        "hi": ["तटस्थ (Neutral)", "उदार (Accommodative)", "संतुलित सख्ती (Calibrated Tightening)", "समायोजन वापसी (Withdrawal of Accommodation)"],
+        "en": ["Neutral", "Accommodative", "Calibrated Tightening", "Withdrawal of Accommodation"]
+      },
+      "answer": 2,
+      "explain": {
+        "hi": "RBI गवर्नर संजय मल्होत्रा ने रुख 'तटस्थ' से बदलकर 'संतुलित सख्ती' कर दिया, जिसका मतलब है कि निकट भविष्य में दर कटौती की संभावना नहीं है। RBI ने FY27 के लिए GDP वृद्धि 7.1% और CPI मुद्रास्फीति 5.2% का अनुमान रखा है।",
+        "en": "Governor Sanjay Malhotra shifted the stance from 'neutral' to 'calibrated tightening', meaning near-term rate cuts are off the table. RBI projects FY27 GDP growth at 7.1% and CPI inflation at 5.2%."
+      }
+    },
+    {
+      "q": {
+        "hi": "2026 के विधानसभा चुनाव में TMC का 15 साल का शासन खत्म होने के बाद पश्चिम बंगाल के मुख्यमंत्री के रूप में किसने शपथ ली?",
+        "en": "Who was sworn in as West Bengal Chief Minister after the 2026 election ended TMC's 15-year rule?"
+      },
+      "options": {
+        "hi": ["दिलीप घोष", "समिक भट्टाचार्य", "शुभेंदु अधिकारी", "सुकांत मजूमदार"],
+        "en": ["Dilip Ghosh", "Samik Bhattacharya", "Suvendu Adhikari", "Sukanta Majumdar"]
+      },
+      "answer": 2,
+      "explain": {
+        "hi": "9 मई 2026 को शुभेंदु अधिकारी ने कोलकाता के ब्रिगेड परेड ग्राउंड में पश्चिम बंगाल के पहले भाजपा मुख्यमंत्री के रूप में शपथ ली। भाजपा ने 294 में से 207 सीटें जीतीं और TMC 80 सीटों पर सिमट गई।",
+        "en": "Suvendu Adhikari was sworn in on 9 May 2026 at Brigade Parade Ground, Kolkata, as West Bengal's first BJP Chief Minister. The BJP won 207 of 294 seats while the TMC was reduced to 80."
+      }
+    },
+    {
       "q": {
         "hi": "अक्टूबर 2026 में अशोक सेन किस प्रतिष्ठित पदक को पाने वाले पहले भारतीय भौतिकविद् बने?",
         "en": "In October 2026, Ashoke Sen became the first Indian physicist to receive which prestigious medal?"
       },
       "options": {
-        "hi": [
-          "डिराक मेडल",
-          "ऑस्कर क्लेन मेडल",
-          "अबेल पुरस्कार",
-          "फील्ड्स मेडल"
-        ],
-        "en": [
-          "Dirac Medal",
-          "Oskar Klein Medal",
-          "Abel Prize",
-          "Fields Medal"
-        ]
+        "hi": ["डिराक मेडल", "ऑस्कर क्लेन मेडल", "अबेल पुरस्कार", "फील्ड्स मेडल"],
+        "en": ["Dirac Medal", "Oskar Klein Medal", "Abel Prize", "Fields Medal"]
       },
       "answer": 1,
-      
       "explain": {
         "hi": "उन्हें स्ट्रिंग थ्योरी में योगदान के लिए ऑस्कर क्लेन मेडल 2026 मिला। यह पदक स्टॉकहोम विश्वविद्यालय और रॉयल स्वीडिश एकेडमी की नोबेल भौतिकी समिति देती है।",
         "en": "He received the Oskar Klein Medal 2026 for his work in string theory. The medal is awarded by Stockholm University and the Nobel Committee for Physics of the Royal Swedish Academy."
@@ -304,18 +291,8 @@
         "en": "Who was re-elected President of Brazil for a fourth term in the 25 October 2026 run-off?"
       },
       "options": {
-        "hi": [
-          "फ्लावियो बोल्सोनारो",
-          "जायर बोल्सोनारो",
-          "लुइज़ इनासियो लूला दा सिल्वा",
-          "डिल्मा रूसेफ"
-        ],
-        "en": [
-          "Flávio Bolsonaro",
-          "Jair Bolsonaro",
-          "Luiz Inácio Lula da Silva",
-          "Dilma Rousseff"
-        ]
+        "hi": ["फ्लावियो बोल्सोनारो", "जायर बोल्सोनारो", "लुइज़ इनासियो लूला दा सिल्वा", "डिल्मा रूसेफ"],
+        "en": ["Flávio Bolsonaro", "Jair Bolsonaro", "Luiz Inácio Lula da Silva", "Dilma Rousseff"]
       },
       "answer": 2,
       "explain": {
@@ -329,18 +306,8 @@
         "en": "In which country were the 5th Asian Para Games 2026 (18 to 24 October) held?"
       },
       "options": {
-        "hi": [
-          "जापान",
-          "चीन",
-          "दक्षिण कोरिया",
-          "कतर"
-        ],
-        "en": [
-          "Japan",
-          "China",
-          "South Korea",
-          "Qatar"
-        ]
+        "hi": ["जापान", "चीन", "दक्षिण कोरिया", "कतर"],
+        "en": ["Japan", "China", "South Korea", "Qatar"]
       },
       "answer": 0,
       "explain": {
@@ -354,23 +321,13 @@
         "en": "How many medals in total did India win at the Asian Para Games 2026 to finish 4th?"
       },
       "options": {
-        "hi": [
-          "99",
-          "108",
-          "114",
-          "124"
-        ],
-        "en": [
-          "99",
-          "108",
-          "114",
-          "124"
-        ]
+        "hi": ["99", "108", "114", "124"],
+        "en": ["99", "108", "114", "124"]
       },
       "answer": 2,
       "explain": {
-        "hi": "भारत ने 30 स्वर्ण, 35 रजत और 49 कांस्य यानी कुल 114 पदक जीते। यह भारत का अब तक का सर्वश्रेष्ठ प्रदर्शन है (पिछली बार 2023 में 108 पदक)। चीन पहले स्थान पर रहा।",
-        "en": "India won 30 gold, 35 silver and 49 bronze, 114 in total, its best-ever haul (previous best was 108 in 2023). China topped the table."
+        "hi": "भारत ने 30 स्वर्ण, 35 रजत और 49 कांस्य यानी कुल 114 पदक जीते। यह भारत का अब तक का सर्वश्रेष्ठ प्रदर्शन है (पिछली बार 2023 में 111 पदक)। चीन पहले स्थान पर रहा।",
+        "en": "India won 30 gold, 35 silver and 49 bronze, 114 in total, its best-ever haul (previous best was 111 in 2023). China topped the table."
       }
     },
     {
@@ -379,18 +336,8 @@
         "en": "Who released the revised 'Land Warfare Doctrine' at the Army Commanders' Conference?"
       },
       "options": {
-        "hi": [
-          "अमित शाह",
-          "एस. जयशंकर",
-          "जनरल धीरज सेठ",
-          "राजनाथ सिंह"
-        ],
-        "en": [
-          "Amit Shah",
-          "S. Jaishankar",
-          "General Dhiraj Seth",
-          "Rajnath Singh"
-        ]
+        "hi": ["अमित शाह", "एस. जयशंकर", "जनरल धीरज सेठ", "राजनाथ सिंह"],
+        "en": ["Amit Shah", "S. Jaishankar", "General Dhiraj Seth", "Rajnath Singh"]
       },
       "answer": 3,
       "explain": {
@@ -404,18 +351,8 @@
         "en": "Which Indian city will host the 2029 Senior World Weightlifting Championships?"
       },
       "options": {
-        "hi": [
-          "गांधीनगर",
-          "अहमदाबाद",
-          "मुंबई",
-          "नई दिल्ली"
-        ],
-        "en": [
-          "Gandhinagar",
-          "Ahmedabad",
-          "Mumbai",
-          "New Delhi"
-        ]
+        "hi": ["गांधीनगर", "अहमदाबाद", "मुंबई", "नई दिल्ली"],
+        "en": ["Gandhinagar", "Ahmedabad", "Mumbai", "New Delhi"]
       },
       "answer": 1,
       "explain": {
@@ -429,18 +366,8 @@
         "en": "The 'AATAL' laboratory inaugurated at IITM, New Delhi is related to which work?"
       },
       "options": {
-        "hi": [
-          "भूकंप की भविष्यवाणी",
-          "समुद्री धाराओं का अध्ययन",
-          "वायु प्रदूषण के स्रोतों और एरोसोल की विषाक्तता का विश्लेषण",
-          "मिट्टी की जांच"
-        ],
-        "en": [
-          "Earthquake prediction",
-          "Study of ocean currents",
-          "Analysing air pollution sources and aerosol toxicity",
-          "Soil testing"
-        ]
+        "hi": ["भूकंप की भविष्यवाणी", "समुद्री धाराओं का अध्ययन", "वायु प्रदूषण के स्रोतों और एरोसोल की विषाक्तता का विश्लेषण", "मिट्टी की जांच"],
+        "en": ["Earthquake prediction", "Study of ocean currents", "Analysing air pollution sources and aerosol toxicity", "Soil testing"]
       },
       "answer": 2,
       "explain": {
@@ -454,18 +381,8 @@
         "en": "Under the Frontier Nagaland Territorial Authority (FNTA) Bill 2026, how many eastern districts of Nagaland get autonomy?"
       },
       "options": {
-        "hi": [
-          "4",
-          "5",
-          "6",
-          "7"
-        ],
-        "en": [
-          "4",
-          "5",
-          "6",
-          "7"
-        ]
+        "hi": ["4", "5", "6", "7"],
+        "en": ["4", "5", "6", "7"]
       },
       "answer": 2,
       "explain": {
@@ -475,22 +392,12 @@
     },
     {
       "q": {
-        "hi": "1947 में इन्फैंट्री डे (27 अक्टूबर) किस घटना की याद में मनाया जाता है?",
+        "hi": "27 अक्टूबर को इन्फैंट्री डे 1947 में किस स्थान पर सैनिकों के उतरने की याद में मनाया जाता है?",
         "en": "Infantry Day (27 October) commemorates the landing of troops at which place in 1947?"
       },
       "options": {
-        "hi": [
-          "जम्मू",
-          "लेह",
-          "बारामुला",
-          "श्रीनगर"
-        ],
-        "en": [
-          "Jammu",
-          "Leh",
-          "Baramulla",
-          "Srinagar"
-        ]
+        "hi": ["जम्मू", "लेह", "बारामुला", "श्रीनगर"],
+        "en": ["Jammu", "Leh", "Baramulla", "Srinagar"]
       },
       "answer": 3,
       "explain": {
@@ -504,18 +411,8 @@
         "en": "Near which city did PM Modi inaugurate the RBI's Data Centre and Cybersecurity Training Institute?"
       },
       "options": {
-        "hi": [
-          "भुवनेश्वर",
-          "वाराणसी",
-          "हैदराबाद",
-          "मुंबई"
-        ],
-        "en": [
-          "Bhubaneswar",
-          "Varanasi",
-          "Hyderabad",
-          "Mumbai"
-        ]
+        "hi": ["भुवनेश्वर", "वाराणसी", "हैदराबाद", "मुंबई"],
+        "en": ["Bhubaneswar", "Varanasi", "Hyderabad", "Mumbai"]
       },
       "answer": 0,
       "explain": {

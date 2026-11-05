@@ -44427,13 +44427,7 @@ physics: [
   optionsEnglish: ["56", "64", "72", "48"],
   answer: "56"
 },
-{
-  questionHindi: "एक संख्या में 25% की वृद्धि करने पर 500 प्राप्त होता है। मूल संख्या क्या है?",
-  questionEnglish: "Increasing a number by 25% gives 500. What is the original number?",
-  optionsHindi: ["400", "425", "375", "450"],
-  optionsEnglish: ["400", "425", "375", "450"],
-  answer: "400"
-},
+
 {
   questionHindi: "यदि 12 आदमी किसी काम को 15 दिनों में करते हैं, तो 20 आदमी वही काम कितने दिनों में करेंगे?",
   questionEnglish: "If 12 men complete a job in 15 days, how many days will 20 men take to complete it?",
